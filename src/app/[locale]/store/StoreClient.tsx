@@ -37,7 +37,7 @@ export default function StoreClient() {
   const t = useTranslations("storePage");
   const locale = useLocale();
   const { addItem, items, setIsOpen, isOpen } = useRFQ();
-  const [activeFilter, setActiveFilter] = useState("All Products");
+  const [activeFilter, setActiveFilter] = useState(t("filter.all"));
   const [hoveredProduct, setHoveredProduct] = useState<string | null>(null);
 
   const products = t.raw("products") as Product[];
