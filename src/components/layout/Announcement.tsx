@@ -17,12 +17,12 @@ export default function Announcement() {
       }}
     >
       <div
-        className="wrap"
-        style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+        className="wrap flex items-center justify-center md:justify-between"
       >
-        <span style={{ opacity: 0.75 }}>{t("tag")}</span>
-        <span>{t("text")}</span>
-        <span style={{ opacity: 0.75 }}>{t("tag")}</span>
+        <span className="hidden md:inline" style={{ opacity: 0.75 }}>{t("tag")}</span>
+        <span className="hidden md:inline">{t("text")}</span>
+        <span className="inline md:hidden">The World's Largest Supplier of Coconut Products</span>
+        <span className="hidden md:inline" style={{ opacity: 0.75 }}>{t("tag")}</span>
       </div>
     </div>
   );

@@ -48,6 +48,11 @@ export default function Header() {
     setMobileActiveTab(null);
   }, [pathname]);
 
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [mobileOpen]);
+
   const otherLocale = locale === "en" ? "id" : "en";
 
   const handleMouseEnter = (menu: string) => {
@@ -356,7 +361,7 @@ export default function Header() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
             style={{
-              position: "absolute", top: "100%", left: 0, right: 0, height: "100dvh",
+              position: "absolute", top: "100%", left: 0, right: 0, height: "calc(100dvh - 100%)",
               background: "var(--white)",
               zIndex: 40,
               display: "flex",
@@ -375,13 +380,14 @@ export default function Header() {
                     style={{ padding: "16px 24px" }}
                   >
                     <div style={{ display: "flex", flexDirection: "column" }}>
-                      {(Object.keys(megamenus) as Array<keyof typeof megamenus>).map((key) => (
+                      {Object.keys(megamenus).map((key, idx, arr) => (
                         <button
                           key={key}
                           onClick={() => setMobileActiveTab(key)}
                           style={{
                             display: "flex", justifyContent: "space-between", alignItems: "center",
-                            padding: "20px 0", borderBottom: "1px solid var(--line)",
+                            padding: "20px 0",
+                            borderBottom: idx === arr.length - 1 ? "none" : "1px solid var(--line)",
                             fontSize: "18px", fontWeight: 500, color: "var(--charcoal)",
                             width: "100%", textAlign: "left"
                           }}
@@ -391,32 +397,28 @@ export default function Header() {
                         </button>
                       ))}
                       
-                      {/* Standalone links */}
-                      {standaloneLinks.map((item) => (
-                        <Link
-                          key={item.href}
-                          href={`/${locale}/${item.href}`}
-                          onClick={() => setMobileOpen(false)}
-                          style={{
-                            display: "flex", justifyContent: "space-between", alignItems: "center",
-                            padding: "20px 0", borderBottom: "1px solid var(--line)",
-                            fontSize: "18px", fontWeight: 500, color: "var(--charcoal)",
-                            textDecoration: "none"
-                          }}
-                        >
-                          {item.label}
-                        </Link>
-                      ))}
-
-                      {/* Language Switch in Mobile */}
-                      <div style={{ display: "flex", gap: "16px", padding: "24px 0", alignItems: "center" }}>
-                        <span style={{ fontSize: "16px", fontWeight: 500, color: "var(--charcoal-soft)" }}>Language:</span>
-                        <div style={{ display: "flex", gap: "12px", fontSize: "16px" }}>
-                          <a href={getLocalizedPath("en")} style={{ color: locale === "en" ? "var(--forest)" : "var(--charcoal-soft)", fontWeight: locale === "en" ? 600 : 400, textDecoration: "none" }}>EN</a>
-                          <span style={{ color: "var(--line)" }}>|</span>
-                          <a href={getLocalizedPath("id")} style={{ color: locale === "id" ? "var(--forest)" : "var(--charcoal-soft)", fontWeight: locale === "id" ? 600 : 400, textDecoration: "none" }}>ID</a>
-                        </div>
+                      {/* Bottom links: Shipping, Terms, Privacy */}
+                      <div style={{ borderTop: "1px solid var(--line)", paddingTop: "12px", marginTop: "8px" }}>
+                        {[
+                          { href: "support/shipping", label: t("shipping") },
+                          ...standaloneLinks.map(item => ({ href: item.href, label: item.label })),
+                        ].map((item) => (
+                          <Link
+                            key={item.href}
+                            href={`/${locale}/${item.href}`}
+                            onClick={() => setMobileOpen(false)}
+                            style={{
+                              display: "block",
+                              padding: "10px 0",
+                              fontSize: "16px", fontWeight: 500, color: "var(--charcoal)",
+                              textDecoration: "none"
+                            }}
+                          >
+                            {item.label}
+                          </Link>
+                        ))}
                       </div>
+
                     </div>
                   </motion.div>
                 ) : (
@@ -444,7 +446,7 @@ export default function Header() {
                     </h3>
 
                     <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-                      {[...megamenus[mobileActiveTab as keyof typeof megamenus].main, ...megamenus[mobileActiveTab as keyof typeof megamenus].side].map((item) => (
+                      {[...megamenus[mobileActiveTab as keyof typeof megamenus].main, ...megamenus[mobileActiveTab as keyof typeof megamenus].side].filter(item => mobileActiveTab !== "support" || item.href !== "support/shipping").map((item) => (
                         <Link
                           key={item.href}
                           href={`/${locale}/${item.href}`}
@@ -468,25 +470,16 @@ export default function Header() {
               </AnimatePresence>
             </div>
 
-            {/* Bottom Fixed Buttons */}
-            <div style={{ padding: "20px 24px", borderTop: "1px solid var(--line)", background: "var(--white)", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <Link href={`/${locale}/login`} onClick={() => setMobileOpen(false)} style={{
-                display: "flex", justifyContent: "center", alignItems: "center",
-                width: "100%", padding: "14px", borderRadius: "100px",
-                border: "1.5px solid var(--charcoal)", color: "var(--charcoal)",
-                fontSize: "15px", fontWeight: 600, textDecoration: "none"
-              }}>
-                Log in
-              </Link>
-              <Link href={`/${locale}/store/cart`} onClick={() => setMobileOpen(false)} style={{
-                display: "flex", justifyContent: "center", alignItems: "center",
-                width: "100%", padding: "14px", borderRadius: "100px",
-                background: "var(--charcoal)", color: "var(--white)",
-                fontSize: "15px", fontWeight: 600, textDecoration: "none"
-              }}>
-                {t("cart")}
-              </Link>
+            {/* Language Switch — bottom left */}
+            <div style={{ padding: "16px 24px 24px" }}>
+              <div style={{ display: "flex", gap: "10px", fontSize: "14px", fontFamily: "var(--font-mono)", alignItems: "center" }}>
+                <span style={{ color: "var(--charcoal-soft)" }}>Language:</span>
+                <a href={getLocalizedPath("en")} style={{ color: locale === "en" ? "var(--forest)" : "var(--charcoal-soft)", fontWeight: locale === "en" ? 600 : 400, textDecoration: "none" }}>EN</a>
+                <span style={{ color: "var(--line)" }}>/</span>
+                <a href={getLocalizedPath("id")} style={{ color: locale === "id" ? "var(--forest)" : "var(--charcoal-soft)", fontWeight: locale === "id" ? 600 : 400, textDecoration: "none" }}>ID</a>
+              </div>
             </div>
+
           </motion.div>
         )}
       </AnimatePresence>
