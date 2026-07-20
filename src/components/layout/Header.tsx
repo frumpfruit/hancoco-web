@@ -14,6 +14,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useRFQ } from "@/context/RFQContext";
 import { Send, CheckCircle2 } from "lucide-react";
+import ComingSoonModal from "@/components/ComingSoonModal";
 
 export default function Header() {
   const t = useTranslations("nav");
@@ -24,6 +25,7 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [mobileActiveTab, setMobileActiveTab] = useState<string | null>(null);
+  const [showComingSoon, setShowComingSoon] = useState(false);
   let timeoutId: NodeJS.Timeout;
 
   const getLocalizedPath = (targetLocale: string) => {
@@ -75,7 +77,7 @@ export default function Header() {
         { href: "store/coconut-oil", label: t("oil"), desc: "RBD and crude coconut oil.", icon: <Droplet size={18} /> },
       ],
       side: [
-        { href: "store", label: t("allProducts"), desc: "Browse our complete catalog.", icon: <LayoutGrid size={18} /> }
+        { href: "store", label: t("allProducts"), desc: "Browse our complete catalog.", icon: <LayoutGrid size={18} />, modal: true }
       ]
     },
     about: {
@@ -279,38 +281,74 @@ export default function Header() {
                     gridTemplateColumns: "repeat(2, 1fr)", 
                     gap: "24px 40px" 
                   }}>
-                    {[...megamenus[activeMenu as keyof typeof megamenus].main, ...megamenus[activeMenu as keyof typeof megamenus].side].map((item, i) => (
-                      <Link
-                        key={item.href}
-                        href={`/${locale}/${item.href}`}
-                        className="megamenu-text-link"
-                        style={{
-                          display: "flex", gap: "16px", alignItems: "flex-start",
-                          textDecoration: "none", padding: "12px", margin: "-12px",
-                          borderRadius: "12px", transition: "background 0.2s"
-                        }}
-                      >
-                        <div className="megamenu-icon-wrap" style={{
-                          width: "40px", height: "40px", borderRadius: "10px",
-                          background: "var(--ivory-dim)", color: "var(--forest)",
-                          display: "flex", alignItems: "center", justifyContent: "center",
-                          flexShrink: 0, transition: "all 0.2s"
-                        }}>
-                          {item.icon}
-                        </div>
-                        <div style={{ display: "flex", flexDirection: "column", gap: "4px", flex: 1 }}>
-                          <h5 style={{ 
-                            fontSize: "15px", fontWeight: 600, color: "var(--charcoal)",
-                            display: "flex", alignItems: "center", justifyContent: "space-between"
+                    {[...megamenus[activeMenu as keyof typeof megamenus].main, ...megamenus[activeMenu as keyof typeof megamenus].side].map((item: any, i) => (
+                      item.modal ? (
+                        <button
+                          key={item.href}
+                          onClick={() => setShowComingSoon(true)}
+                          className="megamenu-text-link"
+                          style={{
+                            display: "flex", gap: "16px", alignItems: "flex-start",
+                            textDecoration: "none", padding: "12px", margin: "-12px",
+                            borderRadius: "12px", transition: "background 0.2s",
+                            cursor: "pointer", background: "none", border: "none",
+                            fontFamily: "inherit", textAlign: "left", width: "100%"
+                          }}
+                        >
+                          <div className="megamenu-icon-wrap" style={{
+                            width: "40px", height: "40px", borderRadius: "10px",
+                            background: "var(--ivory-dim)", color: "var(--forest)",
+                            display: "flex", alignItems: "center", justifyContent: "center",
+                            flexShrink: 0, transition: "all 0.2s"
                           }}>
-                            {item.label}
-                            <ArrowRight size={14} className="arrow" style={{ opacity: 0, transform: "translateX(-5px)", transition: "all 0.3s ease", color: "var(--forest)" }} />
-                          </h5>
-                          <p style={{ fontSize: "13.5px", color: "var(--charcoal-soft)", lineHeight: "1.5" }}>
-                            {item.desc}
-                          </p>
-                        </div>
-                      </Link>
+                            {item.icon}
+                          </div>
+                          <div style={{ display: "flex", flexDirection: "column", gap: "4px", flex: 1 }}>
+                            <h5 style={{ 
+                              fontSize: "15px", fontWeight: 600, color: "var(--charcoal)",
+                              display: "flex", alignItems: "center", justifyContent: "space-between"
+                            }}>
+                              {item.label}
+                              <ArrowRight size={14} className="arrow" style={{ opacity: 0, transform: "translateX(-5px)", transition: "all 0.3s ease", color: "var(--forest)" }} />
+                            </h5>
+                            <p style={{ fontSize: "13.5px", color: "var(--charcoal-soft)", lineHeight: "1.5" }}>
+                              {item.desc}
+                            </p>
+                          </div>
+                        </button>
+                      ) : (
+                        <Link
+                          key={item.href}
+                          href={`/${locale}/${item.href}`}
+                          className="megamenu-text-link"
+                          style={{
+                            display: "flex", gap: "16px", alignItems: "flex-start",
+                            textDecoration: "none", padding: "12px", margin: "-12px",
+                            borderRadius: "12px", transition: "background 0.2s"
+                          }}
+                        >
+                          <div className="megamenu-icon-wrap" style={{
+                            width: "40px", height: "40px", borderRadius: "10px",
+                            background: "var(--ivory-dim)", color: "var(--forest)",
+                            display: "flex", alignItems: "center", justifyContent: "center",
+                            flexShrink: 0, transition: "all 0.2s"
+                          }}>
+                            {item.icon}
+                          </div>
+                          <div style={{ display: "flex", flexDirection: "column", gap: "4px", flex: 1 }}>
+                            <h5 style={{ 
+                              fontSize: "15px", fontWeight: 600, color: "var(--charcoal)",
+                              display: "flex", alignItems: "center", justifyContent: "space-between"
+                            }}>
+                              {item.label}
+                              <ArrowRight size={14} className="arrow" style={{ opacity: 0, transform: "translateX(-5px)", transition: "all 0.3s ease", color: "var(--forest)" }} />
+                            </h5>
+                            <p style={{ fontSize: "13.5px", color: "var(--charcoal-soft)", lineHeight: "1.5" }}>
+                              {item.desc}
+                            </p>
+                          </div>
+                        </Link>
+                      )
                     ))}
                   </div>
                 </div>
@@ -446,23 +484,42 @@ export default function Header() {
                     </h3>
 
                     <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-                      {[...megamenus[mobileActiveTab as keyof typeof megamenus].main, ...megamenus[mobileActiveTab as keyof typeof megamenus].side].filter(item => mobileActiveTab !== "support" || item.href !== "support/shipping").map((item) => (
-                        <Link
-                          key={item.href}
-                          href={`/${locale}/${item.href}`}
-                          onClick={() => setMobileOpen(false)}
-                          style={{
-                            display: "flex", gap: "16px", alignItems: "flex-start",
-                            padding: "16px", background: "var(--ivory)", borderRadius: "12px",
-                            textDecoration: "none"
-                          }}
-                        >
-                          <div style={{ color: "var(--forest)", marginTop: "2px" }}>{item.icon}</div>
-                          <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-                            <span style={{ fontSize: "16px", fontWeight: 500, color: "var(--charcoal)" }}>{item.label}</span>
-                            <span style={{ fontSize: "13.5px", color: "var(--charcoal-soft)", lineHeight: "1.4" }}>{item.desc}</span>
-                          </div>
-                        </Link>
+                      {[...megamenus[mobileActiveTab as keyof typeof megamenus].main, ...megamenus[mobileActiveTab as keyof typeof megamenus].side].filter((item: any) => mobileActiveTab !== "support" || item.href !== "support/shipping").map((item: any) => (
+                        item.modal ? (
+                          <button
+                            key={item.href}
+                            onClick={() => { setShowComingSoon(true); setMobileOpen(false); }}
+                            style={{
+                              display: "flex", gap: "16px", alignItems: "flex-start",
+                              padding: "16px", background: "var(--ivory)", borderRadius: "12px",
+                              textDecoration: "none", cursor: "pointer", border: "none",
+                              fontFamily: "inherit", textAlign: "left", width: "100%"
+                            }}
+                          >
+                            <div style={{ color: "var(--forest)", marginTop: "2px" }}>{item.icon}</div>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+                              <span style={{ fontSize: "16px", fontWeight: 500, color: "var(--charcoal)" }}>{item.label}</span>
+                              <span style={{ fontSize: "13.5px", color: "var(--charcoal-soft)", lineHeight: "1.4" }}>{item.desc}</span>
+                            </div>
+                          </button>
+                        ) : (
+                          <Link
+                            key={item.href}
+                            href={`/${locale}/${item.href}`}
+                            onClick={() => setMobileOpen(false)}
+                            style={{
+                              display: "flex", gap: "16px", alignItems: "flex-start",
+                              padding: "16px", background: "var(--ivory)", borderRadius: "12px",
+                              textDecoration: "none"
+                            }}
+                          >
+                            <div style={{ color: "var(--forest)", marginTop: "2px" }}>{item.icon}</div>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+                              <span style={{ fontSize: "16px", fontWeight: 500, color: "var(--charcoal)" }}>{item.label}</span>
+                              <span style={{ fontSize: "13.5px", color: "var(--charcoal-soft)", lineHeight: "1.4" }}>{item.desc}</span>
+                            </div>
+                          </Link>
+                        )
                       ))}
                     </div>
                   </motion.div>
@@ -530,6 +587,7 @@ export default function Header() {
         }
       `}</style>
       <RFQPanel />
+      <ComingSoonModal open={showComingSoon} onClose={() => setShowComingSoon(false)} />
     </header>
   );
 }

@@ -1,13 +1,16 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { Mail, Phone, Globe, AtSign } from "lucide-react";
+import ComingSoonModal from "@/components/ComingSoonModal";
 
 export default function Footer() {
   const t = useTranslations("footer");
   const tn = useTranslations("nav");
   const locale = useLocale();
+  const [showComingSoon, setShowComingSoon] = useState(false);
 
   const columns = [
     {
@@ -27,7 +30,7 @@ export default function Footer() {
         { label: "Black Copra", href: `/${locale}/store/black-copra` },
         { label: "Coconut Shell Charcoal", href: `/${locale}/store/coconut-charcoal` },
         { label: "Coconut Oil (RBD)", href: `/${locale}/store/coconut-oil` },
-        { label: "View All Products", href: `/${locale}/store` },
+        { label: "View All Products", href: "", modal: true },
       ],
     },
     {
@@ -35,7 +38,7 @@ export default function Footer() {
       links: [
         { label: tn("contact"), href: `/${locale}/support/contact` },
         { label: tn("faq"), href: `/${locale}/support/faq` },
-        { label: tn("shipping"), href: `/${locale}/support/shipping` },
+        { label: tn("shipping"), href: `/${locale}/support/shipping`, desktop: true },
       ],
     },
   ];
@@ -105,13 +108,22 @@ export default function Footer() {
               </p>
               <ul className="footer-col-links" style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                 {col.links.map((link) => (
-                  <li key={link.href}>
-                    <Link href={link.href} style={{ fontSize: "14px", color: "rgba(251,250,246,0.85)", transition: "color 0.2s" }}
-                      onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--ivory)")}
-                      onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(251,250,246,0.85)")}
-                    >
-                      {link.label}
-                    </Link>
+                  <li className={link.desktop ? "hidden md:block" : ""} key={link.label}>
+                    {link.modal ? (
+                      <button onClick={() => setShowComingSoon(true)} style={{ fontSize: "14px", color: "rgba(251,250,246,0.85)", transition: "color 0.2s", cursor: "pointer", background: "none", border: "none", padding: 0, fontFamily: "inherit", textAlign: "left" }}
+                        onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--ivory)")}
+                        onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(251,250,246,0.85)")}
+                      >
+                        {link.label}
+                      </button>
+                    ) : (
+                      <Link href={link.href} style={{ fontSize: "14px", color: "rgba(251,250,246,0.85)", transition: "color 0.2s" }}
+                        onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--ivory)")}
+                        onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(251,250,246,0.85)")}
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -119,8 +131,8 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Bottom bar */}
-        <div className="footer-bottom" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "24px 0", flexWrap: "wrap", gap: "16px" }}>
+        {/* Desktop bottom bar */}
+        <div className="footer-bottom hidden md:flex" style={{ justifyContent: "space-between", alignItems: "center", padding: "24px 0", flexWrap: "wrap", gap: "16px" }}>
           <p style={{ fontSize: "13px", color: "rgba(251,250,246,0.65)", fontFamily: "var(--font-mono)" }}>{t("copyright")}</p>
           <div style={{ display: "flex", gap: "24px" }}>
             {[
@@ -136,7 +148,30 @@ export default function Footer() {
             ))}
           </div>
         </div>
+
+        {/* Mobile bottom bar */}
+        <div className="footer-bottom-mobile md:hidden" style={{ textAlign: "center" }}>
+          <div style={{ display: "flex", justifyContent: "center", gap: "24px", flexWrap: "wrap", padding: "24px 0 8px" }}>
+            {[
+              { label: tn("shipping"), href: `/${locale}/support/shipping` },
+              { label: "Terms & Conditions", href: `/${locale}/legal/terms` },
+              { label: "Privacy Policy", href: `/${locale}/legal/privacy` },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} style={{ fontSize: "13px", color: "rgba(251,250,246,0.65)", fontFamily: "var(--font-mono)", transition: "color 0.2s" }}
+                onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--sand)")}
+                onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(251,250,246,0.65)")}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+          <div style={{ padding: "0 0 24px" }}>
+            <p style={{ fontSize: "13px", color: "rgba(251,250,246,0.65)", fontFamily: "var(--font-mono)" }}>{t("copyright")}</p>
+          </div>
+        </div>
       </div>
+
+      <ComingSoonModal open={showComingSoon} onClose={() => setShowComingSoon(false)} />
 
       <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) {
@@ -152,14 +187,6 @@ export default function Footer() {
           }
           .footer-col-links {
             gap: 16px !important;
-          }
-          .footer-bottom {
-            flex-direction: column !important;
-            align-items: flex-start !important;
-          }
-          .footer-bottom > div {
-            flex-direction: column !important;
-            gap: 12px !important;
           }
         }
       `}} />
