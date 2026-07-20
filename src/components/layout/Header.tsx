@@ -356,7 +356,7 @@ export default function Header() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
             style={{
-              position: "fixed", top: "73px", left: 0, right: 0, bottom: 0,
+              position: "absolute", top: "100%", left: 0, right: 0, height: "100dvh",
               background: "var(--white)",
               zIndex: 40,
               display: "flex",
