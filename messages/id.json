@@ -1,0 +1,1250 @@
+{
+  "nav": {
+    "store": "Produk",
+    "about": "Tentang",
+    "ourStory": "Kisah Kami",
+    "manufacturing": "Manufaktur",
+    "sustainability": "Keberlanjutan",
+    "corporate": "Korporat",
+    "insight": "Insight",
+    "support": "Dukungan",
+    "contact": "Kontak",
+    "faq": "FAQ",
+    "shipping": "Pengiriman & Pengembalian",
+    "loginBuyer": "Login Pembeli",
+    "cart": "Keranjang",
+    "allProducts": "Semua Produk",
+    "whiteCopra": "Kopra Putih",
+    "blackCopra": "Kopra Hitam",
+    "charcoal": "Arang Batok Kelapa",
+    "oil": "Minyak Kelapa",
+    "tnc": "Syarat & Ketentuan",
+    "privacy": "Kebijakan Privasi"
+  },
+  "announce": {
+    "text": "Perusahaan Pengolahan Kelapa Terintegrasi Indonesia — Export Ready Sejak 2020",
+    "tag": "EST. 2020"
+  },
+  "hero": {
+    "badge1": "Sejak 2020",
+    "badge2": "Export Ready",
+    "headline1": "Setiap Kelapa",
+    "headline2": "Menyimpan Potensi.",
+    "rotatingWords": [
+      "Menyimpan Potensi.",
+      "Membuka Nilai.",
+      "Mendorong Inovasi.",
+      "Membangun Masa Depan."
+    ],
+    "sub": "HANCOCO adalah perusahaan pengolahan kelapa terintegrasi Indonesia — mengubah kelapa segar menjadi komoditas B2B premium untuk pasar global.",
+    "cta1": "Jelajahi Produk",
+    "cta2": "Menjadi Mitra",
+    "scroll": "Gulir untuk jelajahi",
+    "manifest": {
+      "title": "Manifes Pengiriman",
+      "status": "Aktif",
+      "origin": "Indonesia",
+      "products": "4 SKU Aktif",
+      "markets": "15+ Negara",
+      "moq": "1x Kontainer 20ft",
+      "readiness": "Export Ready"
+    },
+    "floatingTag": "Siap Ekspor B2B"
+  },
+  "trust": {
+    "items": [
+      "Terintegrasi Farm-to-Export",
+      "Sertifikasi Halal (MUI)",
+      "Kapasitas 500T per Bulan",
+      "15+ Pasar Ekspor",
+      "Model Pengolahan Zero-Waste",
+      "Kemitraan Petani Langsung",
+      "Respons RFQ B2B dalam 24 Jam"
+    ]
+  },
+  "glance": {
+    "eyebrow": "Sekilas",
+    "headline": "Dibangun untuk Perdagangan B2B Global",
+    "description": "Sejak 2020, HANCOCO telah berkembang dari pengolah regional menjadi perusahaan kelapa terintegrasi yang melayani buyer di tiga benua.",
+    "metrics": {
+      "since": "Sejak",
+      "founded": "Didirikan di Indonesia",
+      "coreProducts": "Produk Utama",
+      "exportMarkets": "Pasar Ekspor",
+      "monthlyCapacity": "Kapasitas Bulanan",
+      "metricTons": "metrik ton",
+      "b2bPartners": "Mitra B2B"
+    }
+  },
+  "story": {
+    "eyebrow": "Kisah Perusahaan",
+    "headline": "Di Mana Alam Bertemu Keunggulan Industri.",
+    "p1": "HANCOCO lahir dari keyakinan sederhana namun kuat: sumber daya kelapa Indonesia yang melimpah berhak mendapat pengolah yang menghargai seluruh potensinya. Didirikan tahun 2020, kami membangun rantai pasok terintegrasi dari kemitraan petani di Sulawesi dan Sumatra hingga dermaga ekspor yang melayani buyer di Asia, Timur Tengah, dan Eropa.",
+    "p2": "Kami tidak sekadar mengolah kelapa. Kami merancang komoditas yang memenuhi tuntutan teknis presisi buyer B2B internasional — kualitas konsisten, dokumentasi lengkap, dan rantai pasok yang dibangun untuk keandalan.",
+    "cta": "Baca Kisah Lengkap Kami"
+  },
+  "ecosystem": {
+    "eyebrow": "Ekosistem Terintegrasi",
+    "headline": "Dari Petani ke Pelanggan Global — Setiap Langkah, In-House.",
+    "description": "Kemampuan end-to-end kami berarti Anda bekerja dengan satu mitra terpercaya di seluruh rantai nilai — tanpa perantara, penuh keterlacakan."
+  },
+  "products": {
+    "eyebrow": "Produk Unggulan",
+    "headline": "Empat Produk. Satu Sumber Terintegrasi.",
+    "description": "Komoditas kelapa premium — masing-masing export-ready, diuji laboratorium, dan tersedia untuk inquiry B2B massal.",
+    "viewDetails": "Lihat Detail",
+    "addRfq": "Tambah ke RFQ",
+    "exportReady": "Export Ready",
+    "comingSoon": "Segera Hadir",
+    "viewAll": "Lihat Semua Produk"
+  },
+  "manufacturing": {
+    "eyebrow": "Keunggulan Manufaktur",
+    "headline": "Presisi Industri. Output Konsisten.",
+    "description": "Fasilitas pengolahan kami beroperasi dengan mesin modern, kontrol proses ketat, dan budaya quality-first — dibangun untuk andal melayani kontrak B2B berskala besar.",
+    "pill1": "Mesin Modern",
+    "pill2": "Aligned Proses ISO",
+    "pill3": "500T / Bulan",
+    "pill4": "Siap Cold-Chain",
+    "pill5": "Standar Ekspor",
+    "cta": "Lihat Fasilitas Kami",
+    "c3text": "Fasilitas\nAligned\nProses ISO"
+  },
+  "qa": {
+    "eyebrow": "Jaminan Kualitas",
+    "headline": "Protokol Kualitas 7 Tahap.",
+    "description": "Setiap produk yang meninggalkan fasilitas kami telah melewati proses kontrol kualitas yang ketat dan terdokumentasi — sehingga Anda menerima tepat apa yang dipesan."
+  },
+  "sustainability": {
+    "eyebrow": "Keberlanjutan",
+    "headline": "Tidak Ada yang Terbuang. Semuanya Bernilai.",
+    "description": "Pohon kelapa disebut 'Pohon Kehidupan' bukan tanpa alasan. Model pengolahan terintegrasi kami memastikan setiap bagian — daging, tempurung, sabut, air — diubah menjadi nilai ekonomi dan lingkungan.",
+    "coreLabel": "Ekonomi\nSirkular",
+    "coreTitle": "Satu Kelapa. Nilai Tak Terbatas.",
+    "pillars": [
+      {
+        "title": "Pengolahan Zero-Waste",
+        "description": "Bungkil kopra → pakan ternak. Tempurung → arang. Sabut → coir fiber. Air → suplemen."
+      },
+      {
+        "title": "Dukungan Komunitas Petani",
+        "description": "Kemitraan langsung memberdayakan 200+ keluarga petani kelapa dengan harga adil dan pelatihan."
+      },
+      {
+        "title": "Komitmen Lingkungan",
+        "description": "Pengeringan bertenaga surya mengurangi penggunaan bahan bakar fosil di lini produksi kami."
+      },
+      {
+        "title": "Rantai Nilai Jangka Panjang",
+        "description": "Membangun industri kelapa yang menopang komunitas pertanian Indonesia untuk generasi mendatang."
+      }
+    ],
+    "cta": "Temukan Ekonomi Sirkular Kami"
+  },
+  "why": {
+    "eyebrow": "Mengapa HANCOCO",
+    "headline": "Keunggulan Terintegrasi."
+  },
+  "global": {
+    "eyebrow": "Kehadiran Global",
+    "headline": "Menjangkau Buyer di Tiga Benua.",
+    "description": "Jaringan ekspor kami mencakup Asia Tenggara, Timur Tengah, dan Eropa — dengan kemampuan logistik melalui pelabuhan Belawan, Tanjung Priok, dan Makassar."
+  },
+  "innovation": {
+    "eyebrow": "Riset & Inovasi",
+    "headline": "10 Produk dalam Pipeline Kami.",
+    "description": "Roadmap R&D kami melampaui penawaran saat ini — mengembangkan generasi berikutnya dari komoditas turunan kelapa.",
+    "now": "Dalam Pengembangan",
+    "near": "Jangka Dekat",
+    "future": "Pipeline Masa Depan"
+  },
+  "journey": {
+    "eyebrow": "Perjalanan Kami",
+    "headline": "Dari 2020 ke Dunia."
+  },
+  "certifications": {
+    "eyebrow": "Sertifikasi",
+    "headline": "Kepatuhan yang Bisa Dipercaya.",
+    "description": "Status sertifikasi kami mencerminkan komitmen terhadap transparansi. Kami hanya menampilkan yang benar-benar kami miliki.",
+    "available": "Tersedia",
+    "comingSoon": "Segera Hadir"
+  },
+  "insights": {
+    "eyebrow": "Berita & Insight",
+    "headline": "Intelijen untuk Buyer Komoditas Kelapa.",
+    "description": "Intelijen pasar, pengetahuan ekspor, dan pembahasan mendalam produk — diterbitkan untuk tim pengadaan B2B.",
+    "readMore": "Baca Artikel",
+    "viewAll": "Lihat Semua Insight"
+  },
+  "partnership": {
+    "eyebrow": "Kemitraan",
+    "headline": "Mencari Pemasok Kelapa yang Andal?",
+    "description": "Kami bermitra dengan manufaktur, importir, distributor, dan buyer industri di seluruh dunia. Jika bisnis Anda bekerja dengan komoditas turunan kelapa, mari bicara.",
+    "cta": "Menjadi Mitra Kami"
+  },
+  "rfq": {
+    "eyebrow": "Permintaan Penawaran",
+    "headline": "Mulai Inquiry Anda Hari Ini.",
+    "description": "Isi formulir dan tim sales kami akan merespons dalam 24 jam kerja dengan harga, spesifikasi, dan ketersediaan.",
+    "form": {
+      "company": "Nama Perusahaan",
+      "country": "Negara",
+      "product": "Produk yang Diminati",
+      "quantity": "Perkiraan Kuantitas",
+      "port": "Pelabuhan Tujuan",
+      "message": "Persyaratan Tambahan",
+      "messagePlaceholder": "Preferensi kemasan, Incoterms, target tanggal pembelian...",
+      "submit": "Kirim RFQ",
+      "or": "atau hubungi kami langsung",
+      "whatsapp": "WhatsApp",
+      "email": "Email Sales"
+    },
+    "products": [
+      "White Copra",
+      "Black Copra",
+      "Arang Tempurung Kelapa",
+      "Minyak Kelapa (RBD)",
+      "Beberapa Produk"
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "Brand Manifesto",
+    "headline": "Kami Mengolah Kelapa. Kami Membangun Rantai Pasok. Kami Menggerakkan Industri.",
+    "sub": "HANCOCO — Perusahaan Kelapa Terintegrasi Indonesia.",
+    "cta1": "Minta Penawaran",
+    "cta2": "Unduh Company Profile",
+    "cta3": "Hubungi Sales"
+  },
+  "footer": {
+    "tagline": "Perusahaan Pengolahan Kelapa Terintegrasi Indonesia",
+    "copyright": "© 2026 HANCOCO. Hak Cipta Dilindungi.",
+    "legal": "Syarat & Ketentuan · Kebijakan Privasi"
+  },
+  "ourStoryPage": {
+    "hero": {
+      "headline": "Membangun Masa Depan Kelapa dengan Tanggung Jawab.",
+      "subheadline": "Didirikan di Indonesia pada tahun 2020, HANCOCO mengolah kelapa menjadi produk premium melalui pemrosesan terintegrasi, sumber yang bertanggung jawab, dan prinsip ekonomi sirkular—menciptakan nilai berkelanjutan bagi industri, komunitas, dan pasar global.",
+      "cta1": "Jelajahi Produk",
+      "cta2": "Menjadi Mitra"
+    },
+    "whyWeExist": {
+      "eyebrow": "Alasan Kami Berdiri",
+      "headline": "Setiap Kelapa Memiliki Potensi Besar.",
+      "copy": "HANCOCO didirikan dengan satu keyakinan: setiap kelapa menyimpan potensi yang lebih besar dari yang terlihat hari ini.\n\nDengan mengintegrasikan sumber daya yang bertanggung jawab, pemrosesan modern, dan inovasi berkelanjutan, kami menciptakan produk bernilai tambah sekaligus mendukung masyarakat, industri, dan lingkungan."
+    },
+    "whyIndonesia": {
+      "eyebrow": "Kenapa Indonesia",
+      "headline": "Berakar pada Kekuatan Alam Indonesia.",
+      "copy": "Indonesia adalah salah satu penghasil kelapa terbesar di dunia. Kekayaan alam ini menginspirasi kami untuk menciptakan produk yang mencerminkan kualitas, keandalan, dan kekuatan agrikultur Indonesia."
+    },
+    "whyCoconut": {
+      "eyebrow": "Kenapa Kelapa",
+      "headline": "Satu Sumber Daya. Potensi Tak Terbatas.",
+      "copy": "Kelapa bukan sekadar komoditas tunggal. Ia adalah sumber makanan, energi, bahan industri, dan inovasi masa depan. Kami percaya setiap bagiannya berharga untuk diolah menjadi nilai yang bermakna."
+    },
+    "circularEconomy": {
+      "eyebrow": "Ekonomi Sirkular",
+      "headline": "Tanpa Limbah. Bernilai Penuh.",
+      "copy": "Kami memaksimalkan setiap bagian kelapa melalui rantai nilai terintegrasi yang meminimalkan limbah, meningkatkan efisiensi, dan memberikan manfaat jangka panjang bagi petani, pelanggan, dan lingkungan."
+    },
+    "journey": {
+      "eyebrow": "Perjalanan Kami",
+      "headline": "Tumbuh dengan Tujuan Sejak 2020.",
+      "timeline": [
+        {
+          "year": "2021",
+          "title": "HANCOCO didirikan di Indonesia.",
+          "desc": "Berawal dari visi untuk memaksimalkan potensi pertanian lokal, para pendiri kami membangun pondasi jaringan pengolahan kelapa terintegrasi di Sulawesi."
+        },
+        {
+          "year": "2022",
+          "title": "Memperkuat kemitraan dengan petani kelapa.",
+          "desc": "Kami bekerja langsung dengan lebih dari 200 keluarga petani tanpa perantara, memastikan praktik perdagangan yang adil dan pasokan bahan baku berkualitas tinggi yang konsisten."
+        },
+        {
+          "year": "2023",
+          "title": "Memperluas kapasitas pemrosesan.",
+          "desc": "Melakukan investasi besar pada mesin modern dan fasilitas pengeringan terstandarisasi, meningkatkan kapasitas produksi bulanan kami secara signifikan menjadi 500 ton."
+        },
+        {
+          "year": "2024",
+          "title": "Memasok pelanggan di seluruh pasar domestik.",
+          "desc": "Membangun reputasi yang kuat untuk keandalan dan konsistensi kualitas di antara produsen domestik papan atas dan pembeli industri."
+        },
+        {
+          "year": "2025",
+          "title": "Memperkuat kesiapan ekspor.",
+          "desc": "Meraih sertifikasi operasional penting dan mulai menjalin kemitraan strategis dengan distributor internasional di Timur Tengah dan Asia."
+        },
+        {
+          "year": "Hari Ini",
+          "title": "Membangun ekosistem kelapa global.",
+          "desc": "Beroperasi sebagai pemasok B2B terintegrasi penuh, mengirimkan White Copra, Black Copra, Arang, dan Minyak premium ke klien di tiga benua."
+        }
+      ]
+    },
+    "vision": {
+      "eyebrow": "Visi",
+      "headline": "Melihat Jauh Melampaui Industri Saat Ini.",
+      "copy": "Menjadi salah satu perusahaan pengolahan kelapa terintegrasi yang paling dipercaya di dunia dengan mengubah setiap kelapa menjadi nilai berkelanjutan untuk pasar global."
+    },
+    "mission": {
+      "eyebrow": "Misi",
+      "headline": "Dipandu oleh Tujuan.",
+      "points": [
+        "Menghasilkan produk premium dengan kualitas konsisten.",
+        "Membangun kemitraan jangka panjang dengan petani kelapa.",
+        "Memaksimalkan nilai tambah melalui pemrosesan terintegrasi.",
+        "Berinovasi untuk pengembangan turunan kelapa di masa depan.",
+        "Membawa keunggulan komoditas Indonesia ke pasar global.",
+        "Menciptakan dampak ekonomi, sosial, dan lingkungan yang berkelanjutan."
+      ]
+    },
+    "values": {
+      "eyebrow": "Nilai Inti",
+      "headline": "Nilai yang Membentuk Setiap Keputusan.",
+      "points": [
+        {
+          "title": "Utamakan Kualitas",
+          "desc": "Kami tidak pernah kompromi pada spesifikasi teknis dan konsistensi komoditas kami. Keunggulan adalah standar kami."
+        },
+        {
+          "title": "Integritas",
+          "desc": "Transparansi dalam sumber, pemrosesan, dan transaksi bisnis membentuk landasan kemitraan jangka panjang kami."
+        },
+        {
+          "title": "Inovasi",
+          "desc": "Kami terus mengeksplorasi metode yang lebih baik untuk memproses kelapa, mengurangi limbah, dan mengembangkan turunan bernilai lebih tinggi."
+        },
+        {
+          "title": "Keberlanjutan",
+          "desc": "Kami menghormati Pohon Kehidupan dengan memaksimalkan setiap bagian kelapa dan melindungi lingkungan yang menopang kami."
+        },
+        {
+          "title": "Kemitraan",
+          "desc": "Kami tumbuh dengan membantu klien kami tumbuh, membina hubungan kolaboratif alih-alih pertukaran transaksional."
+        },
+        {
+          "title": "Perbaikan Berkelanjutan",
+          "desc": "Dari lantai pabrik hingga logistik, kami tanpa henti menyempurnakan operasi kami untuk efisiensi dan keamanan maksimum."
+        },
+        {
+          "title": "Komitmen Pelanggan",
+          "desc": "Pembeli B2B kami bergantung pada rantai pasokan kami. Kami menghormati kepercayaan itu dengan pengiriman yang andal dan tepat waktu secara global."
+        },
+        {
+          "title": "Pola Pikir Global",
+          "desc": "Berakar di Indonesia, tetapi dibangun untuk memenuhi tuntutan ketat dan beragam kebutuhan pasar internasional."
+        }
+      ]
+    },
+    "leadership": {
+      "eyebrow": "Pesan Kepemimpinan",
+      "headline": "Visi untuk Masa Depan.",
+      "copy": "Kami percaya masa depan industri kelapa akan dibangun melalui kolaborasi, inovasi, dan tanggung jawab. HANCOCO berkomitmen untuk tumbuh bersama para mitra dengan menyediakan produk dan hubungan yang berlandaskan kepercayaan."
+    },
+    "lookingAhead": {
+      "eyebrow": "Melihat ke Depan",
+      "headline": "Membuka Kemungkinan Baru dari Setiap Kelapa.",
+      "copy": "Perjalanan kami terus berlanjut melalui pengembangan produk turunan bernilai tinggi, teknologi pemrosesan yang canggih, dan kemitraan strategis yang mendorong pertumbuhan berkelanjutan untuk generasi mendatang."
+    },
+    "global": {
+      "eyebrow": "Komitmen Global",
+      "headline": "Dari Indonesia untuk Dunia.",
+      "copy": "Kami bangga dapat melayani pasar domestik dan internasional dengan produk kelapa premium, kualitas konsisten, serta pasokan andal, sekaligus membangun kemitraan yang semakin kuat seiring waktu."
+    },
+    "final": {
+      "headline": "Setiap Kelapa Memiliki Potensi.",
+      "copy": "Di HANCOCO, kami melihat setiap kelapa sebagai peluang untuk menciptakan nilai jangka panjang. Bersama para mitra, kami membentuk masa depan yang lebih berkelanjutan melalui kualitas, inovasi, dan pertumbuhan yang bertanggung jawab.",
+      "cta1": "Minta Penawaran",
+      "cta2": "Hubungi Tim Kami"
+    }
+  },
+  "manufacturingPage": {
+    "hero": {
+      "eyebrow": "MANUFAKTUR",
+      "headline": "Di Mana Alam Bertemu Keunggulan Industri.",
+      "copy": "Setiap produk premium berawal dari proses manufaktur yang disiplin. Di HANCOCO, kami memadukan sumber daya yang bertanggung jawab, pemrosesan modern, dan kontrol kualitas ketat untuk menghasilkan produk kelapa yang memenuhi ekspektasi pasar domestik maupun internasional.",
+      "cta1": "Jelajahi Produk Kami",
+      "cta2": "Permintaan Kemitraan Pabrik"
+    },
+    "philosophy": {
+      "headline": "Manufaktur yang Dibangun Atas Dasar Kualitas, dan Kuantitas.",
+      "copy": "Filosofi manufaktur kami sederhana: setiap tahap produksi harus memberikan nilai tambah sambil mempertahankan kualitas, konsistensi, dan efisiensi.\n\nDari pengadaan bahan baku hingga pengemasan akhir, setiap proses dirancang untuk mendukung produk yang andal dan kemitraan jangka panjang.",
+      "cards": [
+        {
+          "title": "Sumber Daya Bertanggung Jawab",
+          "desc": "Bekerja sama dengan komunitas petani kelapa terpercaya."
+        },
+        {
+          "title": "Pemrosesan Presisi",
+          "desc": "Alur kerja terstandarisasi untuk hasil yang konsisten."
+        },
+        {
+          "title": "Kesiapan Ekspor",
+          "desc": "Produk disiapkan untuk memenuhi persyaratan pasar internasional."
+        },
+        {
+          "title": "Peningkatan Berkelanjutan",
+          "desc": "Penyempurnaan proses dan standar operasional secara terus-menerus."
+        }
+      ]
+    },
+    "flow": {
+      "headline": "Dari Panen Kelapa Hingga Pasar Global.",
+      "copy": "Alur produksi terintegrasi kami memastikan setiap kelapa ditangani dengan hati-hati, presisi, dan dapat dilacak (traceability).",
+      "steps": [
+        "Kemitraan Petani",
+        "Panen",
+        "Pengumpulan",
+        "Inspeksi Bahan Baku",
+        "Pemrosesan",
+        "Pengeringan",
+        "Penyortiran",
+        "Kontrol Kualitas",
+        "Pengemasan",
+        "Gudang",
+        "Pemuatan Kontainer",
+        "Ekspor Internasional"
+      ]
+    },
+    "facility": {
+      "headline": "Dirancang untuk Efisiensi. Dibangun untuk Konsistensi.",
+      "copy": "Fasilitas kami terus dikembangkan untuk meningkatkan efisiensi operasional sembari mempertahankan kualitas produk dan keselamatan kerja.\n\nSetiap area produksi diatur untuk mendukung kelancaran alur kerja dan kinerja manufaktur yang andal."
+    },
+    "equipment": {
+      "headline": "Mendukung Presisi di Setiap Tahap.",
+      "copy": "Manufaktur yang andal bergantung pada peralatan yang andal. HANCOCO terus berinvestasi dalam sistem produksi yang meningkatkan konsistensi, produktivitas, dan efisiensi operasional.",
+      "cards": [
+        {
+          "title": "Peralatan Pemrosesan",
+          "desc": "Mesin canggih untuk memecah dan mengekstraksi material kelapa."
+        },
+        {
+          "title": "Sistem Pengeringan",
+          "desc": "Lingkungan terkendali untuk menjaga tingkat kelembapan optimal."
+        },
+        {
+          "title": "Peralatan Pengemasan",
+          "desc": "Sistem otomatis dan semi-otomatis untuk penahanan yang aman."
+        },
+        {
+          "title": "Penanganan Material",
+          "desc": "Pergerakan barang yang efisien di seluruh lantai produksi."
+        },
+        {
+          "title": "Fasilitas Penyimpanan",
+          "desc": "Area dengan manajemen iklim untuk menjaga integritas produk."
+        },
+        {
+          "title": "Peralatan Pemuatan Ekspor",
+          "desc": "Mesin tugas berat untuk pemuatan kontainer yang aman."
+        }
+      ]
+    },
+    "qc": {
+      "headline": "Kualitas Terpadu Dalam Setiap Proses.",
+      "copy": "Jaminan kualitas (QA) terintegrasi di seluruh alur produksi kami—tidak hanya diinspeksi di akhir. Setiap tahap dipantau untuk memastikan konsistensi produk sebelum pengiriman.",
+      "steps": [
+        "Inspeksi Kedatangan",
+        "Pemantauan Produksi",
+        "Pengambilan Sampel",
+        "Pengujian Laboratorium",
+        "Inspeksi Akhir",
+        "Inspeksi Pengemasan",
+        "Inspeksi Pemuatan Kontainer"
+      ]
+    },
+    "warehouse": {
+      "headline": "Siap untuk Distribusi Global yang Andal.",
+      "copy": "Penyimpanan yang tepat, pengemasan yang cermat, dan logistik yang terorganisir memastikan setiap pengiriman meninggalkan fasilitas kami dalam kondisi optimal."
+    },
+    "safety": {
+      "headline": "Manufaktur Bertanggung Jawab untuk Dampak Jangka Panjang.",
+      "copy": "Keunggulan manufaktur tidak hanya diukur dari produktivitas tetapi juga dari tanggung jawab. HANCOCO terus meningkatkan efisiensi sumber daya sembari mendukung operasi berkelanjutan di seluruh rantai nilai.",
+      "cards": [
+        "Penggunaan Sumber Daya Bertanggung Jawab",
+        "Operasi yang Efisien",
+        "Pemanfaatan Limbah",
+        "Kemitraan Petani",
+        "Peningkatan Berkelanjutan",
+        "Manufaktur Masa Depan"
+      ]
+    },
+    "future": {
+      "headline": "Mempersiapkan Peluang Masa Depan.",
+      "copy": "Seiring berkembangnya permintaan pasar, HANCOCO terus memperluas kapabilitasnya untuk mengembangkan produk turunan kelapa bernilai lebih tinggi dan memperkuat ekosistem manufaktur terintegrasinya.",
+      "list": [
+        "Virgin Coconut Oil (VCO)",
+        "Desiccated Coconut",
+        "Santan Kelapa",
+        "Krim Kelapa",
+        "Karbon Aktif",
+        "Cocopeat",
+        "Serat Sabut Kelapa (Coco Fiber)",
+        "Briket",
+        "Pupuk Organik",
+        "Bioenergi"
+      ]
+    },
+    "stats": {
+      "items": [
+        {
+          "val": "2020",
+          "label": "Didirikan Pada"
+        },
+        {
+          "val": "100%",
+          "label": "Manufaktur Terintegrasi"
+        },
+        {
+          "val": "15+",
+          "label": "Produksi Berorientasi Ekspor"
+        },
+        {
+          "val": "360°",
+          "label": "Pendekatan Ekonomi Sirkular"
+        },
+        {
+          "val": "24/7",
+          "label": "Peningkatan Proses Berkelanjutan"
+        }
+      ]
+    },
+    "final": {
+      "headline": "Manufaktur yang Dibangun untuk Kemitraan Tahan Lama.",
+      "copy": "Baik Anda mencari sumber produk kelapa premium atau menjajaki kolaborasi manufaktur jangka panjang, HANCOCO siap mendukung bisnis Anda dengan produksi yang andal, kualitas konsisten, dan praktik yang bertanggung jawab.",
+      "cta1": "Minta Penawaran",
+      "cta2": "Hubungi Tim Kami",
+      "note": "\"Dari pengadaan yang bertanggung jawab hingga manufaktur siap ekspor, setiap proses di HANCOCO dirancang untuk memberikan kualitas yang dapat Anda percaya dan kemitraan yang bertahan lama.\""
+    }
+  },
+  "sustainabilityPage": {
+    "hero": {
+      "eyebrow": "KEBERLANJUTAN",
+      "headline": "Tumbuh Bersama. Menciptakan Nilai yang Bertahan Lama.",
+      "copy": "Keberlanjutan bukan hanya tentang melindungi sumber daya alam. Ini tentang menciptakan nilai jangka panjang bagi petani, pelanggan, komunitas, dan generasi mendatang. Di HANCOCO, setiap keputusan dipandu oleh tanggung jawab, inovasi, dan rasa hormat terhadap alam.",
+      "cta": "Jelajahi Ekonomi Sirkular Kami"
+    },
+    "philosophy": {
+      "headline": "Keberlanjutan Dimulai dari Setiap Keputusan.",
+      "copy": "Di HANCOCO, keberlanjutan terintegrasi ke dalam cara kami mencari sumber, berproduksi, dan berkembang. Kami percaya bahwa bisnis yang bertanggung jawab akan menciptakan kemitraan yang lebih kuat, ekosistem yang lebih sehat, dan peluang yang lebih besar untuk generasi mendatang.\n\nSetiap kelapa yang kami olah mewakili komitmen kami untuk menyeimbangkan pertumbuhan ekonomi dengan tanggung jawab lingkungan dan sosial.",
+      "cards": [
+        {
+          "title": "Bisnis yang Bertanggung Jawab",
+          "desc": "Membangun nilai jangka panjang melalui praktik etis dan transparan."
+        },
+        {
+          "title": "Pertumbuhan Bersama",
+          "desc": "Menciptakan peluang yang menguntungkan petani, mitra, dan masyarakat bersama-sama."
+        },
+        {
+          "title": "Fokus Masa Depan",
+          "desc": "Berinvestasi pada solusi berkelanjutan yang mendukung industri masa depan."
+        }
+      ]
+    },
+    "circular": {
+      "headline": "Tidak Ada yang Terbuang. Semuanya Menciptakan Nilai.",
+      "copy": "Setiap bagian dari kelapa memiliki potensi untuk menjadi produk bernilai. Melalui pendekatan ekonomi sirkular terintegrasi kami, kami memaksimalkan sumber daya, mengurangi limbah, dan menciptakan peluang berkelanjutan di seluruh rantai nilai.",
+      "chain": [
+        "Perkebunan Kelapa",
+        "Panen Bertanggung Jawab",
+        "Pengumpulan",
+        "Pemrosesan Terintegrasi",
+        "Jaminan Kualitas",
+        "Produk Premium",
+        "Pasar Domestik & Global",
+        "Inovasi Kelapa Masa Depan"
+      ],
+      "highlights": [
+        {
+          "title": "Pengadaan Bertanggung Jawab",
+          "desc": "Membangun hubungan tepercaya dengan petani kelapa."
+        },
+        {
+          "title": "Pemrosesan Efisien",
+          "desc": "Memaksimalkan setiap komponen kelapa yang berharga."
+        },
+        {
+          "title": "Optimalisasi Sumber Daya",
+          "desc": "Mengurangi limbah melalui produksi terintegrasi."
+        },
+        {
+          "title": "Dampak Jangka Panjang",
+          "desc": "Menciptakan nilai ekonomi dan lingkungan secara bersamaan."
+        }
+      ]
+    },
+    "farming": {
+      "headline": "Komunitas Kuat Membangun Rantai Pasok Kuat.",
+      "copy": "Di balik setiap produk premium ada komunitas petani yang berdedikasi. HANCOCO percaya kemitraan jangka panjang dimulai dengan mendukung mereka yang membudidayakan sumber daya yang kami andalkan.\n\nDengan bekerja erat bersama petani lokal, kami bertujuan untuk memperkuat mata pencaharian sambil meningkatkan konsistensi, kualitas, dan praktik pertanian berkelanjutan."
+    },
+    "manufacturing": {
+      "headline": "Manufaktur dengan Tujuan.",
+      "copy": "Manufaktur yang bertanggung jawab berarti menggunakan sumber daya secara efisien, mempertahankan kualitas yang konsisten, dan terus meningkatkan kinerja operasional.\n\nKami percaya keunggulan manufaktur harus menciptakan nilai tidak hanya bagi pelanggan, tetapi juga bagi manusia dan lingkungan.",
+      "cards": [
+        "Efisiensi Sumber Daya",
+        "Konsistensi Kualitas",
+        "Peningkatan Operasional",
+        "Produksi Bertanggung Jawab"
+      ]
+    },
+    "environmental": {
+      "headline": "Melindungi Alam Melalui Praktik yang Lebih Baik.",
+      "copy": "Alam memberikan fondasi bagi bisnis kami. Melindunginya sangat penting bagi masa depan kami. HANCOCO terus mencari cara untuk meningkatkan efisiensi, mengoptimalkan penggunaan sumber daya, dan mendukung tata kelola lingkungan yang bertanggung jawab di seluruh operasi kami.",
+      "cards": [
+        {
+          "title": "Efisiensi Sumber Daya",
+          "desc": "Menggunakan sumber daya secara lebih bertanggung jawab."
+        },
+        {
+          "title": "Pengurangan Limbah",
+          "desc": "Menciptakan nilai dari setiap komponen kelapa."
+        },
+        {
+          "title": "Peningkatan Berkelanjutan",
+          "desc": "Mencari cara yang lebih baik untuk mengurangi dampak lingkungan."
+        },
+        {
+          "title": "Tanggung Jawab Jangka Panjang",
+          "desc": "Tumbuh secara berkelanjutan untuk generasi mendatang."
+        }
+      ]
+    },
+    "social": {
+      "headline": "Menciptakan Peluang yang Tumbuh Bersama.",
+      "copy": "Keberlanjutan diukur dari dampak positif yang kami ciptakan bagi manusia. HANCOCO percaya bahwa kemitraan bermakna berkontribusi pada komunitas yang lebih kuat, kesejahteraan bersama, dan ketahanan bisnis jangka panjang.",
+      "cards": [
+        "Pemberdayaan Petani",
+        "Pekerjaan Lokal",
+        "Pengembangan Keterampilan",
+        "Kolaborasi Komunitas"
+      ]
+    },
+    "ahead": {
+      "headline": "Membangun Industri Kelapa Esok Hari.",
+      "copy": "Perjalanan keberlanjutan kami terus berlanjut melalui inovasi, kemitraan yang lebih kuat, dan pengembangan produk kelapa bernilai lebih tinggi yang memaksimalkan sumber daya alam sambil mendukung kebutuhan pasar global.\n\nKami percaya masa depan adalah milik bisnis yang menciptakan nilai bertahan lama bagi manusia dan planet ini.",
+      "roadmap": [
+        "Turunan kelapa bernilai lebih tinggi",
+        "Manufaktur hemat sumber daya",
+        "Kemitraan petani yang diperluas",
+        "Inovasi ekonomi sirkular",
+        "Pertumbuhan global berkelanjutan"
+      ]
+    },
+    "stats": {
+      "items": [
+        "Didirikan Sejak 2020",
+        "Model Bisnis Ekonomi Sirkular",
+        "Pengolahan Kelapa Terintegrasi",
+        "Operasi Berorientasi Ekspor",
+        "Kemitraan Petani Jangka Panjang"
+      ]
+    },
+    "final": {
+      "headline": "Membangun Masa Depan Lebih Berkelanjutan, Bersama-sama.",
+      "copy": "Setiap kemitraan adalah peluang untuk menciptakan nilai yang bertahan lama. Bersama para pelanggan, pemasok, dan masyarakat, kami membentuk masa depan yang lebih bertanggung jawab dan berkelanjutan untuk industri kelapa global.",
+      "cta1": "Bermitra dengan HANCOCO",
+      "cta2": "Hubungi Tim Kami",
+      "note": "\"Keberlanjutan bukanlah tujuan akhir dari perjalanan kami—itu adalah cara kami memilih untuk terus maju, bersama-sama.\""
+    }
+  },
+  "corporatePage": {
+    "hero": {
+      "eyebrow": "SUMBER DAYA",
+      "headline": "Akses Sumber Daya Resmi HANCOCO.",
+      "copy": "Unduh profil perusahaan terbaru kami, katalog produk, dokumen teknis, dan sumber daya bisnis untuk mempelajari lebih lanjut tentang kapabilitas pengolahan kelapa terintegrasi dan solusi siap ekspor dari HANCOCO.",
+      "cta1": "Jelajahi Dokumen",
+      "cta2": "Hubungi Tim Kami"
+    },
+    "featured": {
+      "headline": "Dokumen Esensial untuk Pembeli dan Mitra.",
+      "cards": [
+        {
+          "title": "Profil Perusahaan",
+          "desc": "Pelajari visi, kapabilitas, manufaktur, keberlanjutan, dan strategi bisnis global HANCOCO."
+        },
+        {
+          "title": "Katalog Produk",
+          "desc": "Jelajahi rangkaian lengkap produk kelapa kami, spesifikasi teknis, opsi kemasan, dan aplikasi."
+        },
+        {
+          "title": "Presentasi Perusahaan",
+          "desc": "Gambaran ringkas HANCOCO untuk pertemuan bisnis, investor, dan mitra strategis."
+        }
+      ]
+    },
+    "library": {
+      "headline": "Pustaka Unduhan",
+      "categories": [
+        "Dokumen Perusahaan",
+        "Katalog Produk",
+        "Lembar Data Teknis",
+        "Sertifikasi",
+        "Laporan Keberlanjutan",
+        "Sumber Daya Ekspor",
+        "Presentasi Perusahaan",
+        "Materi Pemasaran"
+      ],
+      "docs": [
+        {
+          "title": "Lembar Spesifikasi White Copra",
+          "desc": "Spesifikasi teknis dan standar kualitas.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Lembar Spesifikasi Black Copra",
+          "desc": "Detail produk dan spesifikasi ekspor.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Lembar Spesifikasi Arang Kelapa",
+          "desc": "Kelembapan, kadar abu, karbon tetap, kemasan.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Lembar Spesifikasi Minyak Kelapa",
+          "desc": "Aplikasi dan data teknis.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Panduan Ekspor",
+          "desc": "Informasi ekspor umum dan proses permintaan.",
+          "type": "Export",
+          "format": "PDF"
+        },
+        {
+          "title": "Tinjauan Keberlanjutan",
+          "desc": "Inisiatif keberlanjutan HANCOCO.",
+          "type": "Sustainability",
+          "format": "PDF"
+        }
+      ]
+    },
+    "certs": {
+      "headline": "Dokumen Kualitas & Kepatuhan.",
+      "list": [
+        {
+          "name": "Sertifikat Halal",
+          "status": "Available"
+        },
+        {
+          "name": "Sertifikasi ISO",
+          "status": "Coming Soon"
+        },
+        {
+          "name": "HACCP",
+          "status": "Coming Soon"
+        },
+        {
+          "name": "GMP",
+          "status": "Coming Soon"
+        },
+        {
+          "name": "Dokumentasi Keamanan Pangan",
+          "status": "Available"
+        },
+        {
+          "name": "Kepatuhan Ekspor",
+          "status": "Available"
+        }
+      ]
+    },
+    "help": {
+      "headline": "Butuh Dokumen Khusus?",
+      "copy": "Jika Anda memerlukan informasi produk tambahan, spesifikasi khusus, sertifikat, atau materi pemasaran, tim kami siap membantu.",
+      "cta1": "Minta Dokumen",
+      "cta2": "Hubungi Sales"
+    },
+    "final": {
+      "headline": "Semua yang Anda Butuhkan untuk Memulai dengan Percaya Diri.",
+      "copy": "Baik Anda sedang mengevaluasi produk, merencanakan impor, atau menjajaki kemitraan jangka panjang, sumber daya resmi kami dirancang untuk membantu Anda membuat keputusan yang tepat.",
+      "cta1": "Unduh Profil Perusahaan",
+      "cta2": "Minta Penawaran"
+    }
+  },
+  "insightPage": {
+    "hero": {
+      "eyebrow": "WAWASAN HANCOCO",
+      "headline": "Wawasan yang Membentuk Masa Depan Industri Kelapa.",
+      "copy": "Jelajahi intelijen pasar, pengetahuan ekspor, perspektif keberlanjutan, keunggulan manufaktur, dan inovasi produk dari industri pengolahan kelapa terintegrasi Indonesia.",
+      "cta1": "Jelajahi Wawasan Terbaru",
+      "cta2": "Berlangganan Pembaruan"
+    },
+    "featured": {
+      "category": "Intelijen Pasar",
+      "title": "Masa Depan Industri Kelapa Indonesia di Pasar Global",
+      "desc": "Temukan bagaimana pemrosesan terintegrasi, keberlanjutan, dan inovasi mengubah Indonesia menjadi salah satu negara penghasil kelapa paling kompetitif di dunia.",
+      "author": "HANCOCO Intelligence",
+      "readTime": "5 mnt baca",
+      "date": "15 Juli 2026",
+      "cta": "Baca Artikel Penuh"
+    },
+    "categories": {
+      "headline": "Kategori Wawasan",
+      "list": [
+        "Intelijen Pasar",
+        "Pengetahuan Ekspor",
+        "Wawasan Produk",
+        "Manufaktur",
+        "Keberlanjutan",
+        "Inovasi",
+        "Berita Perusahaan",
+        "Kisah Petani"
+      ]
+    },
+    "latest": {
+      "headline": "Wawasan Terbaru",
+      "articles": [
+        {
+          "category": "Intelijen Pasar",
+          "title": "Meningkatnya Permintaan Arang Kelapa di Pasar Internasional",
+          "desc": "Analisis pertumbuhan industri shisha dan BBQ.",
+          "readTime": "4 mnt",
+          "date": "10 Jul 2026"
+        },
+        {
+          "category": "Pengetahuan Ekspor",
+          "title": "Mempersiapkan Produk Kelapa untuk Ekspor: Panduan Praktis",
+          "desc": "Langkah dokumentasi dan kepatuhan yang esensial.",
+          "readTime": "6 mnt",
+          "date": "05 Jul 2026"
+        },
+        {
+          "category": "Wawasan Produk",
+          "title": "Memahami Standar Kualitas White Copra",
+          "desc": "Kadar air, tingkat FFA, dan dampaknya.",
+          "readTime": "5 mnt",
+          "date": "28 Jun 2026"
+        },
+        {
+          "category": "Manufaktur",
+          "title": "Mengapa Kualitas Konsisten Dimulai dari Sumbernya",
+          "desc": "Mengintip program kemitraan petani kami.",
+          "readTime": "4 mnt",
+          "date": "20 Jun 2026"
+        },
+        {
+          "category": "Inovasi",
+          "title": "Membuka Masa Depan Industri Berbasis Kelapa",
+          "desc": "Turunan baru dan bio-material.",
+          "readTime": "7 mnt",
+          "date": "15 Jun 2026"
+        },
+        {
+          "category": "Keberlanjutan",
+          "title": "Bagaimana Ekonomi Sirkular Menciptakan Nilai Jangka Panjang",
+          "desc": "Memaksimalkan setiap bagian dari panen kelapa.",
+          "readTime": "5 mnt",
+          "date": "10 Jun 2026"
+        }
+      ]
+    },
+    "newsletter": {
+      "headline": "Tetap Terdepan dengan Wawasan HANCOCO.",
+      "copy": "Terima pembaruan pasar, pengetahuan ekspor, laporan keberlanjutan, dan analisis industri langsung di kotak masuk Anda.",
+      "placeholder": "Masukkan email bisnis Anda",
+      "cta": "Berlangganan Sekarang",
+      "privacy": "Kami menghargai privasi Anda. Tidak ada spam."
+    },
+    "newsletter": {
+      "headline": "Tetap Terdepan dengan Wawasan HANCOCO.",
+      "copy": "Terima pembaruan pasar, pengetahuan ekspor, laporan keberlanjutan, dan analisis industri langsung di kotak masuk Anda.",
+      "placeholder": "Masukkan email bisnis Anda",
+      "cta": "Berlangganan Sekarang",
+      "privacy": "Kami menghargai privasi Anda. Tidak ada spam."
+    },
+    "final": {
+      "headline": "Pengetahuan Menciptakan Kemitraan yang Lebih Baik.",
+      "copy": "Baik Anda sedang menjelajahi pasar baru, mencari sumber produk kelapa premium, atau mencari wawasan industri, HANCOCO siap mendukung bisnis Anda dengan keahlian terpercaya dan kolaborasi jangka panjang.",
+      "cta": "Hubungi Tim Kami"
+    }
+  },
+
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Pengembangan Bisnis",
+      "headline": "Mari Membangun Hubungan Jangka Panjang.",
+      "copy": "Baik Anda mencari komoditas kelapa, menjajaki kemitraan ekspor, atau mencari perjanjian pasokan jangka panjang — tim kami siap berkolaborasi.",
+      "cta1": "Kirim Pertanyaan",
+      "cta2": "Hubungi WhatsApp"
+    },
+    "options": {
+      "headline": "Bagaimana Kami Bisa Membantu?",
+      "items": [
+        { "icon": "package", "title": "Pertanyaan Penjualan", "desc": "Minta harga, detail MOQ, dan ketersediaan produk untuk rentang komoditas kami.", "cta": "Tanya Sekarang" },
+        { "icon": "ship", "title": "Pertanyaan Ekspor", "desc": "Diskusikan rute ekspor, ketentuan pengiriman (FOB/CIF), kapasitas kontainer, dan dokumentasi.", "cta": "Diskusikan Ekspor" },
+        { "icon": "handshake", "title": "Kemitraan", "desc": "Jelajahi perjanjian pasokan jangka panjang, usaha patungan, atau kemitraan distribusi.", "cta": "Jelajahi Kemitraan" },
+        { "icon": "info", "title": "Informasi Umum", "desc": "Minta profil perusahaan, katalog produk, sertifikasi, atau lembar data teknis.", "cta": "Dapatkan Dokumen" }
+      ]
+    },
+    "form": {
+      "headline": "Kirimkan Pesan.",
+      "copy": "Lengkapi formulir di bawah ini dan tim kami akan merespons dalam 1–2 hari kerja.",
+      "inquiryType": "Jenis Pertanyaan",
+      "inquiryOptions": ["Penjualan / Produk", "Ekspor & Pengiriman", "Kemitraan & Distribusi", "Investasi", "Informasi Umum"],
+      "product": "Produk yang Diminati",
+      "productOptions": ["Kopra Putih", "Kopra Hitam", "Arang Batok Kelapa", "Minyak Kelapa", "Banyak Produk", "Lainnya / Belum Yakin"],
+      "company": "Nama Perusahaan",
+      "contact": "Nama Kontak",
+      "email": "Email Bisnis",
+      "country": "Negara",
+      "whatsapp": "Nomor WhatsApp",
+      "message": "Pesan Anda",
+      "messagePlaceholder": "Ceritakan tentang kebutuhan Anda, volume, pelabuhan tujuan, dan spesifikasi khusus...",
+      "submit": "Kirim Pertanyaan",
+      "note": "Kami biasanya merespons dalam 1–2 hari kerja. Untuk pertanyaan mendesak, hubungi kami via WhatsApp."
+    },
+    "office": {
+      "headline": "Temukan Kami.",
+      "address": "Indonesia — complete address to be added",
+      "email": "export@hancoco.com",
+      "whatsapp": "+62 xxx xxxx xxxx",
+      "hours": "Sen – Jum, 08:00 – 17:00 WIB"
+    },
+    "global": {
+      "headline": "Melayani Pembeli di 15+ Negara.",
+      "markets": ["India", "Malaysia", "China", "UEA", "Arab Saudi", "Vietnam", "Filipina", "Jepang", "Korea Selatan", "Jerman", "Belanda", "AS", "Australia", "Turki", "Nigeria"]
+    },
+    "faq": {
+      "headline": "Jawaban Cepat.",
+      "items": [
+        { "q": "Berapa jumlah pesanan minimum (MOQ)?", "a": "MOQ standar kami adalah 1 × 20ft kontainer. Kami juga mengakomodasi pesanan lebih besar (40ft / 40ft HC). Final MOQ bergantung pada jenis produk dan tujuan." },
+        { "q": "Apakah Anda menyediakan sampel produk?", "a": "Ya. Kami menyediakan sampel untuk pembeli yang memenuhi syarat setelah tinjauan pertanyaan awal. Waktu tunggu sampel adalah sekitar 7–14 hari kerja." },
+        { "q": "Ketentuan pembayaran apa yang Anda terima?", "a": "Kami menerima T/T (Telegraphic Transfer) dan L/C (Letter of Credit). Ketentuan disepakati selama tahap penawaran (quotation)." }
+      ]
+    },
+    "social": {
+      "headline": "Terhubung Dengan Kami.",
+      "links": ["LinkedIn", "WhatsApp Business", "Email"]
+    },
+    "final": {
+      "headline": "Siap Memulai Percakapan?",
+      "cta1": "Minta Penawaran",
+      "cta2": "Menjadi Mitra Kami"
+    }
+  },
+
+  "faqPage": {
+    "hero": {
+      "eyebrow": "Pusat Dukungan",
+      "headline": "Pertanyaan yang Sering Diajukan.",
+      "copy": "Semua yang perlu Anda ketahui tentang produk HANCOCO, proses ekspor, standar kualitas, dan peluang kemitraan."
+    },
+    "categories": ["Semua", "Umum", "Produk", "Kualitas", "Ekspor", "Pemesanan & RFQ", "Kemitraan"],
+    "search": {
+      "placeholder": "Cari pertanyaan..."
+    },
+    "sections": [
+      {
+        "category": "Perusahaan Umum",
+        "icon": "building",
+        "items": [
+          { "q": "Apa itu HANCOCO?", "a": "HANCOCO adalah perusahaan pengolahan kelapa terintegrasi yang berbasis di Indonesia, didirikan pada tahun 2020. Kami memproduksi dan mengekspor komoditas turunan kelapa premium termasuk Kopra Putih, Kopra Hitam, Arang Batok Kelapa, dan Minyak Kelapa untuk B2B dan pembeli industri di seluruh dunia." },
+          { "q": "Di mana lokasi HANCOCO?", "a": "Fasilitas pengolahan dan kantor pusat kami berlokasi di Indonesia. Kami mengekspor terutama melalui pelabuhan utama Indonesia termasuk Belawan (Sumatera Utara) dan Tanjung Priok (Jakarta)." },
+          { "q": "Apakah HANCOCO pabrik atau trader?", "a": "HANCOCO adalah prosesor dan pabrik yang terintegrasi penuh — bukan sekadar trader. Kami memiliki dan mengoperasikan fasilitas pengolahan kami, memberikan pembeli akses langsung ke sumber produksi dengan kontrol kualitas penuh." },
+          { "q": "Sertifikasi apa yang dimiliki HANCOCO?", "a": "Saat ini kami memegang sertifikasi Halal. Sertifikasi ISO, HACCP, dan GMP sedang dalam proses (Segera Hadir). Kami memperbarui status sertifikasi secara berkala di halaman Dokumen Perusahaan." },
+          { "q": "Dalam bahasa apa Anda beroperasi?", "a": "Tim kami beroperasi dalam Bahasa Indonesia dan Bahasa Inggris. Semua dokumentasi ekspor, spesifikasi produk, dan komunikasi tersedia dalam Bahasa Inggris." }
+        ]
+      },
+      {
+        "category": "Produk",
+        "icon": "package",
+        "items": [
+          { "q": "Produk apa yang ditawarkan HANCOCO?", "a": "Rentang produk aktif kami saat ini meliputi: Kopra Putih (kadar air rendah, food-grade), Kopra Hitam (kelas industri), Arang Batok Kelapa (briket BBQ/hookah/industri), dan Minyak Kelapa (RBD/Virgin). Produk tambahan termasuk Kelapa Parut Kering (Desiccated), Serabut Kelapa, dan VCO ada dalam rencana pengembangan kami." },
+          { "q": "Dapatkah saya meminta spesifikasi khusus?", "a": "Ya. Kami mengakomodasi kadar air khusus, kadar abu, tingkat karbon tetap (untuk arang), ukuran partikel, dan konfigurasi kemasan berdasarkan kebutuhan pembeli dan volume pesanan." },
+          { "q": "Berapa umur simpan produk Anda?", "a": "Umur simpan bervariasi per produk: Kopra (6–12 bulan dalam penyimpanan yang tepat), Arang Kelapa (24+ bulan), Minyak Kelapa (12–24 bulan). Kami memberikan panduan penyimpanan pada setiap pengiriman." },
+          { "q": "Apakah Anda menawarkan produk organik bersertifikat?", "a": "Kami mengambil sumber dari perkebunan kelapa di Indonesia. Sertifikasi organik adalah bagian dari peta jalan produk kami. Hubungi tim kami untuk membahas persyaratan kepatuhan spesifik." }
+        ]
+      },
+      {
+        "category": "Kualitas & Manufaktur",
+        "icon": "shield",
+        "items": [
+          { "q": "Bagaimana Anda memastikan konsistensi kualitas?", "a": "Proses Kontrol Kualitas 7 tahap kami mencakup Inspeksi Bahan Baku, Pemantauan Produksi, Pengambilan Sampel, Pengujian Laboratorium, Pengecekan Kadar Air & Berat, Inspeksi Pra-Pengiriman, dan Persetujuan Akhir. Setiap batch didokumentasikan." },
+          { "q": "Bisakah pembeli mengatur inspeksi pihak ketiga?", "a": "Ya. Kami menyambut inspeksi pra-pengiriman oleh badan pihak ketiga terakreditasi (SGS, Bureau Veritas, Intertek, dll.). Pengaturan harus dikomunikasikan pada tahap konfirmasi pesanan." },
+          { "q": "Berapa angka kapasitas produksi Anda?", "a": "Kami dapat memberikan data kapasitas terperinci selama tahap penawaran. Fasilitas kami terukur untuk mendukung pesanan spot dan kontrak pasokan jangka panjang." }
+        ]
+      },
+      {
+        "category": "Ekspor & Logistik",
+        "icon": "ship",
+        "items": [
+          { "q": "Ketentuan perdagangan (Incoterms) apa yang didukung?", "a": "Kami mendukung FOB (Free On Board), CIF (Cost, Insurance & Freight), dan CFR (Cost and Freight). Incoterm pilihan disepakati selama tahap penawaran berdasarkan pelabuhan tujuan." },
+          { "q": "Dari pelabuhan mana Anda mengirim?", "a": "Pelabuhan ekspor utama kami adalah Belawan (Medan, Sumatera Utara) dan Tanjung Priok (Jakarta). Pemilihan pelabuhan bergantung pada produk spesifik dan optimasi logistik." },
+          { "q": "Ukuran kontainer apa yang tersedia?", "a": "Kami mengirim dalam kontainer 20ft Standar, 40ft Standar, dan 40ft High Cube (HC). Jenis kontainer optimal bergantung pada kepadatan dan volume produk." },
+          { "q": "Berapa lama waktu tunggu (lead time) pesanan?", "a": "Lead time produksi hingga pengiriman umumnya 14–30 hari sejak konfirmasi Purchase Order, tergantung pada volume pesanan dan jadwal produksi." }
+        ]
+      },
+      {
+        "category": "Pemesanan & RFQ",
+        "icon": "clipboard",
+        "items": [
+          { "q": "Bagaimana proses RFQ (Permintaan Penawaran)?", "a": "1. Telusuri produk kami dan tambahkan ke Keranjang RFQ. 2. Lengkapi formulir RFQ dengan detail perusahaan dan volume. 3. Tim kami merespons dengan penawaran resmi (quotation) dalam 1–3 hari kerja. 4. Setelah sepakat, kami mengeluarkan Proforma Invoice." },
+          { "q": "Berapa jumlah pesanan minimum (MOQ)?", "a": "MOQ standar kami adalah 1 × 20ft kontainer (~18–25 MT bergantung pada produk). Pesanan bervolume lebih besar mendapat prioritas dan mungkin harga yang lebih baik." },
+          { "q": "Bisakah saya memesan banyak produk dalam satu RFQ?", "a": "Ya. Sistem RFQ kami mendukung permintaan multi-produk. Cukup tambahkan semua produk yang diinginkan ke Keranjang RFQ sebelum mengirim." }
+        ]
+      },
+      {
+        "category": "Kemitraan",
+        "icon": "handshake",
+        "items": [
+          { "q": "Apakah HANCOCO menawarkan perjanjian distribusi eksklusif?", "a": "Ya, kami menjajaki pengaturan distribusi eksklusif dan preferensial di pasar strategis. Ketentuan bergantung pada komitmen volume dan cakupan pasar." },
+          { "q": "Bagaimana saya menjadi mitra pasokan jangka panjang?", "a": "Hubungi tim Pengembangan Bisnis kami melalui halaman Kontak atau kirim pertanyaan dengan jenis 'Kemitraan'. Kami akan mengatur panggilan pengantar." }
+        ]
+      }
+    ],
+    "still": {
+      "headline": "Masih Punya Pertanyaan?",
+      "copy": "Tim kami tersedia untuk menjawab pertanyaan spesifik tentang produk, proses ekspor, atau peluang kemitraan.",
+      "cta1": "Hubungi Tim Kami",
+      "cta2": "WhatsApp Kami"
+    }
+  },
+
+  "shippingPage": {
+    "hero": {
+      "eyebrow": "Pengiriman & Logistik",
+      "headline": "Siap Ekspor. Ke Mana Saja di Seluruh Dunia.",
+      "copy": "Dari fasilitas pengolahan kami di Indonesia hingga pelabuhan tujuan Anda — HANCOCO mengelola proses ekspor yang lengkap dan profesional untuk perdagangan komoditas B2B."
+    },
+    "process": {
+      "headline": "Proses Ekspor Kami.",
+      "copy": "Proses 8 tahap yang terstruktur dan transparan dari konfirmasi pesanan hingga pengiriman pelabuhan.",
+      "steps": [
+        { "num": "01", "title": "RFQ & Penawaran", "desc": "Pembeli mengirim RFQ. Tim kami merespons dengan penawaran resmi termasuk harga, Incoterms, lead time, dan daftar dokumen." },
+        { "num": "02", "title": "Konfirmasi Pesanan", "desc": "Pembeli mengonfirmasi pesanan melalui Purchase Order (PO). Proforma Invoice (PI) dikeluarkan oleh HANCOCO untuk proses pembayaran." },
+        { "num": "03", "title": "Produksi & Pengolahan", "desc": "Produk diproduksi atau disiapkan sesuai spesifikasi. Pengecekan kualitas dilakukan pada setiap tahap produksi." },
+        { "num": "04", "title": "Inspeksi Kualitas", "desc": "Inspeksi pra-pengiriman oleh tim QC HANCOCO. Inspeksi pihak ketiga tersedia jika diminta (SGS, Intertek, dll.)." },
+        { "num": "05", "title": "Pemuatan Kontainer", "desc": "Produk dikemas, ditimbang, dan dimuat ke dalam kontainer (20ft / 40ft / 40ft HC) mengikuti standar kargo internasional." },
+        { "num": "06", "title": "Pelabuhan & Bea Cukai", "desc": "Izin bea cukai di pelabuhan ekspor Indonesia. Semua dokumen ekspor yang diperlukan diproses dan diverifikasi." },
+        { "num": "07", "title": "Pengangkutan Laut", "desc": "Kiriman berangkat dari pelabuhan Belawan atau Tanjung Priok. Pembeli diberitahu tentang nama kapal, nomor pelayaran, dan ETA." },
+        { "num": "08", "title": "Pengiriman Dokumen", "desc": "Paket dokumentasi pengiriman lengkap dikirimkan ke pembeli: B/L, Commercial Invoice, Packing List, COO, dan lainnya." }
+      ]
+    },
+    "ports": {
+      "headline": "Pelabuhan Ekspor & Kapasitas.",
+      "copy": "Akses pelabuhan strategis untuk pengiriman efisien ke pasar Asia, Timur Tengah, Eropa, dan Amerika.",
+      "items": [
+        { "port": "Belawan, Sumatera Utara", "code": "IDBWN", "routes": "Asia, Timur Tengah, Eropa" },
+        { "port": "Tanjung Priok, Jakarta", "code": "IDJKT", "routes": "Global — Hub Utama" }
+      ],
+      "containers": [
+        { "type": "20ft Standar", "capacity": "~18–22 MT", "note": "Pengiriman komoditas standar" },
+        { "type": "40ft Standar", "capacity": "~22–26 MT", "note": "Pesanan volume tinggi" },
+        { "type": "40ft High Cube", "capacity": "~24–28 MT", "note": "Komoditas besar/ringan" }
+      ]
+    },
+    "incoterms": {
+      "headline": "Syarat Perdagangan (Incoterms).",
+      "items": [
+        { "term": "FOB", "full": "Free On Board", "desc": "HANCOCO mengirimkan barang ke pelabuhan asal dan memuatnya ke kapal. Pembeli menanggung risiko dan biaya pengiriman laut. Syarat paling umum." },
+        { "term": "CIF", "full": "Cost, Insurance & Freight", "desc": "HANCOCO menanggung biaya pengiriman dan asuransi ke pelabuhan tujuan. Pembeli mengambil alih kepemilikan saat kedatangan." },
+        { "term": "CFR", "full": "Cost & Freight", "desc": "HANCOCO menanggung biaya angkut ke pelabuhan tujuan, tetapi pembeli mengurus asuransi kargonya sendiri." }
+      ]
+    },
+    "documents": {
+      "headline": "Dokumen Pengiriman.",
+      "items": [
+        { "name": "Bill of Lading (B/L)", "desc": "Dokumen pengiriman utama yang mengonfirmasi kargo telah dimuat ke kapal." },
+        { "name": "Commercial Invoice", "desc": "Faktur resmi yang merinci produk, kuantitas, harga, dan syarat." },
+        { "name": "Packing List", "desc": "Daftar terperinci dari semua paket, berat, dan dimensi." },
+        { "name": "Certificate of Origin (COO)", "desc": "Menyatakan bahwa barang berasal dari Indonesia." },
+        { "name": "Phytosanitary Certificate", "desc": "Dikeluarkan oleh otoritas menegaskan produk memenuhi standar kesehatan negara tujuan." },
+        { "name": "Halal Certificate", "desc": "Sertifikasi Halal yang dipegang HANCOCO untuk produk yang relevan." },
+        { "name": "Fumigation Certificate", "desc": "Mengonfirmasi kargo telah dirawat untuk memenuhi syarat biosekuriti." },
+        { "name": "Laporan Inspeksi Pihak Ketiga", "desc": "Tersedia sesuai permintaan — dikeluarkan oleh SGS, Intertek, atau Bureau Veritas." }
+      ]
+    },
+    "markets": {
+      "headline": "Cakupan Pengiriman Global.",
+      "copy": "Kami mengirim ke 15+ negara di seluruh Asia, Timur Tengah, Eropa, dan sekitarnya.",
+      "list": ["India", "China", "Malaysia", "Vietnam", "Filipina", "Jepang", "Korea Selatan", "UEA", "Arab Saudi", "Jerman", "Belanda", "Turki", "Nigeria", "Australia", "AS"]
+    },
+    "return": {
+      "headline": "Kebijakan Pengembalian & Klaim.",
+      "copy": "Kami berkomitmen untuk mengirimkan produk yang memenuhi spesifikasi yang disepakati. Jika terjadi sengketa kualitas, proses penyelesaian kami yang terstruktur memastikan penanganan yang cepat.",
+      "steps": [
+        { "step": "01", "title": "Laporkan Masalah", "desc": "Pembeli mengajukan klaim resmi dalam waktu 14 hari sejak kedatangan kargo, didukung oleh foto, analisis lab, dan laporan." },
+        { "step": "02", "title": "Investigasi", "desc": "Tim QC HANCOCO meninjau klaim terhadap catatan inspeksi pra-pengiriman dan dokumen produksi kami." },
+        { "step": "03", "title": "Resolusi", "desc": "Resolusi dapat mencakup pengiriman pengganti, nota kredit, atau penyesuaian harga — disepakati bersama berdasarkan temuan investigasi." }
+      ]
+    },
+    "final": {
+      "headline": "Siap Mengirim Bersama Kami?",
+      "copy": "Tim ekspor kami siap memandu Anda melalui seluruh proses — dari RFQ hingga pengiriman tiba.",
+      "cta1": "Minta Penawaran",
+      "cta2": "Hubungi Tim Ekspor"
+    }
+  },
+
+  "storePage": {
+    "hero": {
+      "eyebrow": "Katalog Produk B2B",
+      "headline": "Sumber Komoditas Kelapa Premium.",
+      "copy": "Produk siap ekspor dari prosesor kelapa terintegrasi Indonesia. Telusuri pilihan kami dan kirim Permintaan Penawaran Anda.",
+      "cta1": "Jelajahi Produk",
+      "cta2": "Minta Penawaran"
+    },
+    "filter": {
+      "all": "Semua Produk",
+      "categories": ["Kopra", "Arang", "Minyak", "Serat & Gambut", "Segera Hadir"]
+    },
+    "products": [
+      {
+        "id": "white-copra",
+        "name": "Kopra Putih (White Copra)",
+        "category": "Kopra",
+        "slug": "white-copra",
+        "tagline": "Daging kelapa kering food-grade premium",
+        "desc": "Kopra putih berkualitas tinggi dengan kadar air terkontrol, cocok untuk ekstraksi minyak kelapa dan industri pengolahan makanan di seluruh dunia.",
+        "applications": ["Ekstraksi Minyak Kelapa", "Pengolahan Makanan", "Industri Oleokimia", "Pakan Ternak"],
+        "badge": "Siap Ekspor",
+        "status": "active",
+        "image": "/assets/images/nipanan-lifestyle-pV2xU2rP580-unsplash.webp",
+        "specs": {
+          "moisture": "≤ 6%",
+          "ffa": "≤ 3%",
+          "oilContent": "63–68%",
+          "form": "Dibelah / Potongan",
+          "packaging": "Karung PP 50kg / Curah"
+        }
+      },
+      {
+        "id": "black-copra",
+        "name": "Kopra Hitam (Black Copra)",
+        "category": "Kopra",
+        "slug": "black-copra",
+        "tagline": "Kopra tingkat industri untuk volume tinggi",
+        "desc": "Kopra hitam tingkat industri yang diproses untuk produksi minyak kelapa skala besar. Cocok untuk proses pemurnian di mana warna tidak kritis.",
+        "applications": ["Ekstraksi Minyak Industri", "Pakan Oleokimia", "Bahan Baku Biodiesel"],
+        "badge": "Siap Ekspor",
+        "status": "active",
+        "image": "/assets/images/dipesh-ray-kngFBByxsvw-unsplash.webp",
+        "specs": {
+          "moisture": "≤ 8%",
+          "ffa": "≤ 5%",
+          "oilContent": "60–65%",
+          "form": "Dibelah / Potongan",
+          "packaging": "Karung PP 50kg / Curah"
+        }
+      },
+      {
+        "id": "coconut-charcoal",
+        "name": "Arang Batok Kelapa",
+        "category": "Arang",
+        "slug": "coconut-charcoal",
+        "tagline": "Briket arang batok kelapa premium",
+        "desc": "Briket arang batok kelapa dengan karbon tetap tinggi untuk BBQ, hookah/shisha, dan industri. Panas konsisten, abu rendah, waktu bakar lama.",
+        "applications": ["BBQ & Panggangan", "Hookah / Shisha", "Bahan Bakar Industri", "Karbon Aktif"],
+        "badge": "Siap Ekspor",
+        "status": "active",
+        "image": "/assets/images/pexels-cmrcn-29132448.webp",
+        "specs": {
+          "fixedCarbon": "≥ 75%",
+          "moisture": "≤ 5%",
+          "ashContent": "≤ 3%",
+          "calorificValue": "7,000+ kcal/kg",
+          "packaging": "Karton 10kg / 20kg"
+        }
+      },
+      {
+        "id": "coconut-oil",
+        "name": "Minyak Kelapa (RBD)",
+        "category": "Minyak",
+        "slug": "coconut-oil",
+        "tagline": "Minyak kelapa olahan untuk makanan & industri",
+        "desc": "Minyak kelapa RBD (Refined, Bleached, Deodorized) kemurnian tinggi untuk manufaktur makanan, kosmetik, dan aplikasi industri.",
+        "applications": ["Manufaktur Makanan", "Kosmetik & Perawatan", "Farmasi", "Pelumas Industri"],
+        "badge": "Siap Ekspor",
+        "status": "active",
+        "image": "/assets/images/towfiqu-barbhuiya-o3Dunr7Vl-o-unsplash.webp",
+        "specs": {
+          "ffa": "≤ 0.1%",
+          "moisture": "≤ 0.1%",
+          "color": "Putih air",
+          "meltingPoint": "23–26°C",
+          "packaging": "Jeriken 20L / Drum 180kg / ISO Tank"
+        }
+      },
+      {
+        "id": "cocopeat",
+        "name": "Cocopeat / Serbuk Sabut",
+        "category": "Serat & Gambut",
+        "slug": "cocopeat",
+        "tagline": "Media tanam berkelanjutan dari sabut kelapa",
+        "desc": "Cocopeat premium — media tanam alami dan berkelanjutan dengan retensi air yang sangat baik untuk hortikultura dan pertanian.",
+        "applications": ["Hortikultura", "Hidroponik", "Perbaikan Tanah", "Pencampuran Substrat"],
+        "badge": "Siap Ekspor",
+        "status": "active",
+        "image": "/assets/images/cocopeat.webp",
+        "specs": {
+          "moisture": "≤ 20%",
+          "ph": "5.5–6.5",
+          "ec": "≤ 0.5 mS/cm",
+          "form": "Blok / Briket / Curah",
+          "packaging": "Blok 5kg / Disk 650g / Curah"
+        }
+      },
+      {
+        "id": "desiccated-coconut",
+        "name": "Kelapa Parut Kering (Desiccated)",
+        "category": "Segera Hadir",
+        "slug": "desiccated-coconut",
+        "tagline": "Kelapa kering potongan halus untuk makanan",
+        "desc": "Desiccated coconut premium kelas fine, medium, dan kasar untuk toko roti, permen, dan produsen makanan.",
+        "applications": ["Toko Roti", "Manisan", "Pembuatan Makanan Ringan", "Bahan Makanan"],
+        "badge": "Segera Hadir",
+        "status": "coming_soon",
+        "image": "/assets/images/pexels-bogdankrupin-3986706.webp",
+        "specs": {}
+      }
+    ],
+    "why": {
+      "headline": "Mengapa Mengambil dari HANCOCO?",
+      "items": [
+        { "icon": "factory", "text": "Langsung Dari Pabrik" },
+        { "icon": "shield", "text": "7 Tahap Kontrol Kualitas" },
+        { "icon": "ship", "text": "Siap Ekspor — 15+ Negara" },
+        { "icon": "leaf", "text": "Berkelanjutan & Bersertifikat Halal" },
+        { "icon": "clock", "text": "Lead Time 14–30 Hari" },
+        { "icon": "headset", "text": "Tim Ekspor Khusus" }
+      ]
+    },
+    "rfq": {
+      "headline": "Permintaan Penawaran (RFQ)",
+      "copy": "Lengkapi formulir di bawah untuk menerima penawaran resmi dari tim ekspor kami.",
+      "fields": {
+        "company": "Nama Perusahaan",
+        "contact": "Nama Kontak",
+        "email": "Email Bisnis",
+        "country": "Negara",
+        "whatsapp": "Nomor WhatsApp",
+        "port": "Pelabuhan Tujuan",
+        "incoterms": "Incoterms Pilihan",
+        "incotermsOptions": ["FOB", "CIF", "CFR", "Akan Didiskusikan"],
+        "quantity": "Estimasi Kuantitas Pesanan",
+        "date": "Target Tanggal Pembelian",
+        "notes": "Persyaratan Tambahan",
+        "notesPlaceholder": "Preferensi kemasan, standar kualitas, persyaratan khusus..."
+      },
+      "submit": "Kirim RFQ",
+      "note": "Tim ekspor kami akan merespons dalam 1–3 hari kerja dengan penawaran resmi.",
+      "whatsapp": "Atau hubungi kami langsung melalui WhatsApp"
+    },
+    "cart": {
+      "title": "Keranjang RFQ",
+      "empty": "Keranjang RFQ Anda kosong. Jelajahi produk dan tambahkan item untuk meminta penawaran.",
+      "product": "Produk",
+      "quantity": "Kuantitas (Kontainer)",
+      "remove": "Hapus",
+      "proceed": "Lanjut ke Formulir RFQ",
+      "continue": "Lanjut Menjelajah"
+    }
+  }
+}

@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scratch files & scripts
+update-*.js
+optimize-*.js
+convert-video.js
+
+# backups and local assets
+assets-original-backup/
+/public/backup/
+
+# agent and AI specific files
+AGENTS.md
+CLAUDE.md
+design.md
+*.cursorrules

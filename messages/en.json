@@ -1,0 +1,1243 @@
+{
+  "nav": {
+    "store": "Store",
+    "about": "About",
+    "ourStory": "Our Story",
+    "manufacturing": "Manufacturing",
+    "sustainability": "Sustainability",
+    "corporate": "Corporate",
+    "insight": "Insight",
+    "support": "Support",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "shipping": "Shipping & Return",
+    "loginBuyer": "Login Buyer",
+    "cart": "Cart",
+    "allProducts": "All Products",
+    "whiteCopra": "White Copra",
+    "blackCopra": "Black Copra",
+    "charcoal": "Coconut Charcoal",
+    "oil": "Coconut Oil",
+    "tnc": "Term & Condition",
+    "privacy": "Privacy Policy"
+  },
+  "announce": {
+    "text": "Indonesia's Integrated Coconut Processing Company — Export Ready Since 2020",
+    "tag": "EST. 2020"
+  },
+  "hero": {
+    "badge1": "Since 2020",
+    "badge2": "Export Ready",
+    "headline1": "Every Coconut",
+    "headline2": "Holds Potential.",
+    "rotatingWords": [
+      "Holds Potential.",
+      "Unlocks Value.",
+      "Powers Innovation.",
+      "Builds The Future."
+    ],
+    "sub": "HANCOCO is Indonesia's integrated coconut processing company — transforming raw coconuts into premium B2B commodities for global markets.",
+    "cta1": "Explore Products",
+    "cta2": "Become a Partner",
+    "scroll": "Scroll to explore",
+    "manifest": {
+      "title": "Shipment Manifest",
+      "status": "Live",
+      "origin": "Indonesia",
+      "products": "4 SKU Active",
+      "markets": "15+ Countries",
+      "moq": "1x 20ft Container",
+      "readiness": "Export Ready"
+    },
+    "floatingTag": "B2B Export Ready"
+  },
+  "trust": {
+    "items": [
+      "Integrated Farm-to-Export",
+      "Halal Certified (MUI)",
+      "500T Monthly Capacity",
+      "15+ Export Markets",
+      "Zero-Waste Processing Model",
+      "Direct Farmer Partnership",
+      "B2B RFQ in 24 Hours"
+    ]
+  },
+  "glance": {
+    "eyebrow": "At a Glance",
+    "headline": "Built for Global B2B Trade",
+    "description": "Since 2020, HANCOCO has grown from a regional processor to an integrated coconut enterprise serving buyers across three continents.",
+    "metrics": {
+      "since": "Since",
+      "founded": "Founded in Indonesia",
+      "coreProducts": "Core Products",
+      "exportMarkets": "Export Markets",
+      "monthlyCapacity": "Monthly Capacity",
+      "metricTons": "metric tons",
+      "b2bPartners": "B2B Partners"
+    }
+  },
+  "story": {
+    "eyebrow": "Company Story",
+    "headline": "Where Nature Meets Industrial Excellence.",
+    "p1": "HANCOCO was born from a simple but powerful belief: that Indonesia's vast coconut resources deserve a processor that honors their full potential. Founded in 2020, we built an integrated supply chain that stretches from farmer partnerships in Sulawesi and Sumatra to export docks serving buyers in Asia, the Middle East, and Europe.",
+    "p2": "We don't just process coconuts. We engineer commodities that meet the precise technical demands of international B2B buyers — consistent quality, complete documentation, and a supply chain built for reliability.",
+    "cta": "Read Our Full Story"
+  },
+  "ecosystem": {
+    "eyebrow": "Integrated Ecosystem",
+    "headline": "From Farm to Global Customer — Every Step, In-House.",
+    "description": "Our end-to-end capability means you deal with one trusted partner across the entire value chain — no intermediaries, full traceability."
+  },
+  "products": {
+    "eyebrow": "Featured Products",
+    "headline": "Four Products. One Integrated Source.",
+    "description": "Premium coconut commodities — each one export-ready, laboratory-tested, and available for B2B bulk inquiry.",
+    "viewDetails": "View Details",
+    "addRfq": "Add to RFQ",
+    "exportReady": "Export Ready",
+    "comingSoon": "Coming Soon",
+    "viewAll": "View All Products"
+  },
+  "manufacturing": {
+    "eyebrow": "Manufacturing Excellence",
+    "headline": "Industrial Precision. Consistent Output.",
+    "description": "Our processing facility operates with modern machinery, stringent process controls, and a quality-first culture — built to reliably serve B2B contracts at scale.",
+    "pill1": "Modern Machinery",
+    "pill2": "ISO-Process Aligned",
+    "pill3": "500T / Month",
+    "pill4": "Cold-Chain Ready",
+    "pill5": "Export-Standard",
+    "cta": "See Our Facility",
+    "c3text": "ISO-Process\nAligned\nFacility"
+  },
+  "qa": {
+    "eyebrow": "Quality Assurance",
+    "headline": "7-Stage Quality Protocol.",
+    "description": "Every product that leaves our facility has passed a rigorous, documented quality control process — so you receive exactly what you ordered."
+  },
+  "sustainability": {
+    "eyebrow": "Sustainability",
+    "headline": "Nothing Wasted. Everything Valued.",
+    "description": "The coconut tree is called 'The Tree of Life' for a reason. Our integrated processing model ensures every part — meat, shell, husk, water — is transformed into economic and environmental value.",
+    "coreLabel": "Circular\nEconomy",
+    "coreTitle": "One Coconut. Endless Value.",
+    "pillars": [
+      {
+        "title": "Zero-Waste Processing",
+        "description": "Copra meal → animal feed. Shell → charcoal. Husk → coir fiber. Water → supplement."
+      },
+      {
+        "title": "Farmer Community Support",
+        "description": "Direct partnerships empower 200+ coconut farming families with fair pricing and training."
+      },
+      {
+        "title": "Environmental Commitment",
+        "description": "Solar-assisted drying reduces fossil fuel usage across our production lines."
+      },
+      {
+        "title": "Long-Term Value Chain",
+        "description": "Building a coconut industry that sustains Indonesia's agricultural communities for generations."
+      }
+    ],
+    "cta": "Discover Our Circular Economy"
+  },
+  "why": {
+    "eyebrow": "Why HANCOCO",
+    "headline": "The Integrated Advantage."
+  },
+  "global": {
+    "eyebrow": "Global Presence",
+    "headline": "Reaching Buyers Across Three Continents.",
+    "description": "Our export network spans Southeast Asia, the Middle East, and Europe — with logistics capability via Belawan, Tanjung Priok, and Makassar ports."
+  },
+  "innovation": {
+    "eyebrow": "Research & Innovation",
+    "headline": "10 Products in Our Pipeline.",
+    "description": "Our R&D roadmap extends beyond current offerings — developing the next generation of coconut-derived commodities.",
+    "now": "In Development",
+    "near": "Near-Term",
+    "future": "Future Pipeline"
+  },
+  "journey": {
+    "eyebrow": "Our Journey",
+    "headline": "From 2020 to the World."
+  },
+  "certifications": {
+    "eyebrow": "Certifications",
+    "headline": "Compliance You Can Trust.",
+    "description": "Our certification status reflects our commitment to transparency. We only display what we hold.",
+    "available": "Available",
+    "comingSoon": "Coming Soon"
+  },
+  "insights": {
+    "eyebrow": "News & Insights",
+    "headline": "Intelligence for Coconut Commodity Buyers.",
+    "description": "Market intelligence, export knowledge, and product deep-dives — published for B2B procurement teams.",
+    "readMore": "Read Article",
+    "viewAll": "View All Insights"
+  },
+  "partnership": {
+    "eyebrow": "Partnership",
+    "headline": "Looking for a Reliable Coconut Supplier?",
+    "description": "We partner with manufacturers, importers, distributors, and industrial buyers across the globe. If your business works with coconut-derived commodities, let's talk.",
+    "cta": "Become Our Partner"
+  },
+  "rfq": {
+    "eyebrow": "Request for Quotation",
+    "headline": "Start Your Inquiry Today.",
+    "description": "Fill in the form and our sales team will respond within 24 business hours with pricing, specifications, and availability.",
+    "form": {
+      "company": "Company Name",
+      "country": "Country",
+      "product": "Product of Interest",
+      "quantity": "Estimated Quantity",
+      "port": "Destination Port",
+      "message": "Additional Requirements",
+      "messagePlaceholder": "Packaging preferences, Incoterms, target purchase date...",
+      "submit": "Submit RFQ",
+      "or": "or reach us directly",
+      "whatsapp": "WhatsApp",
+      "email": "Email Sales"
+    },
+    "products": [
+      "White Copra",
+      "Black Copra",
+      "Coconut Shell Charcoal",
+      "Coconut Oil (RBD)",
+      "Multiple Products"
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "Brand Manifesto",
+    "headline": "We Process Coconuts. We Build Supply Chains. We Power Industries.",
+    "sub": "HANCOCO — Indonesia's Integrated Coconut Company.",
+    "cta1": "Request a Quotation",
+    "cta2": "Download Company Profile",
+    "cta3": "Contact Sales"
+  },
+  "footer": {
+    "tagline": "Indonesia's Integrated Coconut Processing Company",
+    "copyright": "© 2026 HANCOCO. All rights reserved.",
+    "legal": "Terms & Conditions · Privacy Policy"
+  },
+  "ourStoryPage": {
+    "hero": {
+      "headline": "Building the Future of Coconut, Responsibly.",
+      "subheadline": "Founded in Indonesia in 2020, HANCOCO transforms coconuts into premium products through integrated processing, responsible sourcing, and circular economy principles—creating sustainable value for industries, communities, and global markets.",
+      "cta1": "Explore Our Products",
+      "cta2": "Become Our Partner"
+    },
+    "whyWeExist": {
+      "eyebrow": "Why We Exist",
+      "headline": "Every Coconut Deserves a Greater Purpose.",
+      "copy": "HANCOCO was founded with one belief: every coconut holds greater potential than what we see today.\n\nBy integrating responsible sourcing, modern processing, and continuous innovation, we create products that deliver value while supporting people, industries, and the environment."
+    },
+    "whyIndonesia": {
+      "eyebrow": "Why Indonesia",
+      "headline": "Rooted in Indonesia's Natural Strength.",
+      "copy": "Indonesia is home to one of the world's richest coconut resources. This natural abundance inspires us to create products that reflect quality, reliability, and the strength of Indonesian agriculture."
+    },
+    "whyCoconut": {
+      "eyebrow": "Why Coconut",
+      "headline": "One Resource. Endless Possibilities.",
+      "copy": "A coconut is more than a single product. It is a source of food, energy, industrial materials, and future innovation. We believe every part deserves to be transformed into meaningful value."
+    },
+    "circularEconomy": {
+      "eyebrow": "Circular Economy",
+      "headline": "Nothing Wasted. Everything Valued.",
+      "copy": "We maximize every part of the coconut through an integrated value chain that reduces waste, improves efficiency, and creates long-term benefits for farmers, customers, and the environment."
+    },
+    "journey": {
+      "eyebrow": "Our Journey",
+      "headline": "Growing with Purpose Since 2020.",
+      "timeline": [
+        {
+          "year": "2021",
+          "title": "HANCOCO was established in Indonesia.",
+          "desc": "Starting with a vision to maximize local agricultural potential, our founders built the foundation of an integrated coconut processing network in Sulawesi."
+        },
+        {
+          "year": "2022",
+          "title": "Strengthened partnerships with coconut farmers.",
+          "desc": "We bypassed middlemen to work directly with over 200 farming families, ensuring fair trade practices and securing a consistent, high-quality raw material supply."
+        },
+        {
+          "year": "2023",
+          "title": "Expanded processing capabilities.",
+          "desc": "Invested heavily in modern machinery and standardized drying facilities, significantly increasing our monthly production capacity to 500 tons."
+        },
+        {
+          "year": "2024",
+          "title": "Supplied customers across domestic markets.",
+          "desc": "Established a strong reputation for reliability and quality consistency among top-tier domestic manufacturers and industrial buyers."
+        },
+        {
+          "year": "2025",
+          "title": "Strengthened export readiness.",
+          "desc": "Achieved vital operational certifications and began forging strategic partnerships with international distributors in the Middle East and Asia."
+        },
+        {
+          "year": "Today",
+          "title": "Building a global coconut ecosystem.",
+          "desc": "Operating as a fully integrated B2B supplier, delivering premium White Copra, Black Copra, Charcoal, and Oil to clients across three continents."
+        }
+      ]
+    },
+    "vision": {
+      "eyebrow": "Vision",
+      "headline": "Looking Beyond Today's Industry.",
+      "copy": "To become one of the world's most trusted integrated coconut processing companies by transforming every coconut into sustainable value for global markets."
+    },
+    "mission": {
+      "eyebrow": "Mission",
+      "headline": "Guided by Purpose.",
+      "points": [
+        "Deliver premium products with consistent quality.",
+        "Build lasting partnerships with coconut farmers.",
+        "Maximize value through integrated processing.",
+        "Innovate for future coconut derivatives.",
+        "Expand Indonesian excellence to global markets.",
+        "Create sustainable economic, social, and environmental impact."
+      ]
+    },
+    "values": {
+      "eyebrow": "Core Values",
+      "headline": "The Values That Shape Every Decision.",
+      "points": [
+        {
+          "title": "Quality First",
+          "desc": "We never compromise on the technical specifications and consistency of our commodities. Excellence is our standard."
+        },
+        {
+          "title": "Integrity",
+          "desc": "Transparency in our sourcing, processing, and business dealings forms the bedrock of our long-term partnerships."
+        },
+        {
+          "title": "Innovation",
+          "desc": "We constantly explore better methods to process coconuts, reduce waste, and develop higher-value derivatives."
+        },
+        {
+          "title": "Sustainability",
+          "desc": "We honor the Tree of Life by maximizing every part of the coconut and protecting the environment that sustains us."
+        },
+        {
+          "title": "Partnership",
+          "desc": "We grow by helping our clients grow, fostering collaborative relationships rather than transactional exchanges."
+        },
+        {
+          "title": "Continuous Improvement",
+          "desc": "From factory floors to logistics, we relentlessly refine our operations for maximum efficiency and safety."
+        },
+        {
+          "title": "Customer Commitment",
+          "desc": "Our B2B buyers rely on our supply chain. We honor that trust with reliable, on-time deliveries globally."
+        },
+        {
+          "title": "Global Mindset",
+          "desc": "Rooted in Indonesia, but built to meet the rigorous demands and diverse needs of international markets."
+        }
+      ]
+    },
+    "leadership": {
+      "eyebrow": "Leadership Message",
+      "headline": "A Vision for the Future.",
+      "copy": "We believe the future of the coconut industry will be built through collaboration, innovation, and responsibility. HANCOCO is committed to growing alongside our partners while delivering products and relationships built on trust."
+    },
+    "lookingAhead": {
+      "eyebrow": "Looking Ahead",
+      "headline": "Expanding the Possibilities of Every Coconut.",
+      "copy": "Our journey continues through the development of higher-value coconut derivatives, advanced processing technologies, and stronger partnerships that create sustainable growth for generations to come."
+    },
+    "global": {
+      "eyebrow": "Global Commitment",
+      "headline": "From Indonesia to the World.",
+      "copy": "We proudly serve domestic and international markets with premium coconut products, consistent quality, and reliable supply building partnerships that grow stronger over time."
+    },
+    "final": {
+      "headline": "Every Coconut Holds Potential.",
+      "copy": "At HANCOCO, we see every coconut as an opportunity to create lasting value. Together with our partners, we are shaping a more sustainable future through quality, innovation, and responsible growth.",
+      "cta1": "Request a Quote",
+      "cta2": "Contact Our Team"
+    }
+  },
+  "manufacturingPage": {
+    "hero": {
+      "eyebrow": "MANUFACTURING",
+      "headline": "Where Nature Meets Industrial Excellence.",
+      "copy": "Every premium product begins with a disciplined manufacturing process. At HANCOCO, we combine responsible sourcing, modern processing, and rigorous quality control to deliver coconut products that meet the expectations of domestic and international markets.",
+      "cta1": "Explore Our Products",
+      "cta2": "Request a Factory Partnership"
+    },
+    "philosophy": {
+      "headline": "Manufacturing Built Around Quality, Also Quantity.",
+      "copy": "Our manufacturing philosophy is simple: every stage of production should add value while preserving quality, consistency, and efficiency.\n\nFrom sourcing raw materials to final packaging, every process is designed to support reliable products and long term partnerships.",
+      "cards": [
+        {
+          "title": "Responsible Sourcing",
+          "desc": "Working with trusted coconut farming communities."
+        },
+        {
+          "title": "Precision Processing",
+          "desc": "Standardized workflows for consistent results."
+        },
+        {
+          "title": "Export Readiness",
+          "desc": "Products prepared to meet international market requirements."
+        },
+        {
+          "title": "Continuous Improvement",
+          "desc": "Constant refinement of processes and operational standards."
+        }
+      ]
+    },
+    "flow": {
+      "headline": "From Coconut Harvest to Global Markets.",
+      "copy": "Our integrated production workflow ensures every coconut is handled with care, precision, and traceability.",
+      "steps": [
+        "Farmer Partnership",
+        "Harvest",
+        "Collection",
+        "Raw Material Inspection",
+        "Processing",
+        "Drying",
+        "Sorting",
+        "Quality Control",
+        "Packaging",
+        "Warehouse",
+        "Container Loading",
+        "International Export"
+      ]
+    },
+    "facility": {
+      "headline": "Designed for Efficiency. Built for Consistency.",
+      "copy": "Our facilities are continuously developed to improve operational efficiency while maintaining product quality and workplace safety.\n\nEvery production area is organized to support smooth workflows and reliable manufacturing performance."
+    },
+    "equipment": {
+      "headline": "Supporting Precision at Every Stage.",
+      "copy": "Reliable manufacturing depends on reliable equipment. HANCOCO continuously invests in production systems that improve consistency, productivity, and operational efficiency.",
+      "cards": [
+        {
+          "title": "Processing Equipment",
+          "desc": "Advanced machinery for breaking down and extracting coconut materials."
+        },
+        {
+          "title": "Drying Systems",
+          "desc": "Controlled environments to maintain optimal moisture levels."
+        },
+        {
+          "title": "Packaging Equipment",
+          "desc": "Automated and semi-automated systems for secure containment."
+        },
+        {
+          "title": "Material Handling",
+          "desc": "Efficient movement of goods across the production floor."
+        },
+        {
+          "title": "Storage Facilities",
+          "desc": "Climate-managed areas to preserve product integrity."
+        },
+        {
+          "title": "Export Loading Equipment",
+          "desc": "Heavy-duty machinery for safe container stuffing."
+        }
+      ]
+    },
+    "qc": {
+      "headline": "Quality Is Built Into Every Process.",
+      "copy": "Quality assurance is integrated throughout our production workflow not inspected only at the end. Each stage is monitored to ensure product consistency before shipment.",
+      "steps": [
+        "Incoming Inspection",
+        "Production Monitoring",
+        "Sampling",
+        "Laboratory Testing",
+        "Final Inspection",
+        "Packaging Inspection",
+        "Container Loading Inspection"
+      ]
+    },
+    "warehouse": {
+      "headline": "Ready for Reliable Global Distribution.",
+      "copy": "Proper storage, careful packaging, and organized logistics ensure every shipment leaves our facility in optimal condition."
+    },
+    "safety": {
+      "headline": "Responsible Manufacturing for Long-Term Impact.",
+      "copy": "Manufacturing excellence is measured not only by productivity but also by responsibility. HANCOCO continuously improves resource efficiency while supporting sustainable operations across the value chain.",
+      "cards": [
+        "Responsible Resource Use",
+        "Efficient Operations",
+        "Waste Utilization",
+        "Farmer Partnerships",
+        "Continuous Improvement",
+        "Future Manufacturing"
+      ]
+    },
+    "future": {
+      "headline": "Preparing for Tomorrow's Opportunities.",
+      "copy": "As market demand evolves, HANCOCO continues expanding its capabilities to develop higher-value coconut derivatives and strengthen its integrated manufacturing ecosystem.",
+      "list": [
+        "Virgin Coconut Oil (VCO)",
+        "Desiccated Coconut",
+        "Coconut Milk",
+        "Coconut Cream",
+        "Activated Carbon",
+        "Cocopeat",
+        "Coco Fiber",
+        "Briquettes",
+        "Organic Fertilizer",
+        "Bioenergy"
+      ]
+    },
+    "stats": {
+      "items": [
+        {
+          "val": "2020",
+          "label": "Founded in"
+        },
+        {
+          "val": "100%",
+          "label": "Integrated Manufacturing"
+        },
+        {
+          "val": "15+",
+          "label": "Export-Oriented Production"
+        },
+        {
+          "val": "360°",
+          "label": "Circular Economy Approach"
+        },
+        {
+          "val": "24/7",
+          "label": "Continuous Process Improvement"
+        }
+      ]
+    },
+    "final": {
+      "headline": "Manufacturing Built for Lasting Partnerships.",
+      "copy": "Whether you are sourcing premium coconut products or exploring long-term manufacturing collaboration, HANCOCO is ready to support your business with reliable production, consistent quality, and responsible practices.",
+      "cta1": "Request a Quote",
+      "cta2": "Contact Our Team",
+      "note": "\"From responsible sourcing to export ready manufacturing, every process at HANCOCO is designed to deliver quality you can trust and partnerships that last.\""
+    }
+  },
+  "sustainabilityPage": {
+    "hero": {
+      "eyebrow": "SUSTAINABILITY",
+      "headline": "Growing Together. Creating Value That Lasts.",
+      "copy": "Sustainability is more than protecting natural resources. It is about creating long-term value for farmers, customers, communities, and future generations. At HANCOCO, every decision is guided by responsibility, innovation, and respect for nature.",
+      "cta": "Discover Our Circular Economy"
+    },
+    "philosophy": {
+      "headline": "Sustainability Begins with Every Decision.",
+      "copy": "At HANCOCO, sustainability is integrated into the way we source, produce, and grow. We believe that responsible business creates stronger partnerships, healthier ecosystems, and greater opportunities for future generations.\n\nEvery coconut we process represents our commitment to balancing economic growth with environmental and social responsibility.",
+      "cards": [
+        {
+          "title": "Responsible Business",
+          "desc": "Building long-term value through ethical and transparent practices."
+        },
+        {
+          "title": "Shared Growth",
+          "desc": "Creating opportunities that benefit farmers, partners, and communities together."
+        },
+        {
+          "title": "Future Focus",
+          "desc": "Investing in sustainable solutions that support tomorrow's industries."
+        }
+      ]
+    },
+    "circular": {
+      "headline": "Nothing Is Wasted. Everything Creates Value.",
+      "copy": "Every part of the coconut has the potential to become a valuable product. Through our integrated circular economy approach, we maximize resources, reduce waste, and create sustainable opportunities across the entire value chain.",
+      "chain": [
+        "Coconut Farm",
+        "Responsible Harvest",
+        "Collection",
+        "Integrated Processing",
+        "Quality Assurance",
+        "Premium Products",
+        "Domestic & Global Markets",
+        "Future Coconut Innovations"
+      ],
+      "highlights": [
+        {
+          "title": "Responsible Sourcing",
+          "desc": "Building trusted relationships with coconut farmers."
+        },
+        {
+          "title": "Efficient Processing",
+          "desc": "Maximizing every valuable coconut component."
+        },
+        {
+          "title": "Resource Optimization",
+          "desc": "Reducing waste through integrated production."
+        },
+        {
+          "title": "Long-Term Impact",
+          "desc": "Creating economic and environmental value together."
+        }
+      ]
+    },
+    "farming": {
+      "headline": "Strong Communities Build Strong Supply Chains.",
+      "copy": "Behind every premium product are dedicated farming communities. HANCOCO believes long-term partnerships begin by supporting those who cultivate the resources we depend on.\n\nBy working closely with local farmers, we aim to strengthen livelihoods while improving consistency, quality, and sustainable agricultural practices."
+    },
+    "manufacturing": {
+      "headline": "Manufacturing with Purpose.",
+      "copy": "Responsible manufacturing means using resources efficiently, maintaining consistent quality, and continuously improving operational performance.\n\nWe believe manufacturing excellence should create value not only for customers, but also for people and the environment.",
+      "cards": [
+        "Resource Efficiency",
+        "Quality Consistency",
+        "Operational Improvement",
+        "Responsible Production"
+      ]
+    },
+    "environmental": {
+      "headline": "Protecting Nature Through Better Practices.",
+      "copy": "Nature provides the foundation of our business. Protecting it is essential to our future. HANCOCO continuously seeks ways to improve efficiency, optimize resource use, and support responsible environmental stewardship throughout our operations.",
+      "cards": [
+        {
+          "title": "Resource Efficiency",
+          "desc": "Using resources more responsibly."
+        },
+        {
+          "title": "Waste Reduction",
+          "desc": "Creating value from every coconut component."
+        },
+        {
+          "title": "Continuous Improvement",
+          "desc": "Seeking better ways to reduce environmental impact."
+        },
+        {
+          "title": "Long-Term Responsibility",
+          "desc": "Growing sustainably for future generations."
+        }
+      ]
+    },
+    "social": {
+      "headline": "Creating Opportunities That Grow Together.",
+      "copy": "Sustainability is measured by the positive impact we create for people. HANCOCO believes meaningful partnerships contribute to stronger communities, shared prosperity, and long-term business resilience.",
+      "cards": [
+        "Farmer Empowerment",
+        "Local Employment",
+        "Skills Development",
+        "Community Collaboration"
+      ]
+    },
+    "ahead": {
+      "headline": "Building Tomorrow's Coconut Industry.",
+      "copy": "Our sustainability journey continues through innovation, stronger partnerships, and the development of higher-value coconut products that maximize natural resources while supporting global market needs.\n\nWe believe the future belongs to businesses that create lasting value for both people and the planet.",
+      "roadmap": [
+        "Higher-value coconut derivatives",
+        "Resource-efficient manufacturing",
+        "Expanded farmer partnerships",
+        "Circular economy innovation",
+        "Sustainable global growth"
+      ]
+    },
+    "stats": {
+      "items": [
+        "Established Since 2020",
+        "Circular Economy Business Model",
+        "Integrated Coconut Processing",
+        "Export-Oriented Operations",
+        "Long-Term Farmer Partnerships"
+      ]
+    },
+    "final": {
+      "headline": "Building a More Sustainable Future, Together.",
+      "copy": "Every partnership is an opportunity to create lasting value. Together with our customers, suppliers, and communities, we are shaping a more responsible and sustainable future for the global coconut industry.",
+      "cta1": "Partner With HANCOCO",
+      "cta2": "Contact Our Team",
+      "note": "\"Sustainability is not the destination of our journey—it is the way we choose to move forward, together.\""
+    }
+  },
+  "corporatePage": {
+    "hero": {
+      "eyebrow": "RESOURCES",
+      "headline": "Access Official HANCOCO Resources.",
+      "copy": "Download our latest company profile, product catalogs, technical documents, and business resources to learn more about HANCOCO's integrated coconut processing capabilities and export-ready solutions.",
+      "cta1": "Browse Resources",
+      "cta2": "Contact Our Team"
+    },
+    "featured": {
+      "headline": "Essential Resources for Buyers and Partners.",
+      "cards": [
+        {
+          "title": "Company Profile",
+          "desc": "Learn about HANCOCO's vision, capabilities, manufacturing, sustainability, and global business strategy."
+        },
+        {
+          "title": "Product Catalog",
+          "desc": "Explore our complete range of coconut products, technical specifications, packaging options, and applications."
+        },
+        {
+          "title": "Corporate Presentation",
+          "desc": "A concise overview of HANCOCO for business meetings, investors, and strategic partners."
+        }
+      ]
+    },
+    "library": {
+      "headline": "Download Library",
+      "categories": [
+        "Company Documents",
+        "Product Catalogs",
+        "Technical Data Sheets",
+        "Certifications",
+        "Sustainability Reports",
+        "Export Resources",
+        "Corporate Presentations",
+        "Marketing Materials"
+      ],
+      "docs": [
+        {
+          "title": "White Copra Specification Sheet",
+          "desc": "Technical specifications and quality standards.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Black Copra Specification Sheet",
+          "desc": "Product details and export specifications.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Coconut Charcoal Specification Sheet",
+          "desc": "Moisture, ash content, fixed carbon, packaging.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Coconut Oil Specification Sheet",
+          "desc": "Applications and technical data.",
+          "type": "Technical",
+          "format": "PDF"
+        },
+        {
+          "title": "Export Guide",
+          "desc": "General export information and inquiry process.",
+          "type": "Export",
+          "format": "PDF"
+        },
+        {
+          "title": "Sustainability Overview",
+          "desc": "HANCOCO's sustainability initiatives.",
+          "type": "Sustainability",
+          "format": "PDF"
+        }
+      ]
+    },
+    "certs": {
+      "headline": "Quality & Compliance Documents.",
+      "list": [
+        {
+          "name": "Halal Certificate",
+          "status": "Available"
+        },
+        {
+          "name": "ISO Certification",
+          "status": "Coming Soon"
+        },
+        {
+          "name": "HACCP",
+          "status": "Coming Soon"
+        },
+        {
+          "name": "GMP",
+          "status": "Coming Soon"
+        },
+        {
+          "name": "Food Safety Documentation",
+          "status": "Available"
+        },
+        {
+          "name": "Export Compliance",
+          "status": "Available"
+        }
+      ]
+    },
+    "help": {
+      "headline": "Need a Custom Document?",
+      "copy": "If you require additional product information, custom specifications, certificates, or marketing materials, our team is ready to assist.",
+      "cta1": "Request Documents",
+      "cta2": "Contact Sales"
+    },
+    "final": {
+      "headline": "Everything You Need to Start with Confidence.",
+      "copy": "Whether you're evaluating products, planning an import, or exploring a long-term partnership, our official resources are designed to help you make informed decisions.",
+      "cta1": "Download Company Profile",
+      "cta2": "Request a Quotation"
+    }
+  },
+  "insightPage": {
+    "hero": {
+      "eyebrow": "HANCOCO INSIGHTS",
+      "headline": "Insights Shaping the Future of the Coconut Industry.",
+      "copy": "Explore market intelligence, export knowledge, sustainability perspectives, manufacturing excellence, and product innovations from Indonesia's integrated coconut processing industry.",
+      "cta1": "Explore Latest Insights",
+      "cta2": "Subscribe to Updates"
+    },
+    "featured": {
+      "category": "Market Intelligence",
+      "title": "The Future of Indonesia's Coconut Industry in Global Markets",
+      "desc": "Discover how integrated processing, sustainability, and innovation are transforming Indonesia into one of the world's most competitive coconut-producing nations.",
+      "author": "HANCOCO Intelligence",
+      "readTime": "5 min read",
+      "date": "July 15, 2026",
+      "cta": "Read Full Article"
+    },
+    "categories": {
+      "headline": "Insight Categories",
+      "list": [
+        "Market Intelligence",
+        "Export Knowledge",
+        "Product Insights",
+        "Manufacturing",
+        "Sustainability",
+        "Innovation",
+        "Company News",
+        "Farmer Stories"
+      ]
+    },
+    "latest": {
+      "headline": "Latest Insights",
+      "articles": [
+        {
+          "category": "Market Intelligence",
+          "title": "The Rising Demand for Coconut Charcoal in International Markets",
+          "desc": "Analysis of the shisha and BBQ industry growth.",
+          "readTime": "4 min",
+          "date": "Jul 10, 2026"
+        },
+        {
+          "category": "Export Knowledge",
+          "title": "Preparing Coconut Products for Export: A Practical Guide",
+          "desc": "Essential documentation and compliance steps.",
+          "readTime": "6 min",
+          "date": "Jul 05, 2026"
+        },
+        {
+          "category": "Product Insights",
+          "title": "Understanding White Copra Quality Standards",
+          "desc": "Moisture content, FFA levels, and their impact.",
+          "readTime": "5 min",
+          "date": "Jun 28, 2026"
+        },
+        {
+          "category": "Manufacturing",
+          "title": "Why Consistent Quality Begins at the Source",
+          "desc": "Inside our farmer partnership programs.",
+          "readTime": "4 min",
+          "date": "Jun 20, 2026"
+        },
+        {
+          "category": "Innovation",
+          "title": "Unlocking the Future of Coconut-Based Industries",
+          "desc": "New derivatives and bio-materials.",
+          "readTime": "7 min",
+          "date": "Jun 15, 2026"
+        },
+        {
+          "category": "Sustainability",
+          "title": "How Circular Economy Creates Long-Term Value",
+          "desc": "Maximizing every part of the coconut harvest.",
+          "readTime": "5 min",
+          "date": "Jun 10, 2026"
+        }
+      ]
+    },
+    "newsletter": {
+      "headline": "Stay Ahead with HANCOCO Insights.",
+      "copy": "Receive market updates, export knowledge, sustainability reports, and industry analysis directly in your inbox.",
+      "placeholder": "Enter your business email",
+      "cta": "Subscribe Now",
+      "privacy": "We respect your privacy. No spam, ever."
+    },
+    "final": {
+      "headline": "Knowledge Creates Better Partnerships.",
+      "copy": "Whether you are exploring new markets, sourcing premium coconut products, or looking for industry insights, HANCOCO is ready to support your business with trusted expertise and long-term collaboration.",
+      "cta": "Contact Our Team"
+    }
+  },
+
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Business Development",
+      "headline": "Let's Build Something Lasting.",
+      "copy": "Whether you're sourcing coconut commodities, exploring export partnerships, or seeking long-term supply agreements — our team is ready to engage.",
+      "cta1": "Send an Inquiry",
+      "cta2": "WhatsApp Us"
+    },
+    "options": {
+      "headline": "How Can We Help?",
+      "items": [
+        { "icon": "package", "title": "Sales Inquiry", "desc": "Request pricing, MOQ details, and product availability for our commodity range.", "cta": "Inquire Now" },
+        { "icon": "ship", "title": "Export Inquiry", "desc": "Discuss export routes, shipping terms (FOB/CIF), container capacity, and documentation.", "cta": "Discuss Export" },
+        { "icon": "handshake", "title": "Partnership", "desc": "Explore long-term supply agreements, joint ventures, or distribution partnerships.", "cta": "Explore Partnership" },
+        { "icon": "info", "title": "General Information", "desc": "Request company profile, product catalogs, certifications, or technical data sheets.", "cta": "Get Resources" }
+      ]
+    },
+    "form": {
+      "headline": "Send Us a Message.",
+      "copy": "Complete the form below and our team will respond within 1–2 business days.",
+      "inquiryType": "Inquiry Type",
+      "inquiryOptions": ["Product / Sales Inquiry", "Export & Shipping", "Partnership & Distribution", "Investment", "General Information"],
+      "product": "Product of Interest",
+      "productOptions": ["White Copra", "Black Copra", "Coconut Charcoal", "Coconut Oil", "Multiple Products", "Other / Not Sure"],
+      "company": "Company Name",
+      "contact": "Contact Person",
+      "email": "Business Email",
+      "country": "Country",
+      "whatsapp": "WhatsApp Number",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your requirements, volume, destination port, and any specific needs...",
+      "submit": "Send Inquiry",
+      "note": "We typically respond within 1–2 business days. For urgent inquiries, contact us via WhatsApp."
+    },
+    "office": {
+      "headline": "Find Us.",
+      "address": "Indonesia — complete address to be added",
+      "email": "export@hancoco.com",
+      "whatsapp": "+62 xxx xxxx xxxx",
+      "hours": "Mon – Fri, 08:00 – 17:00 WIB"
+    },
+    "global": {
+      "headline": "Serving Buyers Across 15+ Countries.",
+      "markets": ["India", "Malaysia", "China", "UAE", "Saudi Arabia", "Vietnam", "Philippines", "Japan", "South Korea", "Germany", "Netherlands", "USA", "Australia", "Turkey", "Nigeria"]
+    },
+    "faq": {
+      "headline": "Quick Answers.",
+      "items": [
+        { "q": "What is your minimum order quantity?", "a": "Our standard MOQ is 1 × 20ft container. We also accommodate larger orders (40ft / 40ft HC). Final MOQ depends on product type and destination." },
+        { "q": "Do you provide product samples?", "a": "Yes. We provide samples for qualified buyers after initial inquiry review. Sample lead time is approximately 7–14 business days." },
+        { "q": "What payment terms do you accept?", "a": "We accept T/T (Telegraphic Transfer) and L/C (Letter of Credit). Terms are finalized during the quotation stage." }
+      ]
+    },
+    "social": {
+      "headline": "Connect With Us.",
+      "links": ["LinkedIn", "WhatsApp Business", "Email"]
+    },
+    "final": {
+      "headline": "Ready to Start a Conversation?",
+      "cta1": "Request a Quotation",
+      "cta2": "Become Our Partner"
+    }
+  },
+
+  "faqPage": {
+    "hero": {
+      "eyebrow": "Support Center",
+      "headline": "Frequently Asked Questions.",
+      "copy": "Everything you need to know about HANCOCO's products, export process, quality standards, and partnership opportunities."
+    },
+    "categories": ["All", "General", "Products", "Quality", "Export", "Ordering & RFQ", "Partnership"],
+    "search": {
+      "placeholder": "Search questions..."
+    },
+    "sections": [
+      {
+        "category": "General Company",
+        "icon": "building",
+        "items": [
+          { "q": "What is HANCOCO?", "a": "HANCOCO is an integrated coconut processing company based in Indonesia, established in 2020. We produce and export premium coconut-derived commodities including White Copra, Black Copra, Coconut Charcoal, and Coconut Oil for B2B and industrial buyers worldwide." },
+          { "q": "Where is HANCOCO located?", "a": "Our processing facilities and head office are located in Indonesia. We export primarily through major Indonesian ports including Belawan (North Sumatra) and Tanjung Priok (Jakarta)." },
+          { "q": "Is HANCOCO a manufacturer or a trader?", "a": "HANCOCO is a fully integrated processor and manufacturer — not a trader or broker. We own and operate our processing facilities, giving buyers direct access to the source of production with full quality control." },
+          { "q": "What certifications does HANCOCO hold?", "a": "We currently hold Halal certification. ISO, HACCP, and GMP certifications are in progress (Coming Soon). We update our certification status regularly on our Corporate Resources page." },
+          { "q": "What languages do you operate in?", "a": "Our team operates in Bahasa Indonesia and English. All export documentation, product specifications, and communications are available in English." }
+        ]
+      },
+      {
+        "category": "Products",
+        "icon": "package",
+        "items": [
+          { "q": "What products does HANCOCO offer?", "a": "Our current active product range includes: White Copra (low moisture, food-grade), Black Copra (industrial grade), Coconut Charcoal (BBQ/hookah/industrial briquettes), and Coconut Oil (RBD/Virgin). Additional products including Desiccated Coconut, Coconut Fiber, and VCO are in our development pipeline." },
+          { "q": "Can I request custom specifications?", "a": "Yes. We accommodate custom moisture content, ash content, fixed carbon levels (for charcoal), particle size, and packaging configurations based on buyer requirements and minimum order volumes." },
+          { "q": "What is the shelf life of your products?", "a": "Shelf life varies by product: Copra (6–12 months in proper storage), Coconut Charcoal (24+ months), Coconut Oil (12–24 months). We provide storage guidelines with each shipment." },
+          { "q": "Do you offer organic or certified organic products?", "a": "We source from coconut farms in Indonesia. Organic certification is part of our product roadmap. Contact our team to discuss specific compliance requirements for your market." }
+        ]
+      },
+      {
+        "category": "Quality & Manufacturing",
+        "icon": "shield",
+        "items": [
+          { "q": "How do you ensure product quality consistency?", "a": "Our 7-stage Quality Control process covers Incoming Inspection, Production Monitoring, Sampling, Laboratory Testing, Moisture & Weight Check, Pre-Shipment Inspection, and Final Approval. Each batch is documented and traceable." },
+          { "q": "Can buyers arrange third-party inspection?", "a": "Yes. We welcome pre-shipment inspection by accredited third-party agencies (SGS, Bureau Veritas, Intertek, etc.). Arrangements should be communicated at the order confirmation stage." },
+          { "q": "What are your production capacity figures?", "a": "We can provide detailed capacity data during the quotation and due diligence stage. Our facilities are scalable to support both spot orders and long-term supply contracts." }
+        ]
+      },
+      {
+        "category": "Export & Logistics",
+        "icon": "ship",
+        "items": [
+          { "q": "What trade terms (Incoterms) do you support?", "a": "We support FOB (Free On Board), CIF (Cost, Insurance & Freight), and CFR (Cost and Freight). The preferred Incoterm is agreed upon during the quotation stage based on your destination port and requirements." },
+          { "q": "Which ports do you ship from?", "a": "Our primary export ports are Belawan (Medan, North Sumatra) and Tanjung Priok (Jakarta). Port selection depends on the specific product and logistics optimization." },
+          { "q": "What container sizes are available?", "a": "We ship in 20ft Standard, 40ft Standard, and 40ft High Cube (HC) containers. The optimal container type depends on product density and volume." },
+          { "q": "How long is the lead time from order to shipment?", "a": "Typical production-to-shipment lead time is 14–30 days from Purchase Order confirmation, subject to order volume and current production schedule. Lead times are confirmed during the quotation process." }
+        ]
+      },
+      {
+        "category": "Ordering & RFQ",
+        "icon": "clipboard",
+        "items": [
+          { "q": "What is the RFQ process?", "a": "1. Browse our products and add items to the RFQ Cart. 2. Complete the RFQ form with your company details, volume requirements, and destination port. 3. Our team reviews and responds with an official quotation within 1–3 business days. 4. Upon agreement, we issue a Proforma Invoice and proceed to order confirmation." },
+          { "q": "What is the minimum order quantity (MOQ)?", "a": "Our standard MOQ is 1 × 20ft container (~18–25 MT depending on product). Larger volume orders receive priority processing and may qualify for preferential pricing." },
+          { "q": "Can I order multiple products in one RFQ?", "a": "Yes. Our RFQ system supports multi-product inquiries. Simply add all desired products to your RFQ Cart before submitting." }
+        ]
+      },
+      {
+        "category": "Partnership",
+        "icon": "handshake",
+        "items": [
+          { "q": "Does HANCOCO offer exclusive distribution agreements?", "a": "Yes, we explore exclusive and preferred distribution arrangements in strategic markets. Partnership terms depend on volume commitments, market coverage, and alignment with HANCOCO's brand standards." },
+          { "q": "How do I become a long-term supply partner?", "a": "Contact our Business Development team via the Contact page or submit an inquiry with 'Partnership' as your inquiry type. We'll arrange an introductory call to explore the opportunity." }
+        ]
+      }
+    ],
+    "still": {
+      "headline": "Still Have Questions?",
+      "copy": "Our team is available to address specific inquiries about products, export processes, or partnership opportunities.",
+      "cta1": "Contact Our Team",
+      "cta2": "WhatsApp Us"
+    }
+  },
+
+  "shippingPage": {
+    "hero": {
+      "eyebrow": "Shipping & Logistics",
+      "headline": "Export-Ready. Anywhere in the World.",
+      "copy": "From our processing facilities in Indonesia to your destination port — HANCOCO manages a complete, professional export process built for B2B commodity trade."
+    },
+    "process": {
+      "headline": "Our Export Process.",
+      "copy": "A structured, transparent 8-stage process from order confirmation to port delivery.",
+      "steps": [
+        { "num": "01", "title": "RFQ & Quotation", "desc": "Buyer submits RFQ. Our team responds with an official quotation including pricing, Incoterms, lead time, and documentation checklist." },
+        { "num": "02", "title": "Order Confirmation", "desc": "Buyer confirms the order via Purchase Order (PO). Proforma Invoice (PI) is issued by HANCOCO for payment processing." },
+        { "num": "03", "title": "Production & Processing", "desc": "Product is manufactured or prepared to specification. Quality checks are conducted at each production stage." },
+        { "num": "04", "title": "Quality Inspection", "desc": "Pre-shipment inspection by HANCOCO QC team. Third-party inspection available upon buyer request (SGS, Intertek, etc.)." },
+        { "num": "05", "title": "Container Loading", "desc": "Product is packed, weighed, and loaded into containers (20ft / 40ft / 40ft HC) following international cargo standards." },
+        { "num": "06", "title": "Port & Customs", "desc": "Customs clearance at Indonesian export port. All required export documents are processed and verified." },
+        { "num": "07", "title": "Ocean Freight", "desc": "Shipment departs from Belawan or Tanjung Priok port. Buyer is notified with vessel name, voyage number, and ETA." },
+        { "num": "08", "title": "Document Delivery", "desc": "Full shipping documentation package delivered to buyer: B/L, Commercial Invoice, Packing List, Certificate of Origin, and others." }
+      ]
+    },
+    "ports": {
+      "headline": "Export Ports & Container Capacity.",
+      "copy": "Strategic port access for efficient delivery to Asian, Middle Eastern, European, and American markets.",
+      "items": [
+        { "port": "Belawan, North Sumatra", "code": "IDBWN", "routes": "Asia, Middle East, Europe" },
+        { "port": "Tanjung Priok, Jakarta", "code": "IDJKT", "routes": "Global — Primary Hub" }
+      ],
+      "containers": [
+        { "type": "20ft Standard", "capacity": "~18–22 MT", "note": "Standard commodity shipment" },
+        { "type": "40ft Standard", "capacity": "~22–26 MT", "note": "High-volume orders" },
+        { "type": "40ft High Cube", "capacity": "~24–28 MT", "note": "Bulky/light commodity" }
+      ]
+    },
+    "incoterms": {
+      "headline": "Trade Terms We Support.",
+      "items": [
+        { "term": "FOB", "full": "Free On Board", "desc": "HANCOCO delivers goods to the origin port and loads them onto the vessel. Buyer assumes risk and freight costs from that point. Most common term for experienced importers." },
+        { "term": "CIF", "full": "Cost, Insurance & Freight", "desc": "HANCOCO covers shipping cost and insurance to the destination port. Buyer takes ownership upon arrival. Preferred by buyers who want end-to-end simplicity." },
+        { "term": "CFR", "full": "Cost & Freight", "desc": "HANCOCO covers freight to destination port but the buyer arranges their own cargo insurance. A balance between FOB and CIF." }
+      ]
+    },
+    "documents": {
+      "headline": "Shipping Documents We Provide.",
+      "items": [
+        { "name": "Bill of Lading (B/L)", "desc": "Primary shipping document confirming cargo loaded onto vessel." },
+        { "name": "Commercial Invoice", "desc": "Official invoice detailing product, quantity, price, and trade terms." },
+        { "name": "Packing List", "desc": "Detailed list of all packages, weights, and dimensions." },
+        { "name": "Certificate of Origin (COO)", "desc": "Certifies that goods originate from Indonesia (for preferential tariff treatment)." },
+        { "name": "Phytosanitary Certificate", "desc": "Issued by government authority confirming product meets destination country health standards." },
+        { "name": "Halal Certificate", "desc": "HANCOCO-held Halal certification for applicable products." },
+        { "name": "Fumigation Certificate", "desc": "Confirms cargo has been treated to meet import country biosecurity requirements." },
+        { "name": "Third-Party Inspection Report", "desc": "Available upon request — issued by SGS, Intertek, or Bureau Veritas." }
+      ]
+    },
+    "markets": {
+      "headline": "Global Shipping Coverage.",
+      "copy": "We ship to 15+ countries across Asia, the Middle East, Europe, and beyond.",
+      "list": ["India", "China", "Malaysia", "Vietnam", "Philippines", "Japan", "South Korea", "UAE", "Saudi Arabia", "Germany", "Netherlands", "Turkey", "Nigeria", "Australia", "USA"]
+    },
+    "return": {
+      "headline": "Return & Claim Policy.",
+      "copy": "We are committed to delivering products that meet agreed specifications. In the rare case of a quality dispute, our structured resolution process ensures fair and prompt resolution.",
+      "steps": [
+        { "step": "01", "title": "Report the Issue", "desc": "Buyer submits a formal claim within 14 days of cargo arrival, supported by photos, lab analysis, and inspection report." },
+        { "step": "02", "title": "Investigation", "desc": "HANCOCO QC team reviews the claim against our pre-shipment inspection records and production documentation." },
+        { "step": "03", "title": "Resolution", "desc": "Resolution may include replacement shipment, credit note, or price adjustment — agreed mutually based on investigation findings." }
+      ]
+    },
+    "final": {
+      "headline": "Ready to Ship With Us?",
+      "copy": "Our export team is ready to guide you through the entire process — from RFQ to delivery.",
+      "cta1": "Request a Quotation",
+      "cta2": "Contact Export Team"
+    }
+  },
+
+  "storePage": {
+    "hero": {
+      "eyebrow": "B2B Product Catalog",
+      "headline": "Source Premium Coconut Commodities.",
+      "copy": "Export-ready products from Indonesia's integrated coconut processor. Browse our range and submit your Request for Quotation.",
+      "cta1": "Browse Products",
+      "cta2": "Request Quotation"
+    },
+    "filter": {
+      "all": "All Products",
+      "categories": ["Copra", "Charcoal", "Oil", "Fiber & Peat", "Coming Soon"]
+    },
+    "products": [
+      {
+        "id": "white-copra",
+        "name": "White Copra",
+        "category": "Copra",
+        "slug": "white-copra",
+        "tagline": "Premium food-grade dried coconut kernel",
+        "desc": "High-quality white copra with controlled moisture content, suitable for coconut oil extraction and food processing industries worldwide.",
+        "applications": ["Coconut Oil Extraction", "Food Processing", "Oleochemical Industry", "Animal Feed"],
+        "badge": "Export Ready",
+        "status": "active",
+        "image": "/assets/images/nipanan-lifestyle-pV2xU2rP580-unsplash.webp",
+        "specs": {
+          "moisture": "≤ 6%",
+          "ffa": "≤ 3%",
+          "oilContent": "63–68%",
+          "form": "Halved / Pieces",
+          "packaging": "50kg PP Bags / Bulk"
+        }
+      },
+      {
+        "id": "black-copra",
+        "name": "Black Copra",
+        "category": "Copra",
+        "slug": "black-copra",
+        "tagline": "Industrial-grade copra for high-volume processing",
+        "desc": "Industrial-grade black copra processed for large-scale coconut oil production. Suitable for refining processes where color is not critical.",
+        "applications": ["Industrial Oil Extraction", "Oleochemical Feed", "Biodiesel Feedstock"],
+        "badge": "Export Ready",
+        "status": "active",
+        "image": "/assets/images/dipesh-ray-kngFBByxsvw-unsplash.webp",
+        "specs": {
+          "moisture": "≤ 8%",
+          "ffa": "≤ 5%",
+          "oilContent": "60–65%",
+          "form": "Halved / Pieces",
+          "packaging": "50kg PP Bags / Bulk"
+        }
+      },
+      {
+        "id": "coconut-charcoal",
+        "name": "Coconut Charcoal",
+        "category": "Charcoal",
+        "slug": "coconut-charcoal",
+        "tagline": "Premium coconut shell charcoal briquettes",
+        "desc": "High fixed-carbon coconut shell charcoal briquettes for BBQ, hookah/shisha, and industrial applications. Consistent heat, low ash, long burn time.",
+        "applications": ["BBQ & Grilling", "Hookah / Shisha", "Industrial Fuel", "Activated Carbon Feedstock"],
+        "badge": "Export Ready",
+        "status": "active",
+        "image": "/assets/images/pexels-cmrcn-29132448.webp",
+        "specs": {
+          "fixedCarbon": "≥ 75%",
+          "moisture": "≤ 5%",
+          "ashContent": "≤ 3%",
+          "calorificValue": "7,000+ kcal/kg",
+          "packaging": "10kg / 20kg Cartons"
+        }
+      },
+      {
+        "id": "coconut-oil",
+        "name": "Coconut Oil",
+        "category": "Oil",
+        "slug": "coconut-oil",
+        "tagline": "Refined coconut oil for food & industrial use",
+        "desc": "High-purity RBD (Refined, Bleached, Deodorized) coconut oil for food manufacturing, cosmetics, and industrial applications.",
+        "applications": ["Food Manufacturing", "Cosmetics & Personal Care", "Pharmaceuticals", "Industrial Lubricants"],
+        "badge": "Export Ready",
+        "status": "active",
+        "image": "/assets/images/towfiqu-barbhuiya-o3Dunr7Vl-o-unsplash.webp",
+        "specs": {
+          "ffa": "≤ 0.1%",
+          "moisture": "≤ 0.1%",
+          "color": "Water white",
+          "meltingPoint": "23–26°C",
+          "packaging": "20L Jerrican / 180kg Drum / ISO Tank"
+        }
+      },
+      {
+        "id": "cocopeat",
+        "name": "Cocopeat / Coir Pith",
+        "category": "Fiber & Peat",
+        "slug": "cocopeat",
+        "tagline": "Sustainable growing medium from coconut husk",
+        "desc": "Premium cocopeat (coir pith) — a natural, sustainable growing medium with excellent water retention properties for horticulture and agriculture.",
+        "applications": ["Horticulture", "Hydroponics", "Soil Amendment", "Substrate Blending"],
+        "badge": "Export Ready",
+        "status": "active",
+        "image": "/assets/images/cocopeat.webp",
+        "specs": {
+          "moisture": "≤ 20%",
+          "ph": "5.5–6.5",
+          "ec": "≤ 0.5 mS/cm",
+          "form": "Blocks / Briquettes / Loose",
+          "packaging": "5kg Block / 650g Disk / Bulk"
+        }
+      },
+      {
+        "id": "desiccated-coconut",
+        "name": "Desiccated Coconut",
+        "category": "Coming Soon",
+        "slug": "desiccated-coconut",
+        "tagline": "Fine-cut dried coconut for food industry",
+        "desc": "Premium desiccated coconut in fine, medium, and coarse grades for bakeries, confectioneries, and food manufacturers.",
+        "applications": ["Bakery", "Confectionery", "Snack Manufacturing", "Food Ingredient"],
+        "badge": "Coming Soon",
+        "status": "coming_soon",
+        "image": "/assets/images/pexels-bogdankrupin-3986706.webp",
+        "specs": {}
+      }
+    ],
+    "why": {
+      "headline": "Why Source From HANCOCO?",
+      "items": [
+        { "icon": "factory", "text": "Direct From Processor" },
+        { "icon": "shield", "text": "7-Stage Quality Control" },
+        { "icon": "ship", "text": "Export Ready — 15+ Countries" },
+        { "icon": "leaf", "text": "Sustainable & Halal Certified" },
+        { "icon": "clock", "text": "14–30 Day Lead Time" },
+        { "icon": "headset", "text": "Dedicated Export Team" }
+      ]
+    },
+    "rfq": {
+      "headline": "Request for Quotation",
+      "copy": "Complete the form below to receive an official quotation from our export team.",
+      "fields": {
+        "company": "Company Name",
+        "contact": "Contact Person",
+        "email": "Business Email",
+        "country": "Country",
+        "whatsapp": "WhatsApp Number",
+        "port": "Destination Port",
+        "incoterms": "Preferred Incoterms",
+        "incotermsOptions": ["FOB", "CIF", "CFR", "To Be Discussed"],
+        "quantity": "Estimated Order Quantity",
+        "date": "Target Purchase Date",
+        "notes": "Additional Requirements",
+        "notesPlaceholder": "Packaging preferences, quality standards, special requirements..."
+      },
+      "submit": "Submit RFQ",
+      "note": "Our export team will respond within 1–3 business days with an official quotation.",
+      "whatsapp": "Or contact us directly via WhatsApp"
+    },
+    "cart": {
+      "title": "RFQ Cart",
+      "empty": "Your RFQ cart is empty. Browse products and add items to request a quotation.",
+      "product": "Product",
+      "quantity": "Quantity (Containers)",
+      "remove": "Remove",
+      "proceed": "Proceed to RFQ Form",
+      "continue": "Continue Browsing"
+    }
+  }
+}
