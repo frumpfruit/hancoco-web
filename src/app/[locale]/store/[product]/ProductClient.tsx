@@ -92,7 +92,7 @@ export default function ProductClient({ slug }: { slug: string }) {
       {/* 1. PRODUCT HERO — 60/40 split */}
       <section style={{ padding: "80px 0", background: "var(--ivory)" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "72px", alignItems: "start" }}>
+          <div className="product-hero-grid">
 
             {/* Left: Gallery */}
             <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
@@ -235,10 +235,20 @@ export default function ProductClient({ slug }: { slug: string }) {
         .related-card:hover .related-cta {
           color: var(--forest) !important;
         }
+        .product-hero-grid {
+          display: grid;
+          grid-template-columns: 1.2fr 1fr;
+          gap: 72px;
+          align-items: start;
+        }
         @media (max-width: 900px) {
           .related-grid {
             grid-template-columns: 1fr !important;
             gap: 32px !important;
+          }
+          .product-hero-grid {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
           }
         }
       `}} />
