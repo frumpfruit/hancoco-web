@@ -45,7 +45,7 @@ export default function RFQSection() {
         }}>
 
           {/* Left — Form */}
-          <div style={{ background: "var(--white)", padding: "56px 52px" }}>
+          <div className="form-panel" style={{ background: "var(--white)", padding: "56px 52px" }}>
             <span className="eyebrow">{t("eyebrow")}</span>
             <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.8rem, 2.8vw, 2.4rem)", marginBottom: "36px" }}>
               {t("headline")}
@@ -53,7 +53,7 @@ export default function RFQSection() {
 
             <form onSubmit={(e) => e.preventDefault()}>
               {/* Row 1 */}
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", marginBottom: "16px" }}>
+              <div className="form-row" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", marginBottom: "16px" }}>
                 {[
                   { key: "company", label: t("form.company"), type: "text" },
                   { key: "country", label: t("form.country"), type: "text" },
@@ -109,7 +109,7 @@ export default function RFQSection() {
               </div>
 
               {/* Row 2 */}
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", marginBottom: "16px" }}>
+              <div className="form-row" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", marginBottom: "16px" }}>
                 {[
                   { key: "quantity", label: t("form.quantity") },
                   { key: "port", label: t("form.port") },
@@ -163,7 +163,7 @@ export default function RFQSection() {
           </div>
 
           {/* Right — Info panel */}
-          <div style={{ background: "var(--forest-dark)", color: "var(--ivory)", padding: "56px 44px", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+          <div className="info-panel" style={{ background: "var(--forest-dark)", color: "var(--ivory)", padding: "56px 44px", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
             <div>
               <p style={{ fontFamily: "var(--font-mono)", fontSize: "12px", color: "var(--sand)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "28px" }}>
                 {t("description")}
@@ -209,6 +209,11 @@ export default function RFQSection() {
       <style>{`
         @media (max-width: 900px) {
           #rfq > .wrap > div { grid-template-columns: 1fr !important; }
+        }
+        @media (max-width: 640px) {
+          #rfq .form-row { grid-template-columns: 1fr !important; }
+          #rfq .form-panel { padding: 40px 24px !important; }
+          #rfq .info-panel { padding: 40px 24px !important; }
         }
       `}</style>
     </section>

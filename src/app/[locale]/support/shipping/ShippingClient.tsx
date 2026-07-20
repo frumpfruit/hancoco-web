@@ -30,7 +30,7 @@ export default function ShippingClient() {
   ];
 
   return (
-    <div style={{ background: "var(--ivory)", color: "var(--charcoal)" }}>
+    <div style={{ background: "var(--ivory)", color: "var(--charcoal)", overflowX: "hidden" }}>
 
       {/* 1. HERO — Full bleed container port */}
       <section style={{ position: "relative", height: "80vh", minHeight: "600px", display: "flex", alignItems: "flex-end", overflow: "hidden" }}>

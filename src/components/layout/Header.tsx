@@ -399,13 +399,53 @@ export default function Header() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
             style={{
-              position: "absolute", top: "100%", left: 0, right: 0, height: "calc(100dvh - 100%)",
+              position: "fixed", top: 0, left: 0, right: 0, bottom: 0,
               background: "var(--white)",
-              zIndex: 40,
+              zIndex: 9999,
               display: "flex",
               flexDirection: "column"
             }}
           >
+            {/* Mobile nav header */}
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 24px", borderBottom: "1px solid var(--line)" }}>
+              <Link href={`/${locale}`} onClick={() => setMobileOpen(false)} style={{ display: "flex", alignItems: "center", gap: "10px", textDecoration: "none" }}>
+                <div style={{
+                  width: "28px", height: "28px", borderRadius: "50%",
+                  background: "var(--forest)", position: "relative", flexShrink: 0,
+                }}>
+                  <div style={{
+                    position: "absolute", inset: "6px",
+                    border: "2px solid var(--ivory)", borderRadius: "50%",
+                    borderRightColor: "transparent",
+                    transform: "rotate(45deg)",
+                  }} />
+                </div>
+                <span style={{ fontFamily: "var(--font-fraunces)", fontWeight: 700, fontSize: "18px", color: "var(--charcoal)", letterSpacing: "-0.02em" }}>
+                  HANCOCO
+                </span>
+              </Link>
+              <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                <button onClick={() => { setIsOpen(true); setMobileOpen(false); }} className="cart-btn" style={{
+                  width: "36px", height: "36px", borderRadius: "50%",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  background: "var(--ivory-dim)", border: "none", cursor: "pointer", color: "var(--charcoal)",
+                  position: "relative",
+                }}>
+                  <ShoppingCart size={17} />
+                  {items.length > 0 && (
+                    <span style={{ position: "absolute", top: "-2px", right: "-2px", background: "var(--forest)", color: "var(--sand)", borderRadius: "50%", width: "16px", height: "16px", fontSize: "9px", fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                      {items.reduce((s, i) => s + i.quantity, 0)}
+                    </span>
+                  )}
+                </button>
+                <button
+                  onClick={() => { setMobileOpen(false); setMobileActiveTab(null); }}
+                  style={{ width: "36px", height: "36px", borderRadius: "50%", background: "var(--ivory-dim)", border: "none", cursor: "pointer", color: "var(--charcoal)", display: "flex", alignItems: "center", justifyContent: "center" }}
+                >
+                  <X size={18} />
+                </button>
+              </div>
+            </div>
             <div style={{ flex: 1, overflowY: "auto", position: "relative", overflowX: "hidden" }}>
               <AnimatePresence mode="wait">
                 {!mobileActiveTab ? (

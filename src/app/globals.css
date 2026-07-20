@@ -183,6 +183,17 @@ h1, h2, h3, h4, h5 {
   padding: var(--space-section-sm) 0;
 }
 
+@media (max-width: 768px) {
+  :root {
+    --space-section: 80px;
+  }
+}
+@media (max-width: 480px) {
+  :root {
+    --space-section: 60px;
+  }
+}
+
 /* ============ BUTTONS ============ */
 .btn {
   display: inline-flex;

@@ -17,7 +17,7 @@ export default function ManufacturingSection() {
         <div className="manu-inner" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "72px", alignItems: "center" }}>
 
           {/* LEFT — Overlap collage */}
-          <div style={{ position: "relative", height: "460px" }}>
+          <div className="manu-collage" style={{ position: "relative", height: "460px" }}>
             {/* Block 1 — main image */}
             <div 
               style={{
@@ -62,16 +62,14 @@ export default function ManufacturingSection() {
               </div>
             </div>
 
-            {/* Block 3 — white card, counter-rotated (NOW MIDDLE LAYER) */}
+            {/* Block 3 — ISO badge image */}
             <div 
               style={{
                 position: "absolute", width: "36%", height: "32%",
                 top: "36%", right: "8%", zIndex: 2,
                 borderRadius: "14px",
-                background: "var(--white)", border: "1px solid var(--line)",
+                overflow: "hidden",
                 transform: "rotate(-4deg)",
-                display: "flex", alignItems: "center", justifyContent: "center",
-                textAlign: "center", padding: "14px",
                 boxShadow: "0 16px 32px -14px rgba(18,40,31,0.25)",
                 transition: "transform 0.4s ease, box-shadow 0.4s ease, z-index 0s",
               }}
@@ -88,9 +86,13 @@ export default function ManufacturingSection() {
                 el.style.boxShadow = "0 16px 32px -14px rgba(18,40,31,0.25)";
               }}
             >
-              <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", color: "var(--charcoal-soft)", lineHeight: "1.5", whiteSpace: "pre-line", pointerEvents: "none" }}>
-                {t("c3text")}
-              </span>
+              <Image
+                src="/assets/images/iso.webp"
+                alt="ISO Process Aligned"
+                fill
+                sizes="(max-width: 900px) 50vw, 18vw"
+                style={{ objectFit: "contain", padding: "12px" }}
+              />
             </div>
 
             {/* Block 2 — secondary image, rotated (NOW FRONT LAYER) */}
@@ -158,7 +160,11 @@ export default function ManufacturingSection() {
           </div>
         </div>
       </div>
-      <style>{`@media(max-width:900px){.manu-inner{grid-template-columns:1fr!important; gap:40px!important}}`}</style>
+      <style>{`
+        @media(max-width:900px){.manu-inner{grid-template-columns:1fr!important; gap:40px!important}}
+        @media(max-width:640px){.manu-collage{height:320px!important}}
+        @media(max-width:480px){.manu-collage{height:260px!important}}
+      `}</style>
     </section>
   );
 }

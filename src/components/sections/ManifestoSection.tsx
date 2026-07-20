@@ -11,7 +11,7 @@ export default function ManifestoSection() {
   const locale = useLocale();
 
   return (
-    <section style={{
+    <section className="manifesto-section" style={{
       background: "var(--charcoal)", color: "var(--ivory)",
       padding: "120px 0",
       position: "relative", overflow: "hidden",
@@ -74,15 +74,15 @@ export default function ManifestoSection() {
           {t("sub")}
         </p>
 
-        {/* 3 CTAs */}
-        <div style={{ display: "flex", gap: "14px", justifyContent: "center", flexWrap: "wrap" }}>
-          <Link href={`/${locale}/store/rfq`} className="btn btn-primary" style={{ fontSize: "15px", padding: "16px 28px" }}>
+          {/* 3 CTAs */}
+        <div className="manifesto-ctas" style={{ display: "flex", gap: "14px", justifyContent: "center", flexWrap: "wrap" }}>
+          <Link href={`/${locale}/store/rfq`} className="btn btn-primary manifesto-cta" style={{ fontSize: "15px", padding: "16px 28px" }}>
             {t("cta1")}
           </Link>
-          <a href="/documents/hancoco-company-profile.pdf" className="btn btn-on-dark" style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "15px", padding: "16px 28px" }}>
+          <a href="/documents/hancoco-company-profile.pdf" className="btn btn-on-dark manifesto-cta" style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "15px", padding: "16px 28px" }}>
             <FileText size={16} /> {t("cta2")}
           </a>
-          <Link href={`/${locale}/support/contact`} className="btn btn-on-dark" style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "15px", padding: "16px 28px" }}>
+          <Link href={`/${locale}/support/contact`} className="btn btn-on-dark manifesto-cta" style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "15px", padding: "16px 28px" }}>
             <Phone size={16} /> {t("cta3")}
           </Link>
         </div>
@@ -102,6 +102,18 @@ export default function ManifestoSection() {
           HANCOCO · INDONESIA · EST. 2020
         </p>
       </div>
+      <style>{`
+        @media (max-width: 768px) {
+          .manifesto-section { padding: 80px 0 !important; }
+        }
+        @media (max-width: 480px) {
+          .manifesto-section { padding: 60px 0 !important; }
+        }
+        @media (max-width: 640px) {
+          .manifesto-ctas { flex-direction: column !important; }
+          .manifesto-cta { width: 100% !important; justify-content: center !important; }
+        }
+      `}</style>
     </section>
   );
 }
