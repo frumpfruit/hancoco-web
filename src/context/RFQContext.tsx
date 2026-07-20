@@ -35,7 +35,10 @@ export function RFQProvider({ children }: { children: ReactNode }) {
   };
 
   const removeItem = (id: string) => setItems(prev => prev.filter(i => i.id !== id));
-  const updateQty = (id: string, qty: number) => setItems(prev => prev.map(i => i.id === id ? { ...i, quantity: Math.max(1, qty) } : i));
+  const updateQty = (id: string, qty: number) => {
+    if (qty < 1) return removeItem(id);
+    setItems(prev => prev.map(i => i.id === id ? { ...i, quantity: qty } : i));
+  };
   const clearCart = () => setItems([]);
 
   return (

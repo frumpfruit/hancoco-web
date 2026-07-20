@@ -1246,5 +1246,46 @@
       "proceed": "Lanjut ke Formulir RFQ",
       "continue": "Lanjut Menjelajah"
     }
+  },
+  "privacyPage": {
+    "hero": {
+      "headline": "Kebijakan Privasi",
+      "copy": "Bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda."
+    },
+    "lastUpdated": "Terakhir Diperbarui: Juli 2026",
+    "sections": [
+      {
+        "title": "Informasi yang Kami Kumpulkan",
+        "body": "Kami mengumpulkan informasi yang Anda berikan secara langsung, seperti saat mengisi formulir RFQ, menghubungi kami melalui email atau WhatsApp, atau berlangganan newsletter. Informasi ini dapat mencakup nama, nama perusahaan, alamat email, nomor telepon, negara, dan detail tentang minat produk Anda.\n\nKami juga secara otomatis mengumpulkan informasi teknis tertentu saat Anda mengunjungi situs web kami, termasuk alamat IP, jenis browser, informasi perangkat, dan perilaku penjelajahan melalui cookie dan teknologi serupa."
+      },
+      {
+        "title": "Bagaimana Kami Menggunakan Informasi Anda",
+        "body": "Kami menggunakan informasi yang kami kumpulkan untuk merespons pertanyaan Anda dan memberikan penawaran, memproses dan memenuhi pesanan Anda, berkomunikasi dengan Anda tentang produk dan layanan kami, meningkatkan situs web dan pengalaman pelanggan kami, serta mematuhi kewajiban hukum.\n\nKami tidak menjual informasi pribadi Anda kepada pihak ketiga."
+      },
+      {
+        "title": "Berbagi & Pengungkapan Data",
+        "body": "Kami dapat membagikan informasi Anda dengan penyedia layanan pihak ketiga tepercaya yang membantu kami mengoperasikan situs web, memproses pembayaran, dan mengirimkan produk. Mitra ini terikat secara kontrak untuk melindungi data Anda dan menggunakannya hanya untuk tujuan yang kami tentukan.\n\nKami juga dapat mengungkapkan informasi Anda jika diwajibkan oleh hukum atau untuk melindungi hak dan keselamatan kami."
+      },
+      {
+        "title": "Penyimpanan Data",
+        "body": "Kami menyimpan informasi pribadi Anda selama diperlukan untuk memenuhi tujuan yang dijelaskan dalam kebijakan ini, atau sesuai dengan hukum yang berlaku. Ketika kami tidak lagi membutuhkan data Anda, kami akan menghapus atau menganonimkannya secara aman."
+      },
+      {
+        "title": "Hak Anda",
+        "body": "Tergantung pada yurisdiksi Anda, Anda mungkin memiliki hak untuk mengakses, memperbaiki, atau menghapus informasi pribadi Anda, membatasi atau menolak pemrosesannya, dan meminta portabilitas data. Untuk menggunakan hak-hak ini, silakan hubungi kami di privacy@hancoco.com."
+      },
+      {
+        "title": "Cookie",
+        "body": "Situs web kami menggunakan cookie untuk meningkatkan fungsionalitas, menganalisis lalu lintas, dan mempersonalisasi konten. Anda dapat mengontrol preferensi cookie melalui pengaturan browser Anda. Menonaktifkan cookie tertentu dapat memengaruhi pengalaman Anda di situs kami."
+      },
+      {
+        "title": "Keamanan",
+        "body": "Kami menerapkan langkah-langkah teknis dan organisasi yang tepat untuk melindungi informasi pribadi Anda dari akses tidak sah, perubahan, pengungkapan, atau penghancuran. Namun, tidak ada metode penyimpanan atau transmisi elektronik yang 100% aman."
+      },
+      {
+        "title": "Hubungi Kami",
+        "body": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau ingin menggunakan hak data Anda, silakan hubungi tim Perlindungan Data kami di privacy@hancoco.com."
+      }
+    ]
   }
 }

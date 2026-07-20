@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Plus, X, ShoppingCart, ArrowRight, Factory, Shield, Ship, Leaf, Clock, Headphones, ChevronDown, Send } from "lucide-react";
 import { RFQProvider, useRFQ } from "@/context/RFQContext";
+import ComingSoonModal from "@/components/ComingSoonModal";
 
 type Product = {
   id: string;
@@ -39,6 +40,7 @@ export default function StoreClient() {
   const { addItem, items, setIsOpen, isOpen } = useRFQ();
   const [activeFilter, setActiveFilter] = useState(t("filter.all"));
   const [hoveredProduct, setHoveredProduct] = useState<string | null>(null);
+  const [showComingSoon, setShowComingSoon] = useState(false);
 
   const products = t.raw("products") as Product[];
   const filterCategories = t.raw("filter.categories") as string[];
@@ -141,11 +143,12 @@ export default function StoreClient() {
                     {/* Gradient overlay */}
                     <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.96) 0%, rgba(15,26,21,0.3) 55%, rgba(15,26,21,0.1) 100%)" }} />
 
-                    {/* Coming Soon dim */}
+                    {/* Coming Soon dim — clickable */}
                     {product.status === "coming_soon" && (
-                      <div style={{ position: "absolute", inset: 0, background: "rgba(15,26,21,0.5)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 2 }}>
+                      <button onClick={() => setShowComingSoon(true)}
+                        style={{ position: "absolute", inset: 0, background: "rgba(15,26,21,0.5)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 2, border: "none", cursor: "pointer", width: "100%" }}>
                         <span style={{ fontFamily: "var(--font-mono)", fontSize: "14px", letterSpacing: "0.15em", color: "var(--sand)", background: "rgba(15,26,21,0.7)", padding: "10px 24px", borderRadius: "100px", border: "1px solid rgba(200,170,100,0.3)" }}>COMING SOON</span>
-                      </div>
+                      </button>
                     )}
 
                     {/* Badge */}
@@ -230,6 +233,8 @@ export default function StoreClient() {
           </motion.div>
         </div>
       </section>
+
+      <ComingSoonModal open={showComingSoon} onClose={() => setShowComingSoon(false)} />
 
       <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) {
