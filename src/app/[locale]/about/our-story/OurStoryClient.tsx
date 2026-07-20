@@ -132,13 +132,13 @@ export default function OurStoryClient() {
             </motion.div>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "60px", alignItems: "center" }}>
-            <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} style={{ position: "relative", height: "700px", borderRadius: "24px", overflow: "hidden", order: -1 }}>
+          <div className="circular-grid" style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "60px", alignItems: "center" }}>
+            <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} className="circular-image" style={{ position: "relative", height: "700px", borderRadius: "24px", overflow: "hidden", order: -1 }}>
                <Image src="/assets/images/manufacturing-3.webp" alt="Circular Economy" fill sizes="50vw" style={{ objectFit: "cover" }} />
                <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(18,40,31,0.9) 0%, transparent 100%)" }} />
             </motion.div>
-            <motion.div style={{ y: y2 }} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
-              <div style={{ padding: "64px 40px", background: "var(--forest-dark)", color: "var(--ivory)", borderRadius: "24px", boxShadow: "0 30px 60px rgba(18,40,31,0.15)", transform: "translateX(-100px)", position: "relative", zIndex: 10 }}>
+            <motion.div className="circular-card-wrap" style={{ y: y2 }} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
+              <div className="circular-card" style={{ padding: "64px 40px", background: "var(--forest-dark)", color: "var(--ivory)", borderRadius: "24px", boxShadow: "0 30px 60px rgba(18,40,31,0.15)", transform: "translateX(-100px)", position: "relative", zIndex: 10 }}>
                 <span className="eyebrow on-dark">{t("circularEconomy.eyebrow")}</span>
                 <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3rem", marginBottom: "24px", lineHeight: 1.1 }}>
                   {t("circularEconomy.headline")}
@@ -302,7 +302,7 @@ export default function OurStoryClient() {
       </section>
 
       {/* 8. FINAL MANIFESTO */}
-      <section className="section" style={{ padding: "160px 0", textAlign: "center", background: "var(--forest)", color: "var(--ivory)", position: "relative", overflow: "hidden" }}>
+      <section className="section final-manifesto" style={{ padding: "160px 0", textAlign: "center", background: "var(--forest)", color: "var(--ivory)", position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", inset: 0, zIndex: 0, opacity: 0.1 }}>
           <Image src="/assets/images/coconut tree hero.webp" alt="Background" fill style={{ objectFit: "cover" }} />
         </div>
@@ -336,6 +336,19 @@ export default function OurStoryClient() {
           
           .values-sticky { position: static !important; margin-bottom: 40px; }
           .core-value-card { padding: 32px 24px !important; flex-direction: column; gap: 16px !important; }
+        }
+        
+        @media(max-width:640px) {
+          .final-manifesto { padding: 100px 0 80px !important; }
+          .circular-grid { display: flex !important; flex-direction: column !important; gap: 0 !important; }
+          .circular-image { height: 280px !important; border-radius: 24px 24px 0 0 !important; order: 1 !important; }
+          .circular-card-wrap { order: 2 !important; margin: -40px 16px 0 !important; }
+          .circular-card { padding: 40px 28px !important; transform: none !important; border-radius: 24px !important; }
+        }
+        @media(max-width:480px) {
+          .final-manifesto { padding: 80px 0 60px !important; }
+          .circular-image { height: 220px !important; }
+          .circular-card { padding: 32px 20px !important; }
         }
         
         .core-value-card {

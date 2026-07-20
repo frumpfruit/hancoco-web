@@ -132,7 +132,7 @@ export default function ManufacturingSection() {
           </div>
 
           {/* RIGHT — Text */}
-          <div>
+          <div className="manu-text">
             <span className="eyebrow">{t("eyebrow")}</span>
             <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 3.2vw, 2.8rem)", marginBottom: "22px" }}>
               {t("headline")}
@@ -142,7 +142,7 @@ export default function ManufacturingSection() {
             </p>
 
             {/* Pills */}
-            <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginBottom: "36px" }}>
+            <div className="manu-pills" style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginBottom: "36px" }}>
               {pills.map((key) => (
                 <span key={key} style={{
                   fontFamily: "var(--font-mono)", fontSize: "12px",
@@ -154,7 +154,7 @@ export default function ManufacturingSection() {
               ))}
             </div>
 
-            <Link href={`/${locale}/about/manufacturing`} className="btn btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+            <Link href={`/${locale}/about/manufacturing`} className="btn btn-primary manu-cta" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
               {t("cta")} <ArrowRight size={15} />
             </Link>
           </div>
@@ -162,7 +162,13 @@ export default function ManufacturingSection() {
       </div>
       <style>{`
         @media(max-width:900px){.manu-inner{grid-template-columns:1fr!important; gap:40px!important}}
-        @media(max-width:640px){.manu-collage{height:320px!important}}
+        @media(max-width:640px){
+          .manu-collage{height:320px!important}
+          .manu-text{padding:0 16px!important}
+          .manu-text h2{font-size:clamp(1.5rem,6vw,2rem)!important}
+          .manu-text .manu-pills{justify-content:center!important}
+          .manu-text .manu-cta{width:100%!important;justify-content:center!important}
+        }
         @media(max-width:480px){.manu-collage{height:260px!important}}
       `}</style>
     </section>
