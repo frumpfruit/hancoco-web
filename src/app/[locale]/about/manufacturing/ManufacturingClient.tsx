@@ -106,18 +106,18 @@ export default function ManufacturingClient() {
             {/* Asymmetric 2×2 mosaic with one tall cell */}
             <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}
               className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gridTemplateRows: "240px 200px", gap: "12px" }}>
-              <div style={{ gridRow: "1 / 3", position: "relative", borderRadius: "20px", overflow: "hidden" }}>
+              <div style={{ gridRow: "1 / 3", position: "relative", borderRadius: "20px", overflow: "hidden", minHeight: "300px" }}>
                 <Image src="/assets/images/pexels-cottonbro-5608055.webp" alt="Responsible Sourcing" fill sizes="25vw" style={{ objectFit: "cover" }} />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.6) 0%, transparent 60%)" }} />
                 <div style={{ position: "absolute", bottom: "20px", left: "20px" }}>
                   <p style={{ fontFamily: "var(--font-fraunces)", fontSize: "16px", color: "var(--ivory)", fontWeight: 500 }}>{philCards[0]?.title}</p>
                 </div>
               </div>
-              <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden" }}>
+              <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden", minHeight: "200px" }}>
                 <Image src="/assets/images/kateryna-ivanova-KQSedNnCFvk-unsplash.webp" alt="Precision Processing" fill sizes="15vw" style={{ objectFit: "cover" }} />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.6) 0%, transparent 60%)" }} />
               </div>
-              <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden" }}>
+              <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden", minHeight: "200px" }}>
                 <Image src="/assets/images/pre-shipment.webp" alt="Export Readiness" fill sizes="15vw" style={{ objectFit: "cover" }} />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.5) 0%, transparent 60%)" }} />
               </div>
@@ -188,7 +188,7 @@ export default function ManufacturingClient() {
               <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr", gridTemplateRows: "400px 280px", gap: "12px" }}>
                 {/* Step 01 — dominant */}
                 <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
-                  style={{ gridRow: "1 / 3", position: "relative", borderRadius: "20px", overflow: "hidden" }}>
+                  style={{ gridRow: "1 / 3", position: "relative", borderRadius: "20px", overflow: "hidden", minHeight: "300px" }}>
                   <Image src={flowImages[0]} alt={flowSteps[0]} fill sizes="40vw" style={{ objectFit: "cover" }} />
                   <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.95) 0%, rgba(15,26,21,0.1) 50%, transparent 100%)" }} />
                   <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "40px" }}>
@@ -200,7 +200,7 @@ export default function ManufacturingClient() {
                 {/* Steps 02–05 in 2-column right side */}
                 {[1, 2, 3, 4].map((idx) => (
                   <motion.div key={idx} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: idx * 0.1 }}
-                    style={{ position: "relative", borderRadius: "20px", overflow: "hidden", gridColumn: idx <= 2 ? "auto" : "auto" }}>
+                    style={{ position: "relative", borderRadius: "20px", overflow: "hidden", gridColumn: idx <= 2 ? "auto" : "auto", minHeight: "200px" }}>
                     {flowImages[idx] && (
                       <Image src={flowImages[idx]} alt={flowSteps[idx] || ""} fill sizes="20vw" style={{ objectFit: "cover" }} />
                     )}
