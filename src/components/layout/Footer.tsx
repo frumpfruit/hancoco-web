@@ -46,7 +46,6 @@ export default function Footer() {
         { label: "Privacy Policy", href: `/${locale}/legal/privacy`, desktop: false },
         { label: "Terms & Conditions", href: `/${locale}/legal/terms`, desktop: false },
         { label: tn("shipping"), href: `/${locale}/support/shipping`, desktop: false },
-        { label: "Return Policy", href: "", modal: true, desktop: false },
       ],
     },
   ];
