@@ -130,17 +130,20 @@ h1, h2, h3, h4, h5 {
 .wrap {
   max-width: var(--container);
   margin: 0 auto;
-  padding: 0 32px;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
 }
 
 @media (max-width: 640px) {
   .wrap {
-    padding: 0 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 @media (max-width: 480px) {
   .wrap {
-    padding: 0 16px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 }
 

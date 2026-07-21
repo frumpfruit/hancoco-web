@@ -77,7 +77,7 @@ export default function Header() {
         { href: "store/coconut-oil", label: t("oil"), desc: "RBD and crude coconut oil.", icon: <Droplet size={18} /> },
       ],
       side: [
-        { href: "store", label: t("allProducts"), desc: "Browse our complete catalog.", icon: <LayoutGrid size={18} />, modal: true }
+        { href: "store", label: t("allProducts"), desc: "Browse our complete catalog.", icon: <LayoutGrid size={18} /> }
       ]
     },
     about: {
