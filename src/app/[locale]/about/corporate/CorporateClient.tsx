@@ -33,7 +33,7 @@ export default function CorporateClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)" }}>
 
       {/* 1. HERO — Full bleed cinematic */}
-      <section style={{ position: "relative", height: "80vh", minHeight: "680px", display: "flex", alignItems: "center", background: "var(--forest-dark)", color: "var(--ivory)", overflow: "hidden" }}>
+      <section className="hero-section" style={{ position: "relative", height: "80vh", minHeight: "680px", display: "flex", alignItems: "center", background: "var(--forest-dark)", color: "var(--ivory)", overflow: "hidden" }}>
         <Image src="/assets/images/exporting-1.webp" alt="Resources" fill priority sizes="100vw" style={{ objectFit: "cover", opacity: 0.35, zIndex: 0 }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(15,26,21,0.98) 0%, rgba(15,26,21,0.6) 60%, transparent 100%)", zIndex: 1 }} />
 
@@ -82,6 +82,7 @@ export default function CorporateClient() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: i * 0.1 }}
+                className="responsive-grid"
                 style={{
                   display: "grid",
                   gridTemplateColumns: "280px 1fr auto",
@@ -136,7 +137,7 @@ export default function CorporateClient() {
       {/* 3. DOWNLOAD LIBRARY — Clean table with search */}
       <section id="library" style={{ padding: "120px 0", background: "var(--forest-dark)", color: "var(--ivory)" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px", alignItems: "end", paddingBottom: "56px" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px", alignItems: "end", paddingBottom: "56px" }}>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
               <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--sand)", display: "block", marginBottom: "16px" }}>DOCUMENT LIBRARY</span>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 3.5vw, 3rem)", color: "var(--ivory)", lineHeight: 1.1 }}>
@@ -214,7 +215,7 @@ export default function CorporateClient() {
       {/* 4. CERTIFICATIONS — Full-bleed split with image */}
       <section style={{ padding: "120px 0", background: "var(--ivory)", overflow: "hidden" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}>
             {/* Left: Headline + image */}
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
               <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--forest)", display: "block", marginBottom: "16px" }}>COMPLIANCE & TRUST</span>
@@ -275,7 +276,7 @@ export default function CorporateClient() {
         <div style={{ position: "absolute", inset: 0, opacity: 0.08 }}>
           <Image src="/assets/images/feng-shan-15-dLesZL9Q-unsplash.webp" alt="" fill sizes="100vw" style={{ objectFit: "cover" }} />
         </div>
-        <div className="wrap" style={{ position: "relative", zIndex: 1, padding: "96px 0", display: "grid", gridTemplateColumns: "1fr auto", alignItems: "center", gap: "48px" }}>
+        <div className="wrap responsive-grid" style={{ position: "relative", zIndex: 1, padding: "96px 0", display: "grid", gridTemplateColumns: "1fr auto", alignItems: "center", gap: "48px" }}>
           <div>
             <h3 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(1.8rem, 3vw, 2.8rem)", color: "var(--ivory)", marginBottom: "16px", lineHeight: 1.2 }}>{t("help.headline")}</h3>
             <p style={{ fontSize: "17px", color: "rgba(251,250,246,0.7)", lineHeight: 1.65, maxWidth: "540px" }}>{t("help.copy")}</p>

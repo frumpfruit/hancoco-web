@@ -61,10 +61,10 @@ export default function ManufacturingClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)" }}>
       
       {/* 1. HERO SECTION */}
-      <section style={{ position: "relative", height: "100vh", minHeight: "700px", display: "flex", alignItems: "center", overflow: "hidden", background: "var(--forest-dark)" }}>
-        <div style={{ position: "absolute", top: 0, right: 0, bottom: 0, width: "55%" }}>
+      <section className="hero-section" style={{ position: "relative", height: "100vh", minHeight: "700px", display: "flex", alignItems: "center", overflow: "hidden", background: "var(--forest-dark)" }}>
+        <div className="hero-img-container" style={{ position: "absolute", top: 0, right: 0, bottom: 0, width: "55%" }}>
           <Image src="/assets/images/manufacturing-3.webp" alt="Manufacturing Facility" fill priority sizes="55vw" style={{ objectFit: "cover", zIndex: 0 }} />
-          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, var(--forest-dark) 0%, transparent 100%)", zIndex: 1 }} />
+          <div className="hero-gradient" style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, var(--forest-dark) 0%, transparent 100%)", zIndex: 1 }} />
         </div>
         
         <div className="wrap" style={{ position: "relative", zIndex: 2, paddingTop: "80px", width: "100%" }}>
@@ -92,7 +92,7 @@ export default function ManufacturingClient() {
       <section style={{ padding: "120px 0", background: "var(--ivory)", overflow: "hidden" }}>
         {/* Top: Split headline + image mosaic */}
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "64px", alignItems: "center", paddingBottom: "80px" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "64px", alignItems: "center", paddingBottom: "80px" }}>
             <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
               <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--forest)", display: "block", marginBottom: "20px" }}>MANUFACTURING PHILOSOPHY</span>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2.5rem, 4vw, 3.8rem)", lineHeight: 1.1, color: "var(--forest-dark)", marginBottom: "28px" }}>
@@ -105,7 +105,7 @@ export default function ManufacturingClient() {
 
             {/* Asymmetric 2×2 mosaic with one tall cell */}
             <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}
-              style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gridTemplateRows: "240px 200px", gap: "12px" }}>
+              className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gridTemplateRows: "240px 200px", gap: "12px" }}>
               <div style={{ gridRow: "1 / 3", position: "relative", borderRadius: "20px", overflow: "hidden" }}>
                 <Image src="/assets/images/pexels-cottonbro-5608055.webp" alt="Responsible Sourcing" fill sizes="25vw" style={{ objectFit: "cover" }} />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.6) 0%, transparent 60%)" }} />
@@ -160,7 +160,7 @@ export default function ManufacturingClient() {
       <section style={{ padding: "120px 0", background: "var(--forest-dark)", color: "var(--ivory)" }}>
         <div className="wrap">
           <div style={{ paddingBottom: "80px" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px", alignItems: "end" }}>
+            <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px", alignItems: "end" }}>
               <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2.5rem, 4vw, 4rem)", lineHeight: 1.1 }}>
                   {t("flow.headline")}
@@ -185,7 +185,7 @@ export default function ManufacturingClient() {
               "/assets/images/towfiqu-barbhuiya-o3Dunr7Vl-o-unsplash.webp"
             ];
             return (
-              <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr", gridTemplateRows: "400px 280px", gap: "12px" }}>
+              <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr", gridTemplateRows: "400px 280px", gap: "12px" }}>
                 {/* Step 01 — dominant */}
                 <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
                   style={{ gridRow: "1 / 3", position: "relative", borderRadius: "20px", overflow: "hidden" }}>
@@ -239,7 +239,7 @@ export default function ManufacturingClient() {
             </h2>
             <p style={{ fontSize: "18px", color: "var(--charcoal-soft)", whiteSpace: "pre-line" }}>{t("facility.copy")}</p>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "16px" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "16px" }}>
             {[
               "/assets/images/manufacturing-4.webp",
               "/assets/images/manufacturing-5.webp",
@@ -277,6 +277,7 @@ export default function ManufacturingClient() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: i * 0.08 }}
+                className="responsive-grid"
                 style={{
                   display: "grid",
                   gridTemplateColumns: i % 2 === 0 ? "1fr 1.8fr" : "1.8fr 1fr",
@@ -322,7 +323,7 @@ export default function ManufacturingClient() {
       {/* 6. QUALITY CONTROL — Dramatic Stacked Accordion Rows */}
       <section style={{ padding: "120px 0", background: "var(--ivory)" }}>
         <div className="wrap" style={{ marginBottom: "64px" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px", alignItems: "end" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px", alignItems: "end" }}>
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2.5rem, 4vw, 4rem)", color: "var(--forest-dark)", lineHeight: 1.1 }}>
                 {t("qc.headline")}
@@ -343,6 +344,7 @@ export default function ManufacturingClient() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.07 }}
+              className="qc-grid"
               style={{
                 borderBottom: "1px solid var(--line)",
                 display: "grid",
@@ -386,7 +388,7 @@ export default function ManufacturingClient() {
         {/* Safety — dark bg, animated tag cloud */}
         <div style={{ background: "var(--forest-dark)", padding: "120px 0" }}>
           <div className="wrap">
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
+            <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
               <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
                 <span style={{ display: "inline-block", fontFamily: "var(--font-mono)", fontSize: "11px", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--sand)", marginBottom: "20px" }}>RESPONSIBLE MANUFACTURING</span>
                 <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2.2rem, 4vw, 3.5rem)", color: "var(--ivory)", lineHeight: 1.1, marginBottom: "24px" }}>{t("safety.headline")}</h2>
@@ -446,7 +448,7 @@ export default function ManufacturingClient() {
 
         {/* Mosaic grid of images */}
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1.5fr 1fr 1fr", gridTemplateRows: "280px 280px", gap: "16px" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1.5fr 1fr 1fr", gridTemplateRows: "280px 280px", gap: "16px" }}>
             <div style={{ gridRow: "1 / 3", position: "relative", borderRadius: "24px", overflow: "hidden" }}>
               <Image src="/assets/images/dipesh-ray-kngFBByxsvw-unsplash.webp" alt="Future" fill sizes="40vw" style={{ objectFit: "cover" }} />
               <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.8) 0%, transparent 50%)" }} />

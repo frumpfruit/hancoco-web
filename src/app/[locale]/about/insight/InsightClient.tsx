@@ -28,7 +28,7 @@ export default function InsightClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)" }}>
       
       {/* 1. HERO SECTION */}
-      <section style={{ padding: "160px 0 80px", background: "var(--ivory-dim)" }}>
+      <section className="hero-section" style={{ padding: "160px 0 80px", background: "var(--ivory-dim)" }}>
         <div className="wrap">
           <motion.div initial="hidden" animate="visible" variants={fadeInUp} style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
             <span className="eyebrow" style={{ justifyContent: "center" }}>{t("hero.eyebrow")}</span>
@@ -53,7 +53,7 @@ export default function InsightClient() {
       {/* 2. FEATURED STORY (70/30 SPLIT) */}
       <section id="featured" className="section" style={{ padding: "80px 0" }}>
         <div className="wrap">
-          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ display: "grid", gridTemplateColumns: "1.5fr 1fr", gap: "40px", background: "var(--white)", border: "1px solid var(--line)", borderRadius: "24px", overflow: "hidden" }}>
+          <motion.div className="responsive-grid" initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} style={{ display: "grid", gridTemplateColumns: "1.5fr 1fr", gap: "40px", background: "var(--white)", border: "1px solid var(--line)", borderRadius: "24px", overflow: "hidden" }}>
             <div style={{ position: "relative", minHeight: "400px" }}>
               <Image src="/assets/images/exporting-2.webp" alt="Featured Story" fill sizes="60vw" style={{ objectFit: "cover" }} />
             </div>
