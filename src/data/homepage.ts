@@ -482,7 +482,7 @@ export const differentiators = [
     title: "7-Stage QC Protocol",
     description: "Every batch laboratory-tested before shipment.",
     size: "normal",
-    image: "/assets/images/pexels-towfiqu-barbhuiya-3440682-11921158.jpg",
+    image: "/assets/images/pexels-towfiqu-barbhuiya-3440682-11921158.webp",
   },
   {
     id: "export",
@@ -503,7 +503,7 @@ export const differentiators = [
     title: "Zero-Waste Model",
     description: "Every coconut part utilized. Nothing wasted.",
     size: "normal",
-    image: "/assets/images/nipanan-lifestyle-pV2xU2rP580-unsplash.webp",
+    image: "/assets/images/cocopeat.webp",
   },
   {
     id: "capacity",

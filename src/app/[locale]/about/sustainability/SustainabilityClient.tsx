@@ -87,7 +87,7 @@ export default function SustainabilityClient() {
                const yVals = [y1, y2, y3];
                const images = [
                  "/assets/images/pexels-sarah-claude-levesque-st-louis-156920272-13525909.webp",
-                 "/assets/images/nipanan-lifestyle-pV2xU2rP580-unsplash.webp",
+                 "/assets/images/cocopeat.webp",
                  "/assets/images/pexels-cottonbro-4631075.webp"
                ];
                return (
