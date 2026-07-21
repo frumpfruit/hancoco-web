@@ -41,7 +41,7 @@ export default function OurStoryClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)" }} ref={containerRef}>
       
       {/* 1. HERO SECTION */}
-      <section style={{ position: "relative", height: "90vh", minHeight: "600px", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
+      <section className="hero-section" style={{ position: "relative", height: "90vh", minHeight: "600px", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
         <Image
           src="/assets/images/pexels-cottonbro-5608055.webp"
           alt="Coconut Plantation"
@@ -76,7 +76,7 @@ export default function OurStoryClient() {
       {/* 2. WHY WE EXIST & WHY INDONESIA (EDITORIAL SPLIT) */}
       <section className="section" style={{ padding: "120px 0" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
               <span className="eyebrow">{t("whyWeExist.eyebrow")}</span>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 4vw, 3.5rem)", marginBottom: "24px", lineHeight: 1.1 }}>
@@ -95,7 +95,7 @@ export default function OurStoryClient() {
 
       <section className="section" style={{ background: "var(--sand)", padding: "120px 0" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} style={{ position: "relative", height: "600px", borderRadius: "24px", overflow: "hidden", order: -1 }}>
                <Image src="/assets/images/pexels-priyanka-paroyds-83085051-8914931.webp" alt="Indonesia Natural Strength" fill sizes="50vw" style={{ objectFit: "cover" }} />
             </motion.div>
@@ -115,7 +115,7 @@ export default function OurStoryClient() {
       {/* 3. WHY COCONUT & CIRCULAR ECONOMY (EDITORIAL ASYMMETRY) */}
       <section className="section" style={{ padding: "160px 0", overflow: "hidden" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "60px", alignItems: "center", marginBottom: "160px" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "60px", alignItems: "center", marginBottom: "160px" }}>
             <motion.div style={{ y: y1 }} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
               <div style={{ padding: "40px", background: "var(--ivory-dim)", borderLeft: "4px solid var(--forest)", borderRadius: "0 24px 24px 0" }}>
                 <span className="eyebrow">{t("whyCoconut.eyebrow")}</span>
@@ -132,7 +132,7 @@ export default function OurStoryClient() {
             </motion.div>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "60px", alignItems: "center" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "60px", alignItems: "center" }}>
             <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} style={{ position: "relative", height: "700px", borderRadius: "24px", overflow: "hidden", order: -1 }}>
                <Image src="/assets/images/manufacturing-3.webp" alt="Circular Economy" fill sizes="50vw" style={{ objectFit: "cover" }} />
                <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(18,40,31,0.9) 0%, transparent 100%)" }} />
@@ -184,7 +184,7 @@ export default function OurStoryClient() {
               const isEven = i % 2 === 0;
 
               return (
-                <motion.div key={i} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} style={{ position: "relative", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "60px", alignItems: "center", zIndex: 2 }} className="timeline-item">
+                <motion.div key={i} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8 }} style={{ position: "relative", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "60px", alignItems: "center", zIndex: 2 }} className="timeline-item responsive-grid">
                   
                   {/* Central Node */}
                   <div style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)", width: "16px", height: "16px", borderRadius: "50%", background: "var(--forest)", border: "4px solid var(--ivory)", zIndex: 3 }} className="timeline-node" />
@@ -214,7 +214,7 @@ export default function OurStoryClient() {
       {/* 5. VISION & MISSION */}
       <section className="section" style={{ padding: "160px 0", background: "var(--forest-dark)", color: "var(--ivory)", borderTop: "1px solid rgba(255,255,255,0.1)" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px" }} className="vision-grid">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px" }} className="vision-grid responsive-grid">
             <div>
               <span className="eyebrow on-dark">{t("vision.eyebrow")}</span>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3rem", marginBottom: "24px", lineHeight: 1.1 }}>
@@ -247,7 +247,7 @@ export default function OurStoryClient() {
       {/* 6. CORE VALUES (REDESIGNED: STICKY EDITORIAL) */}
       <section className="section" style={{ padding: "160px 0", background: "var(--ivory-dim)" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px", position: "relative", alignItems: "flex-start" }} className="values-grid">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px", position: "relative", alignItems: "flex-start" }} className="values-grid responsive-grid">
             
             {/* Sticky Left */}
             <div style={{ position: "sticky", top: "120px" }} className="values-sticky">
@@ -282,7 +282,7 @@ export default function OurStoryClient() {
       {/* 7. LEADERSHIP & LOOKING AHEAD */}
       <section className="section" style={{ padding: "120px 0", background: "var(--white)" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "60px" }} className="leadership-grid">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "60px" }} className="leadership-grid responsive-grid">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
               <span className="eyebrow">{t("leadership.eyebrow")}</span>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "2.5rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>

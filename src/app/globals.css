@@ -374,7 +374,37 @@ h1, h2, h3, h4, h5 {
   body {
     @apply bg-background text-foreground;
   }
-  html {
-    @apply font-sans;
+  }
+}
+
+/* ============ ABOUT PAGES RESPONSIVENESS ============ */
+@media (max-width: 900px) {
+  .hero-section {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 140px !important;
+    padding-bottom: 80px !important;
+  }
+  .hero-img-container {
+    width: 100% !important;
+    opacity: 0.4 !important;
+  }
+  .hero-gradient {
+    background: linear-gradient(to top, var(--forest-dark) 0%, transparent 100%) !important;
+  }
+  .responsive-grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+  }
+  .responsive-grid > div {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+  .qc-grid {
+    grid-template-columns: 40px 1fr !important;
+    gap: 16px !important;
+  }
+  .qc-grid > div:last-child {
+    display: none !important;
   }
 }

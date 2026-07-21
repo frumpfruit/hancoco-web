@@ -46,7 +46,7 @@ export default function SustainabilityClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)", overflow: "hidden" }} ref={containerRef}>
       
       {/* 1. HERO SECTION (Signature: Cinematic Parallax Image Mask) */}
-      <section style={{ position: "relative", height: "100vh", minHeight: "700px", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", textAlign: "center" }}>
+      <section className="hero-section" style={{ position: "relative", height: "100vh", minHeight: "700px", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", textAlign: "center" }}>
         <motion.div style={{ position: "absolute", inset: "-5%", zIndex: 0 }} initial={{ scale: 1.1 }} animate={{ scale: 1 }} transition={{ duration: 2, ease: "easeOut" }}>
           <Image src="/assets/images/coconut tree hero.webp" alt="Sustainability" fill priority loading="eager" sizes="100vw" style={{ objectFit: "cover" }} />
         </motion.div>
@@ -185,7 +185,7 @@ export default function SustainabilityClient() {
       {/* 4. FARMING COMMUNITIES & 5. RESPONSIBLE MFG (Signature Move: Cinematic Image Mask Reveal) */}
       <section className="section" style={{ padding: "160px 0" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", marginBottom: "160px", alignItems: "center" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", marginBottom: "160px", alignItems: "center" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
                 {t("farming.headline")}
@@ -201,7 +201,7 @@ export default function SustainabilityClient() {
             </motion.div>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
             <motion.div initial={{ clipPath: "inset(20% 20% 20% 20% round 24px)" }} whileInView={{ clipPath: "inset(0% 0% 0% 0% round 24px)" }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }} style={{ position: "relative", height: "600px", overflow: "hidden", order: -1 }} className="mfg-image">
                <motion.div initial={{ scale: 1.2 }} whileInView={{ scale: 1 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }} style={{ width: "100%", height: "100%" }}>
                  <Image src="/assets/images/pexels-cottonbro-5608055.webp" alt="Responsible Manufacturing" fill sizes="(max-width: 900px) 100vw, 50vw" style={{ objectFit: "cover" }} />
@@ -297,7 +297,7 @@ export default function SustainabilityClient() {
         </div>
         
         <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1 }}>
                 {t("social.headline")}
@@ -320,7 +320,7 @@ export default function SustainabilityClient() {
       {/* 8. LOOKING AHEAD & 9. HIGHLIGHTS STATS */}
       <section className="section" style={{ padding: "160px 0", background: "var(--white)" }}>
         <div className="wrap">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px", marginBottom: "120px" }}>
+          <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px", marginBottom: "120px" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
               <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
                 {t("ahead.headline")}
