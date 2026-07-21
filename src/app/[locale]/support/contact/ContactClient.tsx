@@ -40,11 +40,11 @@ export default function ContactClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)" }}>
 
       {/* 1. HERO — Cinematic split with form anchor */}
-      <section style={{ position: "relative", minHeight: "90vh", display: "flex", alignItems: "center", background: "var(--forest-dark)", overflow: "hidden" }}>
+      <section className="hero-section" style={{ position: "relative", minHeight: "90vh", display: "flex", alignItems: "center", background: "var(--forest-dark)", overflow: "hidden" }}>
         <Image src="/assets/images/aleksey-kuprikov-c-AXdFRil_w-unsplash.webp" alt="Business Development" fill priority sizes="100vw" style={{ objectFit: "cover", opacity: 0.22, zIndex: 0 }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(15,26,21,0.99) 45%, rgba(15,26,21,0.6) 75%, transparent 100%)", zIndex: 1 }} />
 
-        <div className="wrap" style={{ position: "relative", zIndex: 2, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center", paddingTop: "100px", paddingBottom: "80px" }}>
+        <div className="wrap responsive-grid" style={{ position: "relative", zIndex: 2, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center", paddingTop: "100px", paddingBottom: "80px" }}>
           {/* Left: Headline */}
           <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.9 }}>
             <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--sand)", display: "block", marginBottom: "24px" }}>{t("hero.eyebrow")}</span>
@@ -153,7 +153,7 @@ export default function ContactClient() {
             {/* Right: Form */}
             <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}
               style={{ background: "var(--forest-dark)", borderRadius: "24px", padding: "48px" }}>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+              <div className="contact-form-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
 
                 {/* Inquiry Type - full width */}
                 <div style={{ gridColumn: "1 / -1" }}>

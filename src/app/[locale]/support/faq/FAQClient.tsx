@@ -56,7 +56,7 @@ export default function FAQClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)" }}>
 
       {/* 1. HERO — Dark editorial with texture */}
-      <section style={{ position: "relative", minHeight: "55vh", display: "flex", flexDirection: "column", justifyContent: "center", background: "var(--forest-dark)", overflow: "hidden", paddingTop: "80px" }}>
+      <section className="hero-section" style={{ position: "relative", minHeight: "55vh", display: "flex", flexDirection: "column", justifyContent: "center", background: "var(--forest-dark)", overflow: "hidden", paddingTop: "80px" }}>
         <Image src="/assets/images/pexels-boris-lvrg-217419519-11865882.webp" alt="FAQ Background" fill priority sizes="100vw" style={{ objectFit: "cover", opacity: 0.12, zIndex: 0 }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, rgba(15,26,21,0.95) 60%, rgba(15,26,21,0.4) 100%)", zIndex: 1 }} />
 

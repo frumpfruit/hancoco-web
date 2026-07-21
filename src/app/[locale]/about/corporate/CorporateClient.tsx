@@ -144,7 +144,7 @@ export default function CorporateClient() {
                 {t("library.headline")}
               </h2>
             </motion.div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "16px", alignItems: "flex-end" }}>
+            <div className="doc-library-header" style={{ display: "flex", flexDirection: "column", gap: "16px", alignItems: "flex-end" }}>
               {/* Search */}
               <div style={{ position: "relative", width: "100%", maxWidth: "320px" }}>
                 <input
@@ -181,6 +181,7 @@ export default function CorporateClient() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.05 }}
+                className="doc-row"
                 style={{
                   display: "grid",
                   gridTemplateColumns: "1fr auto",

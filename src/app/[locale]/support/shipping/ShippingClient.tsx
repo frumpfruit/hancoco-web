@@ -33,7 +33,7 @@ export default function ShippingClient() {
     <div style={{ background: "var(--ivory)", color: "var(--charcoal)", overflowX: "hidden" }}>
 
       {/* 1. HERO — Full bleed container port */}
-      <section style={{ position: "relative", height: "80vh", minHeight: "600px", display: "flex", alignItems: "flex-end", overflow: "hidden" }}>
+      <section className="hero-section" style={{ position: "relative", height: "80vh", minHeight: "600px", display: "flex", alignItems: "flex-end", overflow: "hidden" }}>
         <Image src="/assets/images/rusty-watson-W8P1WeOU1XI-unsplash.webp" alt="Export Shipping" fill priority sizes="100vw" style={{ objectFit: "cover", zIndex: 0 }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,0.98) 0%, rgba(15,26,21,0.5) 50%, rgba(15,26,21,0.2) 100%)", zIndex: 1 }} />
 

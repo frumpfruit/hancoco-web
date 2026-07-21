@@ -390,13 +390,14 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-/* ============ ABOUT PAGES RESPONSIVENESS ============ */
+/* ============ MOBILE RESPONSIVENESS ============ */
 @media (max-width: 900px) {
+  /* Fix padding for all hero sections */
   .hero-section {
+    padding-top: 100px !important;
+    padding-bottom: 60px !important;
     height: auto !important;
     min-height: 0 !important;
-    padding-top: 140px !important;
-    padding-bottom: 80px !important;
   }
   .hero-img-container {
     width: 100% !important;
@@ -405,19 +406,57 @@ h1, h2, h3, h4, h5 {
   .hero-gradient {
     background: linear-gradient(to top, var(--forest-dark) 0%, transparent 100%) !important;
   }
+  
+  /* Fix layout grids */
   .responsive-grid {
     grid-template-columns: 1fr !important;
     grid-template-rows: auto !important;
+    gap: 32px !important;
   }
   .responsive-grid > div {
-    grid-column: auto !important;
-    grid-row: auto !important;
+    grid-column: 1 / -1 !important;
   }
-  .qc-grid {
-    grid-template-columns: 40px 1fr !important;
+
+  /* Fix forms */
+  .contact-form-grid {
+    grid-template-columns: 1fr !important;
     gap: 16px !important;
   }
-  .qc-grid > div:last-child {
-    display: none !important;
+  .contact-form-grid > div {
+    grid-column: 1 / -1 !important;
+  }
+
+  /* Fix hover accordion cards */
+  .hover-accordion {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+  .hover-accordion > div {
+    height: auto !important;
+    min-height: 140px !important;
+  }
+  .hover-accordion > div > div {
+    padding: 24px !important;
+    position: relative !important;
+  }
+  .hover-accordion h4 {
+    white-space: normal !important;
+    font-size: 1.25rem !important;
+  }
+
+  /* Document Library Fix */
+  .doc-library-header {
+    align-items: flex-start !important;
+  }
+  .doc-library-header > div:last-child {
+    justify-content: flex-start !important;
+  }
+  .doc-row {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  .doc-row button {
+    width: 100% !important;
+    justify-content: center !important;
   }
 }
