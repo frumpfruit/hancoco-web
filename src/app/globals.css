@@ -439,15 +439,7 @@ h1, h2, h3, h4, h5 {
   /* Fix hover accordion cards */
   .hover-accordion {
     flex-direction: column !important;
-    height: auto !important;
-  }
-  .hover-accordion > div {
-    height: auto !important;
-    min-height: 140px !important;
-  }
-  .hover-accordion > div > div {
-    padding: 24px !important;
-    position: relative !important;
+    height: 600px !important;
   }
   .hover-accordion h4 {
     white-space: normal !important;
