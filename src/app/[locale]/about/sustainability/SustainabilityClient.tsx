@@ -254,6 +254,7 @@ export default function SustainabilityClient() {
                 <motion.div 
                   key={i} 
                   onHoverStart={() => setActiveEnv(i)}
+                  onClick={() => setActiveEnv(i)}
                   animate={{ flex: isActive ? 3 : 1 }}
                   transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                   style={{ position: "relative", borderRadius: "24px", overflow: "hidden", cursor: "pointer" }}
