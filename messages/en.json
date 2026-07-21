@@ -858,7 +858,6 @@
       "cta": "Contact Our Team"
     }
   },
-
   "contactPage": {
     "hero": {
       "eyebrow": "Business Development",
@@ -870,19 +869,52 @@
     "options": {
       "headline": "How Can We Help?",
       "items": [
-        { "icon": "package", "title": "Sales Inquiry", "desc": "Request pricing, MOQ details, and product availability for our commodity range.", "cta": "Inquire Now" },
-        { "icon": "ship", "title": "Export Inquiry", "desc": "Discuss export routes, shipping terms (FOB/CIF), container capacity, and documentation.", "cta": "Discuss Export" },
-        { "icon": "handshake", "title": "Partnership", "desc": "Explore long-term supply agreements, joint ventures, or distribution partnerships.", "cta": "Explore Partnership" },
-        { "icon": "info", "title": "General Information", "desc": "Request company profile, product catalogs, certifications, or technical data sheets.", "cta": "Get Resources" }
+        {
+          "icon": "package",
+          "title": "Sales Inquiry",
+          "desc": "Request pricing, MOQ details, and product availability for our commodity range.",
+          "cta": "Inquire Now"
+        },
+        {
+          "icon": "ship",
+          "title": "Export Inquiry",
+          "desc": "Discuss export routes, shipping terms (FOB/CIF), container capacity, and documentation.",
+          "cta": "Discuss Export"
+        },
+        {
+          "icon": "handshake",
+          "title": "Partnership",
+          "desc": "Explore long-term supply agreements, joint ventures, or distribution partnerships.",
+          "cta": "Explore Partnership"
+        },
+        {
+          "icon": "info",
+          "title": "General Information",
+          "desc": "Request company profile, product catalogs, certifications, or technical data sheets.",
+          "cta": "Get Resources"
+        }
       ]
     },
     "form": {
       "headline": "Send Us a Message.",
       "copy": "Complete the form below and our team will respond within 1–2 business days.",
       "inquiryType": "Inquiry Type",
-      "inquiryOptions": ["Product / Sales Inquiry", "Export & Shipping", "Partnership & Distribution", "Investment", "General Information"],
+      "inquiryOptions": [
+        "Product / Sales Inquiry",
+        "Export & Shipping",
+        "Partnership & Distribution",
+        "Investment",
+        "General Information"
+      ],
       "product": "Product of Interest",
-      "productOptions": ["White Copra", "Black Copra", "Coconut Charcoal", "Coconut Oil", "Multiple Products", "Other / Not Sure"],
+      "productOptions": [
+        "White Copra",
+        "Black Copra",
+        "Coconut Charcoal",
+        "Coconut Oil",
+        "Multiple Products",
+        "Other / Not Sure"
+      ],
       "company": "Company Name",
       "contact": "Contact Person",
       "email": "Business Email",
@@ -902,19 +934,48 @@
     },
     "global": {
       "headline": "Serving Buyers Across 15+ Countries.",
-      "markets": ["India", "Malaysia", "China", "UAE", "Saudi Arabia", "Vietnam", "Philippines", "Japan", "South Korea", "Germany", "Netherlands", "USA", "Australia", "Turkey", "Nigeria"]
+      "markets": [
+        "India",
+        "Malaysia",
+        "China",
+        "UAE",
+        "Saudi Arabia",
+        "Vietnam",
+        "Philippines",
+        "Japan",
+        "South Korea",
+        "Germany",
+        "Netherlands",
+        "USA",
+        "Australia",
+        "Turkey",
+        "Nigeria"
+      ]
     },
     "faq": {
       "headline": "Quick Answers.",
       "items": [
-        { "q": "What is your minimum order quantity?", "a": "Our standard MOQ is 1 × 20ft container. We also accommodate larger orders (40ft / 40ft HC). Final MOQ depends on product type and destination." },
-        { "q": "Do you provide product samples?", "a": "Yes. We provide samples for qualified buyers after initial inquiry review. Sample lead time is approximately 7–14 business days." },
-        { "q": "What payment terms do you accept?", "a": "We accept T/T (Telegraphic Transfer) and L/C (Letter of Credit). Terms are finalized during the quotation stage." }
+        {
+          "q": "What is your minimum order quantity?",
+          "a": "Our standard MOQ is 1 × 20ft container. We also accommodate larger orders (40ft / 40ft HC). Final MOQ depends on product type and destination."
+        },
+        {
+          "q": "Do you provide product samples?",
+          "a": "Yes. We provide samples for qualified buyers after initial inquiry review. Sample lead time is approximately 7–14 business days."
+        },
+        {
+          "q": "What payment terms do you accept?",
+          "a": "We accept T/T (Telegraphic Transfer) and L/C (Letter of Credit). Terms are finalized during the quotation stage."
+        }
       ]
     },
     "social": {
       "headline": "Connect With Us.",
-      "links": ["LinkedIn", "WhatsApp Business", "Email"]
+      "links": [
+        "LinkedIn",
+        "WhatsApp Business",
+        "Email"
+      ]
     },
     "final": {
       "headline": "Ready to Start a Conversation?",
@@ -922,14 +983,21 @@
       "cta2": "Become Our Partner"
     }
   },
-
   "faqPage": {
     "hero": {
       "eyebrow": "Support Center",
       "headline": "Frequently Asked Questions.",
       "copy": "Everything you need to know about HANCOCO's products, export process, quality standards, and partnership opportunities."
     },
-    "categories": ["All", "General", "Products", "Quality", "Export", "Ordering & RFQ", "Partnership"],
+    "categories": [
+      "All",
+      "General",
+      "Products",
+      "Quality",
+      "Export",
+      "Ordering & RFQ",
+      "Partnership"
+    ],
     "search": {
       "placeholder": "Search questions..."
     },
@@ -938,57 +1006,120 @@
         "category": "General Company",
         "icon": "building",
         "items": [
-          { "q": "What is HANCOCO?", "a": "HANCOCO is an integrated coconut processing company based in Indonesia, established in 2020. We produce and export premium coconut-derived commodities including White Copra, Black Copra, Coconut Charcoal, and Coconut Oil for B2B and industrial buyers worldwide." },
-          { "q": "Where is HANCOCO located?", "a": "Our processing facilities and head office are located in Indonesia. We export primarily through major Indonesian ports including Belawan (North Sumatra) and Tanjung Priok (Jakarta)." },
-          { "q": "Is HANCOCO a manufacturer or a trader?", "a": "HANCOCO is a fully integrated processor and manufacturer — not a trader or broker. We own and operate our processing facilities, giving buyers direct access to the source of production with full quality control." },
-          { "q": "What certifications does HANCOCO hold?", "a": "We currently hold Halal certification. ISO, HACCP, and GMP certifications are in progress (Coming Soon). We update our certification status regularly on our Corporate Resources page." },
-          { "q": "What languages do you operate in?", "a": "Our team operates in Bahasa Indonesia and English. All export documentation, product specifications, and communications are available in English." }
+          {
+            "q": "What is HANCOCO?",
+            "a": "HANCOCO is an integrated coconut processing company based in Indonesia, established in 2020. We produce and export premium coconut-derived commodities including White Copra, Black Copra, Coconut Charcoal, and Coconut Oil for B2B and industrial buyers worldwide."
+          },
+          {
+            "q": "Where is HANCOCO located?",
+            "a": "Our processing facilities and head office are located in Indonesia. We export primarily through major Indonesian ports including Belawan (North Sumatra) and Tanjung Priok (Jakarta)."
+          },
+          {
+            "q": "Is HANCOCO a manufacturer or a trader?",
+            "a": "HANCOCO is a fully integrated processor and manufacturer — not a trader or broker. We own and operate our processing facilities, giving buyers direct access to the source of production with full quality control."
+          },
+          {
+            "q": "What certifications does HANCOCO hold?",
+            "a": "We currently hold Halal certification. ISO, HACCP, and GMP certifications are in progress (Coming Soon). We update our certification status regularly on our Corporate Resources page."
+          },
+          {
+            "q": "What languages do you operate in?",
+            "a": "Our team operates in Bahasa Indonesia and English. All export documentation, product specifications, and communications are available in English."
+          }
         ]
       },
       {
         "category": "Products",
         "icon": "package",
         "items": [
-          { "q": "What products does HANCOCO offer?", "a": "Our current active product range includes: White Copra (low moisture, food-grade), Black Copra (industrial grade), Coconut Charcoal (BBQ/hookah/industrial briquettes), and Coconut Oil (RBD/Virgin). Additional products including Desiccated Coconut, Coconut Fiber, and VCO are in our development pipeline." },
-          { "q": "Can I request custom specifications?", "a": "Yes. We accommodate custom moisture content, ash content, fixed carbon levels (for charcoal), particle size, and packaging configurations based on buyer requirements and minimum order volumes." },
-          { "q": "What is the shelf life of your products?", "a": "Shelf life varies by product: Copra (6–12 months in proper storage), Coconut Charcoal (24+ months), Coconut Oil (12–24 months). We provide storage guidelines with each shipment." },
-          { "q": "Do you offer organic or certified organic products?", "a": "We source from coconut farms in Indonesia. Organic certification is part of our product roadmap. Contact our team to discuss specific compliance requirements for your market." }
+          {
+            "q": "What products does HANCOCO offer?",
+            "a": "Our current active product range includes: White Copra (low moisture, food-grade), Black Copra (industrial grade), Coconut Charcoal (BBQ/hookah/industrial briquettes), and Coconut Oil (RBD/Virgin). Additional products including Desiccated Coconut, Coconut Fiber, and VCO are in our development pipeline."
+          },
+          {
+            "q": "Can I request custom specifications?",
+            "a": "Yes. We accommodate custom moisture content, ash content, fixed carbon levels (for charcoal), particle size, and packaging configurations based on buyer requirements and minimum order volumes."
+          },
+          {
+            "q": "What is the shelf life of your products?",
+            "a": "Shelf life varies by product: Copra (6–12 months in proper storage), Coconut Charcoal (24+ months), Coconut Oil (12–24 months). We provide storage guidelines with each shipment."
+          },
+          {
+            "q": "Do you offer organic or certified organic products?",
+            "a": "We source from coconut farms in Indonesia. Organic certification is part of our product roadmap. Contact our team to discuss specific compliance requirements for your market."
+          }
         ]
       },
       {
         "category": "Quality & Manufacturing",
         "icon": "shield",
         "items": [
-          { "q": "How do you ensure product quality consistency?", "a": "Our 7-stage Quality Control process covers Incoming Inspection, Production Monitoring, Sampling, Laboratory Testing, Moisture & Weight Check, Pre-Shipment Inspection, and Final Approval. Each batch is documented and traceable." },
-          { "q": "Can buyers arrange third-party inspection?", "a": "Yes. We welcome pre-shipment inspection by accredited third-party agencies (SGS, Bureau Veritas, Intertek, etc.). Arrangements should be communicated at the order confirmation stage." },
-          { "q": "What are your production capacity figures?", "a": "We can provide detailed capacity data during the quotation and due diligence stage. Our facilities are scalable to support both spot orders and long-term supply contracts." }
+          {
+            "q": "How do you ensure product quality consistency?",
+            "a": "Our 7-stage Quality Control process covers Incoming Inspection, Production Monitoring, Sampling, Laboratory Testing, Moisture & Weight Check, Pre-Shipment Inspection, and Final Approval. Each batch is documented and traceable."
+          },
+          {
+            "q": "Can buyers arrange third-party inspection?",
+            "a": "Yes. We welcome pre-shipment inspection by accredited third-party agencies (SGS, Bureau Veritas, Intertek, etc.). Arrangements should be communicated at the order confirmation stage."
+          },
+          {
+            "q": "What are your production capacity figures?",
+            "a": "We can provide detailed capacity data during the quotation and due diligence stage. Our facilities are scalable to support both spot orders and long-term supply contracts."
+          }
         ]
       },
       {
         "category": "Export & Logistics",
         "icon": "ship",
         "items": [
-          { "q": "What trade terms (Incoterms) do you support?", "a": "We support FOB (Free On Board), CIF (Cost, Insurance & Freight), and CFR (Cost and Freight). The preferred Incoterm is agreed upon during the quotation stage based on your destination port and requirements." },
-          { "q": "Which ports do you ship from?", "a": "Our primary export ports are Belawan (Medan, North Sumatra) and Tanjung Priok (Jakarta). Port selection depends on the specific product and logistics optimization." },
-          { "q": "What container sizes are available?", "a": "We ship in 20ft Standard, 40ft Standard, and 40ft High Cube (HC) containers. The optimal container type depends on product density and volume." },
-          { "q": "How long is the lead time from order to shipment?", "a": "Typical production-to-shipment lead time is 14–30 days from Purchase Order confirmation, subject to order volume and current production schedule. Lead times are confirmed during the quotation process." }
+          {
+            "q": "What trade terms (Incoterms) do you support?",
+            "a": "We support FOB (Free On Board), CIF (Cost, Insurance & Freight), and CFR (Cost and Freight). The preferred Incoterm is agreed upon during the quotation stage based on your destination port and requirements."
+          },
+          {
+            "q": "Which ports do you ship from?",
+            "a": "Our primary export ports are Belawan (Medan, North Sumatra) and Tanjung Priok (Jakarta). Port selection depends on the specific product and logistics optimization."
+          },
+          {
+            "q": "What container sizes are available?",
+            "a": "We ship in 20ft Standard, 40ft Standard, and 40ft High Cube (HC) containers. The optimal container type depends on product density and volume."
+          },
+          {
+            "q": "How long is the lead time from order to shipment?",
+            "a": "Typical production-to-shipment lead time is 14–30 days from Purchase Order confirmation, subject to order volume and current production schedule. Lead times are confirmed during the quotation process."
+          }
         ]
       },
       {
         "category": "Ordering & RFQ",
         "icon": "clipboard",
         "items": [
-          { "q": "What is the RFQ process?", "a": "1. Browse our products and add items to the RFQ Cart. 2. Complete the RFQ form with your company details, volume requirements, and destination port. 3. Our team reviews and responds with an official quotation within 1–3 business days. 4. Upon agreement, we issue a Proforma Invoice and proceed to order confirmation." },
-          { "q": "What is the minimum order quantity (MOQ)?", "a": "Our standard MOQ is 1 × 20ft container (~18–25 MT depending on product). Larger volume orders receive priority processing and may qualify for preferential pricing." },
-          { "q": "Can I order multiple products in one RFQ?", "a": "Yes. Our RFQ system supports multi-product inquiries. Simply add all desired products to your RFQ Cart before submitting." }
+          {
+            "q": "What is the RFQ process?",
+            "a": "1. Browse our products and add items to the RFQ Cart. 2. Complete the RFQ form with your company details, volume requirements, and destination port. 3. Our team reviews and responds with an official quotation within 1–3 business days. 4. Upon agreement, we issue a Proforma Invoice and proceed to order confirmation."
+          },
+          {
+            "q": "What is the minimum order quantity (MOQ)?",
+            "a": "Our standard MOQ is 1 × 20ft container (~18–25 MT depending on product). Larger volume orders receive priority processing and may qualify for preferential pricing."
+          },
+          {
+            "q": "Can I order multiple products in one RFQ?",
+            "a": "Yes. Our RFQ system supports multi-product inquiries. Simply add all desired products to your RFQ Cart before submitting."
+          }
         ]
       },
       {
         "category": "Partnership",
         "icon": "handshake",
         "items": [
-          { "q": "Does HANCOCO offer exclusive distribution agreements?", "a": "Yes, we explore exclusive and preferred distribution arrangements in strategic markets. Partnership terms depend on volume commitments, market coverage, and alignment with HANCOCO's brand standards." },
-          { "q": "How do I become a long-term supply partner?", "a": "Contact our Business Development team via the Contact page or submit an inquiry with 'Partnership' as your inquiry type. We'll arrange an introductory call to explore the opportunity." }
+          {
+            "q": "Does HANCOCO offer exclusive distribution agreements?",
+            "a": "Yes, we explore exclusive and preferred distribution arrangements in strategic markets. Partnership terms depend on volume commitments, market coverage, and alignment with HANCOCO's brand standards."
+          },
+          {
+            "q": "How do I become a long-term supply partner?",
+            "a": "Contact our Business Development team via the Contact page or submit an inquiry with 'Partnership' as your inquiry type. We'll arrange an introductory call to explore the opportunity."
+          }
         ]
       }
     ],
@@ -999,7 +1130,6 @@
       "cta2": "WhatsApp Us"
     }
   },
-
   "shippingPage": {
     "hero": {
       "eyebrow": "Shipping & Logistics",
@@ -1010,62 +1140,178 @@
       "headline": "Our Export Process.",
       "copy": "A structured, transparent 8-stage process from order confirmation to port delivery.",
       "steps": [
-        { "num": "01", "title": "RFQ & Quotation", "desc": "Buyer submits RFQ. Our team responds with an official quotation including pricing, Incoterms, lead time, and documentation checklist." },
-        { "num": "02", "title": "Order Confirmation", "desc": "Buyer confirms the order via Purchase Order (PO). Proforma Invoice (PI) is issued by HANCOCO for payment processing." },
-        { "num": "03", "title": "Production & Processing", "desc": "Product is manufactured or prepared to specification. Quality checks are conducted at each production stage." },
-        { "num": "04", "title": "Quality Inspection", "desc": "Pre-shipment inspection by HANCOCO QC team. Third-party inspection available upon buyer request (SGS, Intertek, etc.)." },
-        { "num": "05", "title": "Container Loading", "desc": "Product is packed, weighed, and loaded into containers (20ft / 40ft / 40ft HC) following international cargo standards." },
-        { "num": "06", "title": "Port & Customs", "desc": "Customs clearance at Indonesian export port. All required export documents are processed and verified." },
-        { "num": "07", "title": "Ocean Freight", "desc": "Shipment departs from Belawan or Tanjung Priok port. Buyer is notified with vessel name, voyage number, and ETA." },
-        { "num": "08", "title": "Document Delivery", "desc": "Full shipping documentation package delivered to buyer: B/L, Commercial Invoice, Packing List, Certificate of Origin, and others." }
+        {
+          "num": "01",
+          "title": "RFQ & Quotation",
+          "desc": "Buyer submits RFQ. Our team responds with an official quotation including pricing, Incoterms, lead time, and documentation checklist."
+        },
+        {
+          "num": "02",
+          "title": "Order Confirmation",
+          "desc": "Buyer confirms the order via Purchase Order (PO). Proforma Invoice (PI) is issued by HANCOCO for payment processing."
+        },
+        {
+          "num": "03",
+          "title": "Production & Processing",
+          "desc": "Product is manufactured or prepared to specification. Quality checks are conducted at each production stage."
+        },
+        {
+          "num": "04",
+          "title": "Quality Inspection",
+          "desc": "Pre-shipment inspection by HANCOCO QC team. Third-party inspection available upon buyer request (SGS, Intertek, etc.)."
+        },
+        {
+          "num": "05",
+          "title": "Container Loading",
+          "desc": "Product is packed, weighed, and loaded into containers (20ft / 40ft / 40ft HC) following international cargo standards."
+        },
+        {
+          "num": "06",
+          "title": "Port & Customs",
+          "desc": "Customs clearance at Indonesian export port. All required export documents are processed and verified."
+        },
+        {
+          "num": "07",
+          "title": "Ocean Freight",
+          "desc": "Shipment departs from Belawan or Tanjung Priok port. Buyer is notified with vessel name, voyage number, and ETA."
+        },
+        {
+          "num": "08",
+          "title": "Document Delivery",
+          "desc": "Full shipping documentation package delivered to buyer: B/L, Commercial Invoice, Packing List, Certificate of Origin, and others."
+        }
       ]
     },
     "ports": {
       "headline": "Export Ports & Container Capacity.",
       "copy": "Strategic port access for efficient delivery to Asian, Middle Eastern, European, and American markets.",
       "items": [
-        { "port": "Belawan, North Sumatra", "code": "IDBWN", "routes": "Asia, Middle East, Europe" },
-        { "port": "Tanjung Priok, Jakarta", "code": "IDJKT", "routes": "Global — Primary Hub" }
+        {
+          "port": "Belawan, North Sumatra",
+          "code": "IDBWN",
+          "routes": "Asia, Middle East, Europe"
+        },
+        {
+          "port": "Tanjung Priok, Jakarta",
+          "code": "IDJKT",
+          "routes": "Global — Primary Hub"
+        }
       ],
       "containers": [
-        { "type": "20ft Standard", "capacity": "~18–22 MT", "note": "Standard commodity shipment" },
-        { "type": "40ft Standard", "capacity": "~22–26 MT", "note": "High-volume orders" },
-        { "type": "40ft High Cube", "capacity": "~24–28 MT", "note": "Bulky/light commodity" }
+        {
+          "type": "20ft Standard",
+          "capacity": "~18–22 MT",
+          "note": "Standard commodity shipment"
+        },
+        {
+          "type": "40ft Standard",
+          "capacity": "~22–26 MT",
+          "note": "High-volume orders"
+        },
+        {
+          "type": "40ft High Cube",
+          "capacity": "~24–28 MT",
+          "note": "Bulky/light commodity"
+        }
       ]
     },
     "incoterms": {
       "headline": "Trade Terms We Support.",
       "items": [
-        { "term": "FOB", "full": "Free On Board", "desc": "HANCOCO delivers goods to the origin port and loads them onto the vessel. Buyer assumes risk and freight costs from that point. Most common term for experienced importers." },
-        { "term": "CIF", "full": "Cost, Insurance & Freight", "desc": "HANCOCO covers shipping cost and insurance to the destination port. Buyer takes ownership upon arrival. Preferred by buyers who want end-to-end simplicity." },
-        { "term": "CFR", "full": "Cost & Freight", "desc": "HANCOCO covers freight to destination port but the buyer arranges their own cargo insurance. A balance between FOB and CIF." }
+        {
+          "term": "FOB",
+          "full": "Free On Board",
+          "desc": "HANCOCO delivers goods to the origin port and loads them onto the vessel. Buyer assumes risk and freight costs from that point. Most common term for experienced importers."
+        },
+        {
+          "term": "CIF",
+          "full": "Cost, Insurance & Freight",
+          "desc": "HANCOCO covers shipping cost and insurance to the destination port. Buyer takes ownership upon arrival. Preferred by buyers who want end-to-end simplicity."
+        },
+        {
+          "term": "CFR",
+          "full": "Cost & Freight",
+          "desc": "HANCOCO covers freight to destination port but the buyer arranges their own cargo insurance. A balance between FOB and CIF."
+        }
       ]
     },
     "documents": {
       "headline": "Shipping Documents We Provide.",
       "items": [
-        { "name": "Bill of Lading (B/L)", "desc": "Primary shipping document confirming cargo loaded onto vessel." },
-        { "name": "Commercial Invoice", "desc": "Official invoice detailing product, quantity, price, and trade terms." },
-        { "name": "Packing List", "desc": "Detailed list of all packages, weights, and dimensions." },
-        { "name": "Certificate of Origin (COO)", "desc": "Certifies that goods originate from Indonesia (for preferential tariff treatment)." },
-        { "name": "Phytosanitary Certificate", "desc": "Issued by government authority confirming product meets destination country health standards." },
-        { "name": "Halal Certificate", "desc": "HANCOCO-held Halal certification for applicable products." },
-        { "name": "Fumigation Certificate", "desc": "Confirms cargo has been treated to meet import country biosecurity requirements." },
-        { "name": "Third-Party Inspection Report", "desc": "Available upon request — issued by SGS, Intertek, or Bureau Veritas." }
+        {
+          "name": "Bill of Lading (B/L)",
+          "desc": "Primary shipping document confirming cargo loaded onto vessel."
+        },
+        {
+          "name": "Commercial Invoice",
+          "desc": "Official invoice detailing product, quantity, price, and trade terms."
+        },
+        {
+          "name": "Packing List",
+          "desc": "Detailed list of all packages, weights, and dimensions."
+        },
+        {
+          "name": "Certificate of Origin (COO)",
+          "desc": "Certifies that goods originate from Indonesia (for preferential tariff treatment)."
+        },
+        {
+          "name": "Phytosanitary Certificate",
+          "desc": "Issued by government authority confirming product meets destination country health standards."
+        },
+        {
+          "name": "Halal Certificate",
+          "desc": "HANCOCO-held Halal certification for applicable products."
+        },
+        {
+          "name": "Fumigation Certificate",
+          "desc": "Confirms cargo has been treated to meet import country biosecurity requirements."
+        },
+        {
+          "name": "Third-Party Inspection Report",
+          "desc": "Available upon request — issued by SGS, Intertek, or Bureau Veritas."
+        }
       ]
     },
     "markets": {
       "headline": "Global Shipping Coverage.",
       "copy": "We ship to 15+ countries across Asia, the Middle East, Europe, and beyond.",
-      "list": ["India", "China", "Malaysia", "Vietnam", "Philippines", "Japan", "South Korea", "UAE", "Saudi Arabia", "Germany", "Netherlands", "Turkey", "Nigeria", "Australia", "USA"]
+      "list": [
+        "India",
+        "China",
+        "Malaysia",
+        "Vietnam",
+        "Philippines",
+        "Japan",
+        "South Korea",
+        "UAE",
+        "Saudi Arabia",
+        "Germany",
+        "Netherlands",
+        "Turkey",
+        "Nigeria",
+        "Australia",
+        "USA"
+      ]
     },
     "return": {
       "headline": "Return & Claim Policy.",
       "copy": "We are committed to delivering products that meet agreed specifications. In the rare case of a quality dispute, our structured resolution process ensures fair and prompt resolution.",
       "steps": [
-        { "step": "01", "title": "Report the Issue", "desc": "Buyer submits a formal claim within 14 days of cargo arrival, supported by photos, lab analysis, and inspection report." },
-        { "step": "02", "title": "Investigation", "desc": "HANCOCO QC team reviews the claim against our pre-shipment inspection records and production documentation." },
-        { "step": "03", "title": "Resolution", "desc": "Resolution may include replacement shipment, credit note, or price adjustment — agreed mutually based on investigation findings." }
+        {
+          "step": "01",
+          "title": "Report the Issue",
+          "desc": "Buyer submits a formal claim within 14 days of cargo arrival, supported by photos, lab analysis, and inspection report."
+        },
+        {
+          "step": "02",
+          "title": "Investigation",
+          "desc": "HANCOCO QC team reviews the claim against our pre-shipment inspection records and production documentation."
+        },
+        {
+          "step": "03",
+          "title": "Resolution",
+          "desc": "Resolution may include replacement shipment, credit note, or price adjustment — agreed mutually based on investigation findings."
+        }
       ]
     },
     "final": {
@@ -1075,7 +1321,6 @@
       "cta2": "Contact Export Team"
     }
   },
-
   "storePage": {
     "hero": {
       "eyebrow": "B2B Product Catalog",
@@ -1086,7 +1331,13 @@
     },
     "filter": {
       "all": "All Products",
-      "categories": ["Copra", "Charcoal", "Oil", "Fiber & Peat", "Coming Soon"]
+      "categories": [
+        "Copra",
+        "Charcoal",
+        "Oil",
+        "Fiber & Peat",
+        "Coming Soon"
+      ]
     },
     "products": [
       {
@@ -1096,7 +1347,12 @@
         "slug": "white-copra",
         "tagline": "Premium food-grade dried coconut kernel",
         "desc": "High-quality white copra with controlled moisture content, suitable for coconut oil extraction and food processing industries worldwide.",
-        "applications": ["Coconut Oil Extraction", "Food Processing", "Oleochemical Industry", "Animal Feed"],
+        "applications": [
+          "Coconut Oil Extraction",
+          "Food Processing",
+          "Oleochemical Industry",
+          "Animal Feed"
+        ],
         "badge": "Export Ready",
         "status": "active",
         "image": "/assets/images/white-copra-store.webp",
@@ -1115,7 +1371,11 @@
         "slug": "black-copra",
         "tagline": "Industrial-grade copra for high-volume processing",
         "desc": "Industrial-grade black copra processed for large-scale coconut oil production. Suitable for refining processes where color is not critical.",
-        "applications": ["Industrial Oil Extraction", "Oleochemical Feed", "Biodiesel Feedstock"],
+        "applications": [
+          "Industrial Oil Extraction",
+          "Oleochemical Feed",
+          "Biodiesel Feedstock"
+        ],
         "badge": "Export Ready",
         "status": "active",
         "image": "/assets/images/dipesh-ray-kngFBByxsvw-unsplash.webp",
@@ -1134,7 +1394,12 @@
         "slug": "coconut-charcoal",
         "tagline": "Premium coconut shell charcoal briquettes",
         "desc": "High fixed-carbon coconut shell charcoal briquettes for BBQ, hookah/shisha, and industrial applications. Consistent heat, low ash, long burn time.",
-        "applications": ["BBQ & Grilling", "Hookah / Shisha", "Industrial Fuel", "Activated Carbon Feedstock"],
+        "applications": [
+          "BBQ & Grilling",
+          "Hookah / Shisha",
+          "Industrial Fuel",
+          "Activated Carbon Feedstock"
+        ],
         "badge": "Export Ready",
         "status": "active",
         "image": "/assets/images/pexels-cmrcn-29132448.webp",
@@ -1153,7 +1418,12 @@
         "slug": "coconut-oil",
         "tagline": "Refined coconut oil for food & industrial use",
         "desc": "High-purity RBD (Refined, Bleached, Deodorized) coconut oil for food manufacturing, cosmetics, and industrial applications.",
-        "applications": ["Food Manufacturing", "Cosmetics & Personal Care", "Pharmaceuticals", "Industrial Lubricants"],
+        "applications": [
+          "Food Manufacturing",
+          "Cosmetics & Personal Care",
+          "Pharmaceuticals",
+          "Industrial Lubricants"
+        ],
         "badge": "Export Ready",
         "status": "active",
         "image": "/assets/images/towfiqu-barbhuiya-o3Dunr7Vl-o-unsplash.webp",
@@ -1172,7 +1442,12 @@
         "slug": "cocopeat",
         "tagline": "Sustainable growing medium from coconut husk",
         "desc": "Premium cocopeat (coir pith) — a natural, sustainable growing medium with excellent water retention properties for horticulture and agriculture.",
-        "applications": ["Horticulture", "Hydroponics", "Soil Amendment", "Substrate Blending"],
+        "applications": [
+          "Horticulture",
+          "Hydroponics",
+          "Soil Amendment",
+          "Substrate Blending"
+        ],
         "badge": "Export Ready",
         "status": "active",
         "image": "/assets/images/cocopeat.webp",
@@ -1191,7 +1466,12 @@
         "slug": "desiccated-coconut",
         "tagline": "Fine-cut dried coconut for food industry",
         "desc": "Premium desiccated coconut in fine, medium, and coarse grades for bakeries, confectioneries, and food manufacturers.",
-        "applications": ["Bakery", "Confectionery", "Snack Manufacturing", "Food Ingredient"],
+        "applications": [
+          "Bakery",
+          "Confectionery",
+          "Snack Manufacturing",
+          "Food Ingredient"
+        ],
         "badge": "Coming Soon",
         "status": "coming_soon",
         "image": "/assets/images/pexels-bogdankrupin-3986706.webp",
@@ -1201,12 +1481,30 @@
     "why": {
       "headline": "Why Source From HANCOCO?",
       "items": [
-        { "icon": "factory", "text": "Direct From Processor" },
-        { "icon": "shield", "text": "7-Stage Quality Control" },
-        { "icon": "ship", "text": "Export Ready — 15+ Countries" },
-        { "icon": "leaf", "text": "Sustainable & Halal Certified" },
-        { "icon": "clock", "text": "14–30 Day Lead Time" },
-        { "icon": "headset", "text": "Dedicated Export Team" }
+        {
+          "icon": "factory",
+          "text": "Direct From Processor"
+        },
+        {
+          "icon": "shield",
+          "text": "7-Stage Quality Control"
+        },
+        {
+          "icon": "ship",
+          "text": "Export Ready — 15+ Countries"
+        },
+        {
+          "icon": "leaf",
+          "text": "Sustainable & Halal Certified"
+        },
+        {
+          "icon": "clock",
+          "text": "14–30 Day Lead Time"
+        },
+        {
+          "icon": "headset",
+          "text": "Dedicated Export Team"
+        }
       ]
     },
     "rfq": {
@@ -1220,7 +1518,12 @@
         "whatsapp": "WhatsApp Number",
         "port": "Destination Port",
         "incoterms": "Preferred Incoterms",
-        "incotermsOptions": ["FOB", "CIF", "CFR", "To Be Discussed"],
+        "incotermsOptions": [
+          "FOB",
+          "CIF",
+          "CFR",
+          "To Be Discussed"
+        ],
         "quantity": "Estimated Order Quantity",
         "date": "Target Purchase Date",
         "notes": "Additional Requirements",
@@ -1243,41 +1546,118 @@
   "privacyPage": {
     "hero": {
       "headline": "Privacy Policy",
-      "copy": "How we collect, use, and protect your personal information."
+      "copy": "HANCOCO is committed to protecting your privacy and ensuring that your personal information is handled securely and responsibly."
     },
     "lastUpdated": "Last Updated: July 2026",
     "sections": [
       {
-        "title": "Information We Collect",
-        "body": "We collect information you provide directly, such as when you fill out our RFQ form, contact us via email or WhatsApp, or subscribe to our newsletter. This may include your name, company name, email address, phone number, country, and details about your product interests.\n\nWe also automatically collect certain technical information when you visit our website, including your IP address, browser type, device information, and browsing behavior through cookies and similar technologies."
+        "title": "1. Information We Collect",
+        "body": "We may collect the following information:\n\n* Full name\n* Company name\n* Email address\n* Phone number\n* Country and business location\n* Product inquiries and messages\n* IP address and browser information\n* Website usage data through cookies and analytics"
       },
       {
-        "title": "How We Use Your Information",
-        "body": "We use the information we collect to respond to your inquiries and provide quotations, process and fulfill your orders, communicate with you about our products and services, improve our website and customer experience, and comply with legal obligations.\n\nWe do not sell your personal information to third parties."
+        "title": "2. How We Use Your Information",
+        "body": "We use your information to:\n\n* Respond to inquiries and quotation requests.\n* Process business communications.\n* Improve our products and services.\n* Enhance website performance and user experience.\n* Send updates, newsletters, or promotional information (only if you choose to receive them).\n* Comply with applicable legal obligations."
       },
       {
-        "title": "Data Sharing & Disclosure",
-        "body": "We may share your information with trusted third-party service providers who assist us in operating our website, processing payments, and delivering products. These partners are contractually bound to protect your data and use it only for the purposes we specify.\n\nWe may also disclose your information if required by law or to protect our rights and safety."
+        "title": "3. Cookies",
+        "body": "Our website may use cookies and similar technologies to improve functionality, analyze website traffic, and enhance your browsing experience.\n\nYou may disable cookies through your browser settings, although some website features may not function properly."
       },
       {
-        "title": "Data Retention",
-        "body": "We retain your personal information for as long as necessary to fulfill the purposes described in this policy, or as required by applicable law. When we no longer need your data, we will securely delete or anonymize it."
+        "title": "4. Information Sharing",
+        "body": "HANCOCO does not sell, rent, or trade your personal information.\n\nWe may share information only with trusted service providers who assist in operating our website or business, or when required by applicable law."
       },
       {
-        "title": "Your Rights",
-        "body": "Depending on your jurisdiction, you may have the right to access, correct, or delete your personal information, restrict or object to its processing, and request data portability. To exercise these rights, please contact us at privacy@hancoco.com."
+        "title": "5. Data Security",
+        "body": "We implement appropriate technical and organizational security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.\n\nWhile we strive to use commercially acceptable methods to protect your information, no internet transmission or electronic storage system can be guaranteed to be completely secure."
       },
       {
-        "title": "Cookies",
-        "body": "Our website uses cookies to improve functionality, analyze traffic, and personalize content. You can control cookie preferences through your browser settings. Disabling certain cookies may affect your experience on our site."
+        "title": "6. Data Retention",
+        "body": "We retain personal information only for as long as necessary to fulfill the purposes described in this Privacy Policy or to comply with legal and regulatory requirements."
       },
       {
-        "title": "Security",
-        "body": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of electronic storage or transmission is 100% secure."
+        "title": "7. Third-Party Services",
+        "body": "Our website may contain links to third-party websites or use third-party services such as analytics providers or communication platforms.\n\nThese third parties have their own privacy policies, and HANCOCO is not responsible for their privacy practices."
       },
       {
-        "title": "Contact Us",
-        "body": "If you have questions about this Privacy Policy or wish to exercise your data rights, please contact our Data Protection team at privacy@hancoco.com."
+        "title": "8. Your Rights",
+        "body": "Depending on applicable laws, you may have the right to:\n\n* Access your personal information.\n* Correct inaccurate information.\n* Request deletion of your personal data.\n* Withdraw consent for marketing communications.\n* Request information regarding how your data is processed.\n\nTo exercise these rights, please contact us using the contact details below."
+      },
+      {
+        "title": "9. Children's Privacy",
+        "body": "Our products and services are intended for businesses and individuals aged 18 years or older.\n\nWe do not knowingly collect personal information from children."
+      },
+      {
+        "title": "10. Changes to This Privacy Policy",
+        "body": "We may update this Privacy Policy from time to time.\n\nAny revisions will be posted on this page with the updated revision date. Continued use of our website after changes are published constitutes acceptance of the revised Privacy Policy."
+      },
+      {
+        "title": "11. Contact Us",
+        "body": "If you have any questions regarding this Privacy Policy or how your personal information is handled, please contact us through our official Contact page or business email.\n\nThank you for trusting HANCOCO."
+      }
+    ]
+  },
+  "termsPage": {
+    "hero": {
+      "headline": "Terms & Conditions",
+      "copy": "Welcome to HANCOCO. By accessing or using our website, products, or services, you agree to be bound by these Terms & Conditions."
+    },
+    "lastUpdated": "Last Updated: July 2026",
+    "sections": [
+      {
+        "title": "1. About HANCOCO",
+        "body": "HANCOCO is an Indonesian company specializing in the sourcing, processing, and export of high-quality coconut products. Our mission is to deliver sustainable, traceable, and export-grade coconut solutions for customers worldwide."
+      },
+      {
+        "title": "2. Use of Website",
+        "body": "You agree to use this website only for lawful purposes and in accordance with these Terms. You must not:\n\n* Use the website for fraudulent or unlawful activities.\n* Attempt to gain unauthorized access to our systems.\n* Distribute malware, viruses, or harmful software.\n* Copy, reproduce, or redistribute website content without written permission."
+      },
+      {
+        "title": "3. Product Information",
+        "body": "We strive to ensure all product descriptions, specifications, and images are accurate. However, natural agricultural products may vary slightly in appearance, color, size, moisture content, or other characteristics.\n\nAll information provided is subject to change without prior notice."
+      },
+      {
+        "title": "4. Orders & Quotations",
+        "body": "All purchase orders, quotations, and pricing are subject to confirmation by HANCOCO. We reserve the right to accept, reject, or cancel any order due to product availability, pricing errors, regulatory requirements, or other business considerations."
+      },
+      {
+        "title": "5. Pricing & Payment",
+        "body": "Prices are provided based on agreed quotations and may change depending on market conditions, raw material availability, logistics costs, or exchange rate fluctuations.\n\nPayment terms will follow the agreement stated in the sales contract or proforma invoice."
+      },
+      {
+        "title": "6. Shipping & Delivery",
+        "body": "Delivery schedules are estimates and may be affected by weather conditions, shipping lines, customs clearance, port congestion, or force majeure events.\n\nHANCOCO is not responsible for delays beyond our reasonable control."
+      },
+      {
+        "title": "7. Export Compliance",
+        "body": "Buyers are responsible for complying with import regulations, permits, customs requirements, taxes, and product standards in their destination country unless otherwise agreed in writing."
+      },
+      {
+        "title": "8. Intellectual Property",
+        "body": "All content on this website—including text, logos, graphics, product images, documents, and branding—is the property of HANCOCO and may not be used without prior written permission."
+      },
+      {
+        "title": "9. Limitation of Liability",
+        "body": "To the fullest extent permitted by law, HANCOCO shall not be liable for indirect, incidental, special, or consequential damages arising from the use of this website, products, or services."
+      },
+      {
+        "title": "10. Force Majeure",
+        "body": "HANCOCO shall not be liable for delays or failure to perform obligations resulting from events beyond reasonable control, including natural disasters, pandemics, government actions, labor disputes, war, transportation disruptions, or other force majeure events."
+      },
+      {
+        "title": "11. Third-Party Links",
+        "body": "Our website may contain links to third-party websites for your convenience. HANCOCO is not responsible for the content, policies, or practices of those external websites."
+      },
+      {
+        "title": "12. Changes to Terms",
+        "body": "We may update these Terms & Conditions at any time without prior notice. Continued use of our website after changes are published constitutes acceptance of the updated Terms."
+      },
+      {
+        "title": "13. Governing Law",
+        "body": "These Terms & Conditions shall be governed by and interpreted in accordance with the laws of the Republic of Indonesia."
+      },
+      {
+        "title": "14. Contact Us",
+        "body": "If you have any questions regarding these Terms & Conditions, please contact us through the Contact page or via our official business email."
       }
     ]
   }

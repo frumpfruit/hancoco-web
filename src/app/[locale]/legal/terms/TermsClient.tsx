@@ -5,8 +5,8 @@ import Link from "next/link";
 import { useLocale } from "next-intl";
 import { Shield, ArrowLeft } from "lucide-react";
 
-export default function PrivacyClient() {
-  const t = useTranslations("privacyPage");
+export default function TermsClient() {
+  const t = useTranslations("termsPage");
   const locale = useLocale();
 
   const sections = t.raw("sections") as { title: string; body: string }[];

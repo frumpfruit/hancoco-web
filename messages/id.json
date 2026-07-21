@@ -852,20 +852,12 @@
       "cta": "Berlangganan Sekarang",
       "privacy": "Kami menghargai privasi Anda. Tidak ada spam."
     },
-    "newsletter": {
-      "headline": "Tetap Terdepan dengan Wawasan HANCOCO.",
-      "copy": "Terima pembaruan pasar, pengetahuan ekspor, laporan keberlanjutan, dan analisis industri langsung di kotak masuk Anda.",
-      "placeholder": "Masukkan email bisnis Anda",
-      "cta": "Berlangganan Sekarang",
-      "privacy": "Kami menghargai privasi Anda. Tidak ada spam."
-    },
     "final": {
       "headline": "Pengetahuan Menciptakan Kemitraan yang Lebih Baik.",
       "copy": "Baik Anda sedang menjelajahi pasar baru, mencari sumber produk kelapa premium, atau mencari wawasan industri, HANCOCO siap mendukung bisnis Anda dengan keahlian terpercaya dan kolaborasi jangka panjang.",
       "cta": "Hubungi Tim Kami"
     }
   },
-
   "contactPage": {
     "hero": {
       "eyebrow": "Pengembangan Bisnis",
@@ -877,19 +869,52 @@
     "options": {
       "headline": "Bagaimana Kami Bisa Membantu?",
       "items": [
-        { "icon": "package", "title": "Pertanyaan Penjualan", "desc": "Minta harga, detail MOQ, dan ketersediaan produk untuk rentang komoditas kami.", "cta": "Tanya Sekarang" },
-        { "icon": "ship", "title": "Pertanyaan Ekspor", "desc": "Diskusikan rute ekspor, ketentuan pengiriman (FOB/CIF), kapasitas kontainer, dan dokumentasi.", "cta": "Diskusikan Ekspor" },
-        { "icon": "handshake", "title": "Kemitraan", "desc": "Jelajahi perjanjian pasokan jangka panjang, usaha patungan, atau kemitraan distribusi.", "cta": "Jelajahi Kemitraan" },
-        { "icon": "info", "title": "Informasi Umum", "desc": "Minta profil perusahaan, katalog produk, sertifikasi, atau lembar data teknis.", "cta": "Dapatkan Dokumen" }
+        {
+          "icon": "package",
+          "title": "Pertanyaan Penjualan",
+          "desc": "Minta harga, detail MOQ, dan ketersediaan produk untuk rentang komoditas kami.",
+          "cta": "Tanya Sekarang"
+        },
+        {
+          "icon": "ship",
+          "title": "Pertanyaan Ekspor",
+          "desc": "Diskusikan rute ekspor, ketentuan pengiriman (FOB/CIF), kapasitas kontainer, dan dokumentasi.",
+          "cta": "Diskusikan Ekspor"
+        },
+        {
+          "icon": "handshake",
+          "title": "Kemitraan",
+          "desc": "Jelajahi perjanjian pasokan jangka panjang, usaha patungan, atau kemitraan distribusi.",
+          "cta": "Jelajahi Kemitraan"
+        },
+        {
+          "icon": "info",
+          "title": "Informasi Umum",
+          "desc": "Minta profil perusahaan, katalog produk, sertifikasi, atau lembar data teknis.",
+          "cta": "Dapatkan Dokumen"
+        }
       ]
     },
     "form": {
       "headline": "Kirimkan Pesan.",
       "copy": "Lengkapi formulir di bawah ini dan tim kami akan merespons dalam 1–2 hari kerja.",
       "inquiryType": "Jenis Pertanyaan",
-      "inquiryOptions": ["Penjualan / Produk", "Ekspor & Pengiriman", "Kemitraan & Distribusi", "Investasi", "Informasi Umum"],
+      "inquiryOptions": [
+        "Penjualan / Produk",
+        "Ekspor & Pengiriman",
+        "Kemitraan & Distribusi",
+        "Investasi",
+        "Informasi Umum"
+      ],
       "product": "Produk yang Diminati",
-      "productOptions": ["Kopra Putih", "Kopra Hitam", "Arang Batok Kelapa", "Minyak Kelapa", "Banyak Produk", "Lainnya / Belum Yakin"],
+      "productOptions": [
+        "Kopra Putih",
+        "Kopra Hitam",
+        "Arang Batok Kelapa",
+        "Minyak Kelapa",
+        "Banyak Produk",
+        "Lainnya / Belum Yakin"
+      ],
       "company": "Nama Perusahaan",
       "contact": "Nama Kontak",
       "email": "Email Bisnis",
@@ -909,19 +934,48 @@
     },
     "global": {
       "headline": "Melayani Pembeli di 15+ Negara.",
-      "markets": ["India", "Malaysia", "China", "UEA", "Arab Saudi", "Vietnam", "Filipina", "Jepang", "Korea Selatan", "Jerman", "Belanda", "AS", "Australia", "Turki", "Nigeria"]
+      "markets": [
+        "India",
+        "Malaysia",
+        "China",
+        "UEA",
+        "Arab Saudi",
+        "Vietnam",
+        "Filipina",
+        "Jepang",
+        "Korea Selatan",
+        "Jerman",
+        "Belanda",
+        "AS",
+        "Australia",
+        "Turki",
+        "Nigeria"
+      ]
     },
     "faq": {
       "headline": "Jawaban Cepat.",
       "items": [
-        { "q": "Berapa jumlah pesanan minimum (MOQ)?", "a": "MOQ standar kami adalah 1 × 20ft kontainer. Kami juga mengakomodasi pesanan lebih besar (40ft / 40ft HC). Final MOQ bergantung pada jenis produk dan tujuan." },
-        { "q": "Apakah Anda menyediakan sampel produk?", "a": "Ya. Kami menyediakan sampel untuk pembeli yang memenuhi syarat setelah tinjauan pertanyaan awal. Waktu tunggu sampel adalah sekitar 7–14 hari kerja." },
-        { "q": "Ketentuan pembayaran apa yang Anda terima?", "a": "Kami menerima T/T (Telegraphic Transfer) dan L/C (Letter of Credit). Ketentuan disepakati selama tahap penawaran (quotation)." }
+        {
+          "q": "Berapa jumlah pesanan minimum (MOQ)?",
+          "a": "MOQ standar kami adalah 1 × 20ft kontainer. Kami juga mengakomodasi pesanan lebih besar (40ft / 40ft HC). Final MOQ bergantung pada jenis produk dan tujuan."
+        },
+        {
+          "q": "Apakah Anda menyediakan sampel produk?",
+          "a": "Ya. Kami menyediakan sampel untuk pembeli yang memenuhi syarat setelah tinjauan pertanyaan awal. Waktu tunggu sampel adalah sekitar 7–14 hari kerja."
+        },
+        {
+          "q": "Ketentuan pembayaran apa yang Anda terima?",
+          "a": "Kami menerima T/T (Telegraphic Transfer) dan L/C (Letter of Credit). Ketentuan disepakati selama tahap penawaran (quotation)."
+        }
       ]
     },
     "social": {
       "headline": "Terhubung Dengan Kami.",
-      "links": ["LinkedIn", "WhatsApp Business", "Email"]
+      "links": [
+        "LinkedIn",
+        "WhatsApp Business",
+        "Email"
+      ]
     },
     "final": {
       "headline": "Siap Memulai Percakapan?",
@@ -929,14 +983,21 @@
       "cta2": "Menjadi Mitra Kami"
     }
   },
-
   "faqPage": {
     "hero": {
       "eyebrow": "Pusat Dukungan",
       "headline": "Pertanyaan yang Sering Diajukan.",
       "copy": "Semua yang perlu Anda ketahui tentang produk HANCOCO, proses ekspor, standar kualitas, dan peluang kemitraan."
     },
-    "categories": ["Semua", "Umum", "Produk", "Kualitas", "Ekspor", "Pemesanan & RFQ", "Kemitraan"],
+    "categories": [
+      "Semua",
+      "Umum",
+      "Produk",
+      "Kualitas",
+      "Ekspor",
+      "Pemesanan & RFQ",
+      "Kemitraan"
+    ],
     "search": {
       "placeholder": "Cari pertanyaan..."
     },
@@ -945,57 +1006,120 @@
         "category": "Perusahaan Umum",
         "icon": "building",
         "items": [
-          { "q": "Apa itu HANCOCO?", "a": "HANCOCO adalah perusahaan pengolahan kelapa terintegrasi yang berbasis di Indonesia, didirikan pada tahun 2020. Kami memproduksi dan mengekspor komoditas turunan kelapa premium termasuk Kopra Putih, Kopra Hitam, Arang Batok Kelapa, dan Minyak Kelapa untuk B2B dan pembeli industri di seluruh dunia." },
-          { "q": "Di mana lokasi HANCOCO?", "a": "Fasilitas pengolahan dan kantor pusat kami berlokasi di Indonesia. Kami mengekspor terutama melalui pelabuhan utama Indonesia termasuk Belawan (Sumatera Utara) dan Tanjung Priok (Jakarta)." },
-          { "q": "Apakah HANCOCO pabrik atau trader?", "a": "HANCOCO adalah prosesor dan pabrik yang terintegrasi penuh — bukan sekadar trader. Kami memiliki dan mengoperasikan fasilitas pengolahan kami, memberikan pembeli akses langsung ke sumber produksi dengan kontrol kualitas penuh." },
-          { "q": "Sertifikasi apa yang dimiliki HANCOCO?", "a": "Saat ini kami memegang sertifikasi Halal. Sertifikasi ISO, HACCP, dan GMP sedang dalam proses (Segera Hadir). Kami memperbarui status sertifikasi secara berkala di halaman Dokumen Perusahaan." },
-          { "q": "Dalam bahasa apa Anda beroperasi?", "a": "Tim kami beroperasi dalam Bahasa Indonesia dan Bahasa Inggris. Semua dokumentasi ekspor, spesifikasi produk, dan komunikasi tersedia dalam Bahasa Inggris." }
+          {
+            "q": "Apa itu HANCOCO?",
+            "a": "HANCOCO adalah perusahaan pengolahan kelapa terintegrasi yang berbasis di Indonesia, didirikan pada tahun 2020. Kami memproduksi dan mengekspor komoditas turunan kelapa premium termasuk Kopra Putih, Kopra Hitam, Arang Batok Kelapa, dan Minyak Kelapa untuk B2B dan pembeli industri di seluruh dunia."
+          },
+          {
+            "q": "Di mana lokasi HANCOCO?",
+            "a": "Fasilitas pengolahan dan kantor pusat kami berlokasi di Indonesia. Kami mengekspor terutama melalui pelabuhan utama Indonesia termasuk Belawan (Sumatera Utara) dan Tanjung Priok (Jakarta)."
+          },
+          {
+            "q": "Apakah HANCOCO pabrik atau trader?",
+            "a": "HANCOCO adalah prosesor dan pabrik yang terintegrasi penuh — bukan sekadar trader. Kami memiliki dan mengoperasikan fasilitas pengolahan kami, memberikan pembeli akses langsung ke sumber produksi dengan kontrol kualitas penuh."
+          },
+          {
+            "q": "Sertifikasi apa yang dimiliki HANCOCO?",
+            "a": "Saat ini kami memegang sertifikasi Halal. Sertifikasi ISO, HACCP, dan GMP sedang dalam proses (Segera Hadir). Kami memperbarui status sertifikasi secara berkala di halaman Dokumen Perusahaan."
+          },
+          {
+            "q": "Dalam bahasa apa Anda beroperasi?",
+            "a": "Tim kami beroperasi dalam Bahasa Indonesia dan Bahasa Inggris. Semua dokumentasi ekspor, spesifikasi produk, dan komunikasi tersedia dalam Bahasa Inggris."
+          }
         ]
       },
       {
         "category": "Produk",
         "icon": "package",
         "items": [
-          { "q": "Produk apa yang ditawarkan HANCOCO?", "a": "Rentang produk aktif kami saat ini meliputi: Kopra Putih (kadar air rendah, food-grade), Kopra Hitam (kelas industri), Arang Batok Kelapa (briket BBQ/hookah/industri), dan Minyak Kelapa (RBD/Virgin). Produk tambahan termasuk Kelapa Parut Kering (Desiccated), Serabut Kelapa, dan VCO ada dalam rencana pengembangan kami." },
-          { "q": "Dapatkah saya meminta spesifikasi khusus?", "a": "Ya. Kami mengakomodasi kadar air khusus, kadar abu, tingkat karbon tetap (untuk arang), ukuran partikel, dan konfigurasi kemasan berdasarkan kebutuhan pembeli dan volume pesanan." },
-          { "q": "Berapa umur simpan produk Anda?", "a": "Umur simpan bervariasi per produk: Kopra (6–12 bulan dalam penyimpanan yang tepat), Arang Kelapa (24+ bulan), Minyak Kelapa (12–24 bulan). Kami memberikan panduan penyimpanan pada setiap pengiriman." },
-          { "q": "Apakah Anda menawarkan produk organik bersertifikat?", "a": "Kami mengambil sumber dari perkebunan kelapa di Indonesia. Sertifikasi organik adalah bagian dari peta jalan produk kami. Hubungi tim kami untuk membahas persyaratan kepatuhan spesifik." }
+          {
+            "q": "Produk apa yang ditawarkan HANCOCO?",
+            "a": "Rentang produk aktif kami saat ini meliputi: Kopra Putih (kadar air rendah, food-grade), Kopra Hitam (kelas industri), Arang Batok Kelapa (briket BBQ/hookah/industri), dan Minyak Kelapa (RBD/Virgin). Produk tambahan termasuk Kelapa Parut Kering (Desiccated), Serabut Kelapa, dan VCO ada dalam rencana pengembangan kami."
+          },
+          {
+            "q": "Dapatkah saya meminta spesifikasi khusus?",
+            "a": "Ya. Kami mengakomodasi kadar air khusus, kadar abu, tingkat karbon tetap (untuk arang), ukuran partikel, dan konfigurasi kemasan berdasarkan kebutuhan pembeli dan volume pesanan."
+          },
+          {
+            "q": "Berapa umur simpan produk Anda?",
+            "a": "Umur simpan bervariasi per produk: Kopra (6–12 bulan dalam penyimpanan yang tepat), Arang Kelapa (24+ bulan), Minyak Kelapa (12–24 bulan). Kami memberikan panduan penyimpanan pada setiap pengiriman."
+          },
+          {
+            "q": "Apakah Anda menawarkan produk organik bersertifikat?",
+            "a": "Kami mengambil sumber dari perkebunan kelapa di Indonesia. Sertifikasi organik adalah bagian dari peta jalan produk kami. Hubungi tim kami untuk membahas persyaratan kepatuhan spesifik."
+          }
         ]
       },
       {
         "category": "Kualitas & Manufaktur",
         "icon": "shield",
         "items": [
-          { "q": "Bagaimana Anda memastikan konsistensi kualitas?", "a": "Proses Kontrol Kualitas 7 tahap kami mencakup Inspeksi Bahan Baku, Pemantauan Produksi, Pengambilan Sampel, Pengujian Laboratorium, Pengecekan Kadar Air & Berat, Inspeksi Pra-Pengiriman, dan Persetujuan Akhir. Setiap batch didokumentasikan." },
-          { "q": "Bisakah pembeli mengatur inspeksi pihak ketiga?", "a": "Ya. Kami menyambut inspeksi pra-pengiriman oleh badan pihak ketiga terakreditasi (SGS, Bureau Veritas, Intertek, dll.). Pengaturan harus dikomunikasikan pada tahap konfirmasi pesanan." },
-          { "q": "Berapa angka kapasitas produksi Anda?", "a": "Kami dapat memberikan data kapasitas terperinci selama tahap penawaran. Fasilitas kami terukur untuk mendukung pesanan spot dan kontrak pasokan jangka panjang." }
+          {
+            "q": "Bagaimana Anda memastikan konsistensi kualitas?",
+            "a": "Proses Kontrol Kualitas 7 tahap kami mencakup Inspeksi Bahan Baku, Pemantauan Produksi, Pengambilan Sampel, Pengujian Laboratorium, Pengecekan Kadar Air & Berat, Inspeksi Pra-Pengiriman, dan Persetujuan Akhir. Setiap batch didokumentasikan."
+          },
+          {
+            "q": "Bisakah pembeli mengatur inspeksi pihak ketiga?",
+            "a": "Ya. Kami menyambut inspeksi pra-pengiriman oleh badan pihak ketiga terakreditasi (SGS, Bureau Veritas, Intertek, dll.). Pengaturan harus dikomunikasikan pada tahap konfirmasi pesanan."
+          },
+          {
+            "q": "Berapa angka kapasitas produksi Anda?",
+            "a": "Kami dapat memberikan data kapasitas terperinci selama tahap penawaran. Fasilitas kami terukur untuk mendukung pesanan spot dan kontrak pasokan jangka panjang."
+          }
         ]
       },
       {
         "category": "Ekspor & Logistik",
         "icon": "ship",
         "items": [
-          { "q": "Ketentuan perdagangan (Incoterms) apa yang didukung?", "a": "Kami mendukung FOB (Free On Board), CIF (Cost, Insurance & Freight), dan CFR (Cost and Freight). Incoterm pilihan disepakati selama tahap penawaran berdasarkan pelabuhan tujuan." },
-          { "q": "Dari pelabuhan mana Anda mengirim?", "a": "Pelabuhan ekspor utama kami adalah Belawan (Medan, Sumatera Utara) dan Tanjung Priok (Jakarta). Pemilihan pelabuhan bergantung pada produk spesifik dan optimasi logistik." },
-          { "q": "Ukuran kontainer apa yang tersedia?", "a": "Kami mengirim dalam kontainer 20ft Standar, 40ft Standar, dan 40ft High Cube (HC). Jenis kontainer optimal bergantung pada kepadatan dan volume produk." },
-          { "q": "Berapa lama waktu tunggu (lead time) pesanan?", "a": "Lead time produksi hingga pengiriman umumnya 14–30 hari sejak konfirmasi Purchase Order, tergantung pada volume pesanan dan jadwal produksi." }
+          {
+            "q": "Ketentuan perdagangan (Incoterms) apa yang didukung?",
+            "a": "Kami mendukung FOB (Free On Board), CIF (Cost, Insurance & Freight), dan CFR (Cost and Freight). Incoterm pilihan disepakati selama tahap penawaran berdasarkan pelabuhan tujuan."
+          },
+          {
+            "q": "Dari pelabuhan mana Anda mengirim?",
+            "a": "Pelabuhan ekspor utama kami adalah Belawan (Medan, Sumatera Utara) dan Tanjung Priok (Jakarta). Pemilihan pelabuhan bergantung pada produk spesifik dan optimasi logistik."
+          },
+          {
+            "q": "Ukuran kontainer apa yang tersedia?",
+            "a": "Kami mengirim dalam kontainer 20ft Standar, 40ft Standar, dan 40ft High Cube (HC). Jenis kontainer optimal bergantung pada kepadatan dan volume produk."
+          },
+          {
+            "q": "Berapa lama waktu tunggu (lead time) pesanan?",
+            "a": "Lead time produksi hingga pengiriman umumnya 14–30 hari sejak konfirmasi Purchase Order, tergantung pada volume pesanan dan jadwal produksi."
+          }
         ]
       },
       {
         "category": "Pemesanan & RFQ",
         "icon": "clipboard",
         "items": [
-          { "q": "Bagaimana proses RFQ (Permintaan Penawaran)?", "a": "1. Telusuri produk kami dan tambahkan ke Keranjang RFQ. 2. Lengkapi formulir RFQ dengan detail perusahaan dan volume. 3. Tim kami merespons dengan penawaran resmi (quotation) dalam 1–3 hari kerja. 4. Setelah sepakat, kami mengeluarkan Proforma Invoice." },
-          { "q": "Berapa jumlah pesanan minimum (MOQ)?", "a": "MOQ standar kami adalah 1 × 20ft kontainer (~18–25 MT bergantung pada produk). Pesanan bervolume lebih besar mendapat prioritas dan mungkin harga yang lebih baik." },
-          { "q": "Bisakah saya memesan banyak produk dalam satu RFQ?", "a": "Ya. Sistem RFQ kami mendukung permintaan multi-produk. Cukup tambahkan semua produk yang diinginkan ke Keranjang RFQ sebelum mengirim." }
+          {
+            "q": "Bagaimana proses RFQ (Permintaan Penawaran)?",
+            "a": "1. Telusuri produk kami dan tambahkan ke Keranjang RFQ. 2. Lengkapi formulir RFQ dengan detail perusahaan dan volume. 3. Tim kami merespons dengan penawaran resmi (quotation) dalam 1–3 hari kerja. 4. Setelah sepakat, kami mengeluarkan Proforma Invoice."
+          },
+          {
+            "q": "Berapa jumlah pesanan minimum (MOQ)?",
+            "a": "MOQ standar kami adalah 1 × 20ft kontainer (~18–25 MT bergantung pada produk). Pesanan bervolume lebih besar mendapat prioritas dan mungkin harga yang lebih baik."
+          },
+          {
+            "q": "Bisakah saya memesan banyak produk dalam satu RFQ?",
+            "a": "Ya. Sistem RFQ kami mendukung permintaan multi-produk. Cukup tambahkan semua produk yang diinginkan ke Keranjang RFQ sebelum mengirim."
+          }
         ]
       },
       {
         "category": "Kemitraan",
         "icon": "handshake",
         "items": [
-          { "q": "Apakah HANCOCO menawarkan perjanjian distribusi eksklusif?", "a": "Ya, kami menjajaki pengaturan distribusi eksklusif dan preferensial di pasar strategis. Ketentuan bergantung pada komitmen volume dan cakupan pasar." },
-          { "q": "Bagaimana saya menjadi mitra pasokan jangka panjang?", "a": "Hubungi tim Pengembangan Bisnis kami melalui halaman Kontak atau kirim pertanyaan dengan jenis 'Kemitraan'. Kami akan mengatur panggilan pengantar." }
+          {
+            "q": "Apakah HANCOCO menawarkan perjanjian distribusi eksklusif?",
+            "a": "Ya, kami menjajaki pengaturan distribusi eksklusif dan preferensial di pasar strategis. Ketentuan bergantung pada komitmen volume dan cakupan pasar."
+          },
+          {
+            "q": "Bagaimana saya menjadi mitra pasokan jangka panjang?",
+            "a": "Hubungi tim Pengembangan Bisnis kami melalui halaman Kontak atau kirim pertanyaan dengan jenis 'Kemitraan'. Kami akan mengatur panggilan pengantar."
+          }
         ]
       }
     ],
@@ -1006,7 +1130,6 @@
       "cta2": "WhatsApp Kami"
     }
   },
-
   "shippingPage": {
     "hero": {
       "eyebrow": "Pengiriman & Logistik",
@@ -1017,62 +1140,178 @@
       "headline": "Proses Ekspor Kami.",
       "copy": "Proses 8 tahap yang terstruktur dan transparan dari konfirmasi pesanan hingga pengiriman pelabuhan.",
       "steps": [
-        { "num": "01", "title": "RFQ & Penawaran", "desc": "Pembeli mengirim RFQ. Tim kami merespons dengan penawaran resmi termasuk harga, Incoterms, lead time, dan daftar dokumen." },
-        { "num": "02", "title": "Konfirmasi Pesanan", "desc": "Pembeli mengonfirmasi pesanan melalui Purchase Order (PO). Proforma Invoice (PI) dikeluarkan oleh HANCOCO untuk proses pembayaran." },
-        { "num": "03", "title": "Produksi & Pengolahan", "desc": "Produk diproduksi atau disiapkan sesuai spesifikasi. Pengecekan kualitas dilakukan pada setiap tahap produksi." },
-        { "num": "04", "title": "Inspeksi Kualitas", "desc": "Inspeksi pra-pengiriman oleh tim QC HANCOCO. Inspeksi pihak ketiga tersedia jika diminta (SGS, Intertek, dll.)." },
-        { "num": "05", "title": "Pemuatan Kontainer", "desc": "Produk dikemas, ditimbang, dan dimuat ke dalam kontainer (20ft / 40ft / 40ft HC) mengikuti standar kargo internasional." },
-        { "num": "06", "title": "Pelabuhan & Bea Cukai", "desc": "Izin bea cukai di pelabuhan ekspor Indonesia. Semua dokumen ekspor yang diperlukan diproses dan diverifikasi." },
-        { "num": "07", "title": "Pengangkutan Laut", "desc": "Kiriman berangkat dari pelabuhan Belawan atau Tanjung Priok. Pembeli diberitahu tentang nama kapal, nomor pelayaran, dan ETA." },
-        { "num": "08", "title": "Pengiriman Dokumen", "desc": "Paket dokumentasi pengiriman lengkap dikirimkan ke pembeli: B/L, Commercial Invoice, Packing List, COO, dan lainnya." }
+        {
+          "num": "01",
+          "title": "RFQ & Penawaran",
+          "desc": "Pembeli mengirim RFQ. Tim kami merespons dengan penawaran resmi termasuk harga, Incoterms, lead time, dan daftar dokumen."
+        },
+        {
+          "num": "02",
+          "title": "Konfirmasi Pesanan",
+          "desc": "Pembeli mengonfirmasi pesanan melalui Purchase Order (PO). Proforma Invoice (PI) dikeluarkan oleh HANCOCO untuk proses pembayaran."
+        },
+        {
+          "num": "03",
+          "title": "Produksi & Pengolahan",
+          "desc": "Produk diproduksi atau disiapkan sesuai spesifikasi. Pengecekan kualitas dilakukan pada setiap tahap produksi."
+        },
+        {
+          "num": "04",
+          "title": "Inspeksi Kualitas",
+          "desc": "Inspeksi pra-pengiriman oleh tim QC HANCOCO. Inspeksi pihak ketiga tersedia jika diminta (SGS, Intertek, dll.)."
+        },
+        {
+          "num": "05",
+          "title": "Pemuatan Kontainer",
+          "desc": "Produk dikemas, ditimbang, dan dimuat ke dalam kontainer (20ft / 40ft / 40ft HC) mengikuti standar kargo internasional."
+        },
+        {
+          "num": "06",
+          "title": "Pelabuhan & Bea Cukai",
+          "desc": "Izin bea cukai di pelabuhan ekspor Indonesia. Semua dokumen ekspor yang diperlukan diproses dan diverifikasi."
+        },
+        {
+          "num": "07",
+          "title": "Pengangkutan Laut",
+          "desc": "Kiriman berangkat dari pelabuhan Belawan atau Tanjung Priok. Pembeli diberitahu tentang nama kapal, nomor pelayaran, dan ETA."
+        },
+        {
+          "num": "08",
+          "title": "Pengiriman Dokumen",
+          "desc": "Paket dokumentasi pengiriman lengkap dikirimkan ke pembeli: B/L, Commercial Invoice, Packing List, COO, dan lainnya."
+        }
       ]
     },
     "ports": {
       "headline": "Pelabuhan Ekspor & Kapasitas.",
       "copy": "Akses pelabuhan strategis untuk pengiriman efisien ke pasar Asia, Timur Tengah, Eropa, dan Amerika.",
       "items": [
-        { "port": "Belawan, Sumatera Utara", "code": "IDBWN", "routes": "Asia, Timur Tengah, Eropa" },
-        { "port": "Tanjung Priok, Jakarta", "code": "IDJKT", "routes": "Global — Hub Utama" }
+        {
+          "port": "Belawan, Sumatera Utara",
+          "code": "IDBWN",
+          "routes": "Asia, Timur Tengah, Eropa"
+        },
+        {
+          "port": "Tanjung Priok, Jakarta",
+          "code": "IDJKT",
+          "routes": "Global — Hub Utama"
+        }
       ],
       "containers": [
-        { "type": "20ft Standar", "capacity": "~18–22 MT", "note": "Pengiriman komoditas standar" },
-        { "type": "40ft Standar", "capacity": "~22–26 MT", "note": "Pesanan volume tinggi" },
-        { "type": "40ft High Cube", "capacity": "~24–28 MT", "note": "Komoditas besar/ringan" }
+        {
+          "type": "20ft Standar",
+          "capacity": "~18–22 MT",
+          "note": "Pengiriman komoditas standar"
+        },
+        {
+          "type": "40ft Standar",
+          "capacity": "~22–26 MT",
+          "note": "Pesanan volume tinggi"
+        },
+        {
+          "type": "40ft High Cube",
+          "capacity": "~24–28 MT",
+          "note": "Komoditas besar/ringan"
+        }
       ]
     },
     "incoterms": {
       "headline": "Syarat Perdagangan (Incoterms).",
       "items": [
-        { "term": "FOB", "full": "Free On Board", "desc": "HANCOCO mengirimkan barang ke pelabuhan asal dan memuatnya ke kapal. Pembeli menanggung risiko dan biaya pengiriman laut. Syarat paling umum." },
-        { "term": "CIF", "full": "Cost, Insurance & Freight", "desc": "HANCOCO menanggung biaya pengiriman dan asuransi ke pelabuhan tujuan. Pembeli mengambil alih kepemilikan saat kedatangan." },
-        { "term": "CFR", "full": "Cost & Freight", "desc": "HANCOCO menanggung biaya angkut ke pelabuhan tujuan, tetapi pembeli mengurus asuransi kargonya sendiri." }
+        {
+          "term": "FOB",
+          "full": "Free On Board",
+          "desc": "HANCOCO mengirimkan barang ke pelabuhan asal dan memuatnya ke kapal. Pembeli menanggung risiko dan biaya pengiriman laut. Syarat paling umum."
+        },
+        {
+          "term": "CIF",
+          "full": "Cost, Insurance & Freight",
+          "desc": "HANCOCO menanggung biaya pengiriman dan asuransi ke pelabuhan tujuan. Pembeli mengambil alih kepemilikan saat kedatangan."
+        },
+        {
+          "term": "CFR",
+          "full": "Cost & Freight",
+          "desc": "HANCOCO menanggung biaya angkut ke pelabuhan tujuan, tetapi pembeli mengurus asuransi kargonya sendiri."
+        }
       ]
     },
     "documents": {
       "headline": "Dokumen Pengiriman.",
       "items": [
-        { "name": "Bill of Lading (B/L)", "desc": "Dokumen pengiriman utama yang mengonfirmasi kargo telah dimuat ke kapal." },
-        { "name": "Commercial Invoice", "desc": "Faktur resmi yang merinci produk, kuantitas, harga, dan syarat." },
-        { "name": "Packing List", "desc": "Daftar terperinci dari semua paket, berat, dan dimensi." },
-        { "name": "Certificate of Origin (COO)", "desc": "Menyatakan bahwa barang berasal dari Indonesia." },
-        { "name": "Phytosanitary Certificate", "desc": "Dikeluarkan oleh otoritas menegaskan produk memenuhi standar kesehatan negara tujuan." },
-        { "name": "Halal Certificate", "desc": "Sertifikasi Halal yang dipegang HANCOCO untuk produk yang relevan." },
-        { "name": "Fumigation Certificate", "desc": "Mengonfirmasi kargo telah dirawat untuk memenuhi syarat biosekuriti." },
-        { "name": "Laporan Inspeksi Pihak Ketiga", "desc": "Tersedia sesuai permintaan — dikeluarkan oleh SGS, Intertek, atau Bureau Veritas." }
+        {
+          "name": "Bill of Lading (B/L)",
+          "desc": "Dokumen pengiriman utama yang mengonfirmasi kargo telah dimuat ke kapal."
+        },
+        {
+          "name": "Commercial Invoice",
+          "desc": "Faktur resmi yang merinci produk, kuantitas, harga, dan syarat."
+        },
+        {
+          "name": "Packing List",
+          "desc": "Daftar terperinci dari semua paket, berat, dan dimensi."
+        },
+        {
+          "name": "Certificate of Origin (COO)",
+          "desc": "Menyatakan bahwa barang berasal dari Indonesia."
+        },
+        {
+          "name": "Phytosanitary Certificate",
+          "desc": "Dikeluarkan oleh otoritas menegaskan produk memenuhi standar kesehatan negara tujuan."
+        },
+        {
+          "name": "Halal Certificate",
+          "desc": "Sertifikasi Halal yang dipegang HANCOCO untuk produk yang relevan."
+        },
+        {
+          "name": "Fumigation Certificate",
+          "desc": "Mengonfirmasi kargo telah dirawat untuk memenuhi syarat biosekuriti."
+        },
+        {
+          "name": "Laporan Inspeksi Pihak Ketiga",
+          "desc": "Tersedia sesuai permintaan — dikeluarkan oleh SGS, Intertek, atau Bureau Veritas."
+        }
       ]
     },
     "markets": {
       "headline": "Cakupan Pengiriman Global.",
       "copy": "Kami mengirim ke 15+ negara di seluruh Asia, Timur Tengah, Eropa, dan sekitarnya.",
-      "list": ["India", "China", "Malaysia", "Vietnam", "Filipina", "Jepang", "Korea Selatan", "UEA", "Arab Saudi", "Jerman", "Belanda", "Turki", "Nigeria", "Australia", "AS"]
+      "list": [
+        "India",
+        "China",
+        "Malaysia",
+        "Vietnam",
+        "Filipina",
+        "Jepang",
+        "Korea Selatan",
+        "UEA",
+        "Arab Saudi",
+        "Jerman",
+        "Belanda",
+        "Turki",
+        "Nigeria",
+        "Australia",
+        "AS"
+      ]
     },
     "return": {
       "headline": "Kebijakan Pengembalian & Klaim.",
       "copy": "Kami berkomitmen untuk mengirimkan produk yang memenuhi spesifikasi yang disepakati. Jika terjadi sengketa kualitas, proses penyelesaian kami yang terstruktur memastikan penanganan yang cepat.",
       "steps": [
-        { "step": "01", "title": "Laporkan Masalah", "desc": "Pembeli mengajukan klaim resmi dalam waktu 14 hari sejak kedatangan kargo, didukung oleh foto, analisis lab, dan laporan." },
-        { "step": "02", "title": "Investigasi", "desc": "Tim QC HANCOCO meninjau klaim terhadap catatan inspeksi pra-pengiriman dan dokumen produksi kami." },
-        { "step": "03", "title": "Resolusi", "desc": "Resolusi dapat mencakup pengiriman pengganti, nota kredit, atau penyesuaian harga — disepakati bersama berdasarkan temuan investigasi." }
+        {
+          "step": "01",
+          "title": "Laporkan Masalah",
+          "desc": "Pembeli mengajukan klaim resmi dalam waktu 14 hari sejak kedatangan kargo, didukung oleh foto, analisis lab, dan laporan."
+        },
+        {
+          "step": "02",
+          "title": "Investigasi",
+          "desc": "Tim QC HANCOCO meninjau klaim terhadap catatan inspeksi pra-pengiriman dan dokumen produksi kami."
+        },
+        {
+          "step": "03",
+          "title": "Resolusi",
+          "desc": "Resolusi dapat mencakup pengiriman pengganti, nota kredit, atau penyesuaian harga — disepakati bersama berdasarkan temuan investigasi."
+        }
       ]
     },
     "final": {
@@ -1082,7 +1321,6 @@
       "cta2": "Hubungi Tim Ekspor"
     }
   },
-
   "storePage": {
     "hero": {
       "eyebrow": "Katalog Produk B2B",
@@ -1093,7 +1331,13 @@
     },
     "filter": {
       "all": "Semua Produk",
-      "categories": ["Kopra", "Arang", "Minyak", "Serat & Gambut", "Segera Hadir"]
+      "categories": [
+        "Kopra",
+        "Arang",
+        "Minyak",
+        "Serat & Gambut",
+        "Segera Hadir"
+      ]
     },
     "products": [
       {
@@ -1103,7 +1347,12 @@
         "slug": "white-copra",
         "tagline": "Daging kelapa kering food-grade premium",
         "desc": "Kopra putih berkualitas tinggi dengan kadar air terkontrol, cocok untuk ekstraksi minyak kelapa dan industri pengolahan makanan di seluruh dunia.",
-        "applications": ["Ekstraksi Minyak Kelapa", "Pengolahan Makanan", "Industri Oleokimia", "Pakan Ternak"],
+        "applications": [
+          "Ekstraksi Minyak Kelapa",
+          "Pengolahan Makanan",
+          "Industri Oleokimia",
+          "Pakan Ternak"
+        ],
         "badge": "Siap Ekspor",
         "status": "active",
         "image": "/assets/images/white-copra-store.webp",
@@ -1122,7 +1371,11 @@
         "slug": "black-copra",
         "tagline": "Kopra tingkat industri untuk volume tinggi",
         "desc": "Kopra hitam tingkat industri yang diproses untuk produksi minyak kelapa skala besar. Cocok untuk proses pemurnian di mana warna tidak kritis.",
-        "applications": ["Ekstraksi Minyak Industri", "Pakan Oleokimia", "Bahan Baku Biodiesel"],
+        "applications": [
+          "Ekstraksi Minyak Industri",
+          "Pakan Oleokimia",
+          "Bahan Baku Biodiesel"
+        ],
         "badge": "Siap Ekspor",
         "status": "active",
         "image": "/assets/images/dipesh-ray-kngFBByxsvw-unsplash.webp",
@@ -1141,7 +1394,12 @@
         "slug": "coconut-charcoal",
         "tagline": "Briket arang batok kelapa premium",
         "desc": "Briket arang batok kelapa dengan karbon tetap tinggi untuk BBQ, hookah/shisha, dan industri. Panas konsisten, abu rendah, waktu bakar lama.",
-        "applications": ["BBQ & Panggangan", "Hookah / Shisha", "Bahan Bakar Industri", "Karbon Aktif"],
+        "applications": [
+          "BBQ & Panggangan",
+          "Hookah / Shisha",
+          "Bahan Bakar Industri",
+          "Karbon Aktif"
+        ],
         "badge": "Siap Ekspor",
         "status": "active",
         "image": "/assets/images/pexels-cmrcn-29132448.webp",
@@ -1160,7 +1418,12 @@
         "slug": "coconut-oil",
         "tagline": "Minyak kelapa olahan untuk makanan & industri",
         "desc": "Minyak kelapa RBD (Refined, Bleached, Deodorized) kemurnian tinggi untuk manufaktur makanan, kosmetik, dan aplikasi industri.",
-        "applications": ["Manufaktur Makanan", "Kosmetik & Perawatan", "Farmasi", "Pelumas Industri"],
+        "applications": [
+          "Manufaktur Makanan",
+          "Kosmetik & Perawatan",
+          "Farmasi",
+          "Pelumas Industri"
+        ],
         "badge": "Siap Ekspor",
         "status": "active",
         "image": "/assets/images/towfiqu-barbhuiya-o3Dunr7Vl-o-unsplash.webp",
@@ -1179,7 +1442,12 @@
         "slug": "cocopeat",
         "tagline": "Media tanam berkelanjutan dari sabut kelapa",
         "desc": "Cocopeat premium — media tanam alami dan berkelanjutan dengan retensi air yang sangat baik untuk hortikultura dan pertanian.",
-        "applications": ["Hortikultura", "Hidroponik", "Perbaikan Tanah", "Pencampuran Substrat"],
+        "applications": [
+          "Hortikultura",
+          "Hidroponik",
+          "Perbaikan Tanah",
+          "Pencampuran Substrat"
+        ],
         "badge": "Siap Ekspor",
         "status": "active",
         "image": "/assets/images/cocopeat.webp",
@@ -1198,7 +1466,12 @@
         "slug": "desiccated-coconut",
         "tagline": "Kelapa kering potongan halus untuk makanan",
         "desc": "Desiccated coconut premium kelas fine, medium, dan kasar untuk toko roti, permen, dan produsen makanan.",
-        "applications": ["Toko Roti", "Manisan", "Pembuatan Makanan Ringan", "Bahan Makanan"],
+        "applications": [
+          "Toko Roti",
+          "Manisan",
+          "Pembuatan Makanan Ringan",
+          "Bahan Makanan"
+        ],
         "badge": "Segera Hadir",
         "status": "coming_soon",
         "image": "/assets/images/pexels-bogdankrupin-3986706.webp",
@@ -1208,12 +1481,30 @@
     "why": {
       "headline": "Mengapa Mengambil dari HANCOCO?",
       "items": [
-        { "icon": "factory", "text": "Langsung Dari Pabrik" },
-        { "icon": "shield", "text": "7 Tahap Kontrol Kualitas" },
-        { "icon": "ship", "text": "Siap Ekspor — 15+ Negara" },
-        { "icon": "leaf", "text": "Berkelanjutan & Bersertifikat Halal" },
-        { "icon": "clock", "text": "Lead Time 14–30 Hari" },
-        { "icon": "headset", "text": "Tim Ekspor Khusus" }
+        {
+          "icon": "factory",
+          "text": "Langsung Dari Pabrik"
+        },
+        {
+          "icon": "shield",
+          "text": "7 Tahap Kontrol Kualitas"
+        },
+        {
+          "icon": "ship",
+          "text": "Siap Ekspor — 15+ Negara"
+        },
+        {
+          "icon": "leaf",
+          "text": "Berkelanjutan & Bersertifikat Halal"
+        },
+        {
+          "icon": "clock",
+          "text": "Lead Time 14–30 Hari"
+        },
+        {
+          "icon": "headset",
+          "text": "Tim Ekspor Khusus"
+        }
       ]
     },
     "rfq": {
@@ -1227,7 +1518,12 @@
         "whatsapp": "Nomor WhatsApp",
         "port": "Pelabuhan Tujuan",
         "incoterms": "Incoterms Pilihan",
-        "incotermsOptions": ["FOB", "CIF", "CFR", "Akan Didiskusikan"],
+        "incotermsOptions": [
+          "FOB",
+          "CIF",
+          "CFR",
+          "Akan Didiskusikan"
+        ],
         "quantity": "Estimasi Kuantitas Pesanan",
         "date": "Target Tanggal Pembelian",
         "notes": "Persyaratan Tambahan",
@@ -1249,42 +1545,119 @@
   },
   "privacyPage": {
     "hero": {
-      "headline": "Kebijakan Privasi",
-      "copy": "Bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda."
+      "headline": "Privacy Policy",
+      "copy": "HANCOCO is committed to protecting your privacy and ensuring that your personal information is handled securely and responsibly."
     },
-    "lastUpdated": "Terakhir Diperbarui: Juli 2026",
+    "lastUpdated": "Last Updated: July 2026",
     "sections": [
       {
-        "title": "Informasi yang Kami Kumpulkan",
-        "body": "Kami mengumpulkan informasi yang Anda berikan secara langsung, seperti saat mengisi formulir RFQ, menghubungi kami melalui email atau WhatsApp, atau berlangganan newsletter. Informasi ini dapat mencakup nama, nama perusahaan, alamat email, nomor telepon, negara, dan detail tentang minat produk Anda.\n\nKami juga secara otomatis mengumpulkan informasi teknis tertentu saat Anda mengunjungi situs web kami, termasuk alamat IP, jenis browser, informasi perangkat, dan perilaku penjelajahan melalui cookie dan teknologi serupa."
+        "title": "1. Information We Collect",
+        "body": "We may collect the following information:\n\n* Full name\n* Company name\n* Email address\n* Phone number\n* Country and business location\n* Product inquiries and messages\n* IP address and browser information\n* Website usage data through cookies and analytics"
       },
       {
-        "title": "Bagaimana Kami Menggunakan Informasi Anda",
-        "body": "Kami menggunakan informasi yang kami kumpulkan untuk merespons pertanyaan Anda dan memberikan penawaran, memproses dan memenuhi pesanan Anda, berkomunikasi dengan Anda tentang produk dan layanan kami, meningkatkan situs web dan pengalaman pelanggan kami, serta mematuhi kewajiban hukum.\n\nKami tidak menjual informasi pribadi Anda kepada pihak ketiga."
+        "title": "2. How We Use Your Information",
+        "body": "We use your information to:\n\n* Respond to inquiries and quotation requests.\n* Process business communications.\n* Improve our products and services.\n* Enhance website performance and user experience.\n* Send updates, newsletters, or promotional information (only if you choose to receive them).\n* Comply with applicable legal obligations."
       },
       {
-        "title": "Berbagi & Pengungkapan Data",
-        "body": "Kami dapat membagikan informasi Anda dengan penyedia layanan pihak ketiga tepercaya yang membantu kami mengoperasikan situs web, memproses pembayaran, dan mengirimkan produk. Mitra ini terikat secara kontrak untuk melindungi data Anda dan menggunakannya hanya untuk tujuan yang kami tentukan.\n\nKami juga dapat mengungkapkan informasi Anda jika diwajibkan oleh hukum atau untuk melindungi hak dan keselamatan kami."
+        "title": "3. Cookies",
+        "body": "Our website may use cookies and similar technologies to improve functionality, analyze website traffic, and enhance your browsing experience.\n\nYou may disable cookies through your browser settings, although some website features may not function properly."
       },
       {
-        "title": "Penyimpanan Data",
-        "body": "Kami menyimpan informasi pribadi Anda selama diperlukan untuk memenuhi tujuan yang dijelaskan dalam kebijakan ini, atau sesuai dengan hukum yang berlaku. Ketika kami tidak lagi membutuhkan data Anda, kami akan menghapus atau menganonimkannya secara aman."
+        "title": "4. Information Sharing",
+        "body": "HANCOCO does not sell, rent, or trade your personal information.\n\nWe may share information only with trusted service providers who assist in operating our website or business, or when required by applicable law."
       },
       {
-        "title": "Hak Anda",
-        "body": "Tergantung pada yurisdiksi Anda, Anda mungkin memiliki hak untuk mengakses, memperbaiki, atau menghapus informasi pribadi Anda, membatasi atau menolak pemrosesannya, dan meminta portabilitas data. Untuk menggunakan hak-hak ini, silakan hubungi kami di privacy@hancoco.com."
+        "title": "5. Data Security",
+        "body": "We implement appropriate technical and organizational security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.\n\nWhile we strive to use commercially acceptable methods to protect your information, no internet transmission or electronic storage system can be guaranteed to be completely secure."
       },
       {
-        "title": "Cookie",
-        "body": "Situs web kami menggunakan cookie untuk meningkatkan fungsionalitas, menganalisis lalu lintas, dan mempersonalisasi konten. Anda dapat mengontrol preferensi cookie melalui pengaturan browser Anda. Menonaktifkan cookie tertentu dapat memengaruhi pengalaman Anda di situs kami."
+        "title": "6. Data Retention",
+        "body": "We retain personal information only for as long as necessary to fulfill the purposes described in this Privacy Policy or to comply with legal and regulatory requirements."
       },
       {
-        "title": "Keamanan",
-        "body": "Kami menerapkan langkah-langkah teknis dan organisasi yang tepat untuk melindungi informasi pribadi Anda dari akses tidak sah, perubahan, pengungkapan, atau penghancuran. Namun, tidak ada metode penyimpanan atau transmisi elektronik yang 100% aman."
+        "title": "7. Third-Party Services",
+        "body": "Our website may contain links to third-party websites or use third-party services such as analytics providers or communication platforms.\n\nThese third parties have their own privacy policies, and HANCOCO is not responsible for their privacy practices."
       },
       {
-        "title": "Hubungi Kami",
-        "body": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau ingin menggunakan hak data Anda, silakan hubungi tim Perlindungan Data kami di privacy@hancoco.com."
+        "title": "8. Your Rights",
+        "body": "Depending on applicable laws, you may have the right to:\n\n* Access your personal information.\n* Correct inaccurate information.\n* Request deletion of your personal data.\n* Withdraw consent for marketing communications.\n* Request information regarding how your data is processed.\n\nTo exercise these rights, please contact us using the contact details below."
+      },
+      {
+        "title": "9. Children's Privacy",
+        "body": "Our products and services are intended for businesses and individuals aged 18 years or older.\n\nWe do not knowingly collect personal information from children."
+      },
+      {
+        "title": "10. Changes to This Privacy Policy",
+        "body": "We may update this Privacy Policy from time to time.\n\nAny revisions will be posted on this page with the updated revision date. Continued use of our website after changes are published constitutes acceptance of the revised Privacy Policy."
+      },
+      {
+        "title": "11. Contact Us",
+        "body": "If you have any questions regarding this Privacy Policy or how your personal information is handled, please contact us through our official Contact page or business email.\n\nThank you for trusting HANCOCO."
+      }
+    ]
+  },
+  "termsPage": {
+    "hero": {
+      "headline": "Terms & Conditions",
+      "copy": "Welcome to HANCOCO. By accessing or using our website, products, or services, you agree to be bound by these Terms & Conditions."
+    },
+    "lastUpdated": "Last Updated: July 2026",
+    "sections": [
+      {
+        "title": "1. About HANCOCO",
+        "body": "HANCOCO is an Indonesian company specializing in the sourcing, processing, and export of high-quality coconut products. Our mission is to deliver sustainable, traceable, and export-grade coconut solutions for customers worldwide."
+      },
+      {
+        "title": "2. Use of Website",
+        "body": "You agree to use this website only for lawful purposes and in accordance with these Terms. You must not:\n\n* Use the website for fraudulent or unlawful activities.\n* Attempt to gain unauthorized access to our systems.\n* Distribute malware, viruses, or harmful software.\n* Copy, reproduce, or redistribute website content without written permission."
+      },
+      {
+        "title": "3. Product Information",
+        "body": "We strive to ensure all product descriptions, specifications, and images are accurate. However, natural agricultural products may vary slightly in appearance, color, size, moisture content, or other characteristics.\n\nAll information provided is subject to change without prior notice."
+      },
+      {
+        "title": "4. Orders & Quotations",
+        "body": "All purchase orders, quotations, and pricing are subject to confirmation by HANCOCO. We reserve the right to accept, reject, or cancel any order due to product availability, pricing errors, regulatory requirements, or other business considerations."
+      },
+      {
+        "title": "5. Pricing & Payment",
+        "body": "Prices are provided based on agreed quotations and may change depending on market conditions, raw material availability, logistics costs, or exchange rate fluctuations.\n\nPayment terms will follow the agreement stated in the sales contract or proforma invoice."
+      },
+      {
+        "title": "6. Shipping & Delivery",
+        "body": "Delivery schedules are estimates and may be affected by weather conditions, shipping lines, customs clearance, port congestion, or force majeure events.\n\nHANCOCO is not responsible for delays beyond our reasonable control."
+      },
+      {
+        "title": "7. Export Compliance",
+        "body": "Buyers are responsible for complying with import regulations, permits, customs requirements, taxes, and product standards in their destination country unless otherwise agreed in writing."
+      },
+      {
+        "title": "8. Intellectual Property",
+        "body": "All content on this website—including text, logos, graphics, product images, documents, and branding—is the property of HANCOCO and may not be used without prior written permission."
+      },
+      {
+        "title": "9. Limitation of Liability",
+        "body": "To the fullest extent permitted by law, HANCOCO shall not be liable for indirect, incidental, special, or consequential damages arising from the use of this website, products, or services."
+      },
+      {
+        "title": "10. Force Majeure",
+        "body": "HANCOCO shall not be liable for delays or failure to perform obligations resulting from events beyond reasonable control, including natural disasters, pandemics, government actions, labor disputes, war, transportation disruptions, or other force majeure events."
+      },
+      {
+        "title": "11. Third-Party Links",
+        "body": "Our website may contain links to third-party websites for your convenience. HANCOCO is not responsible for the content, policies, or practices of those external websites."
+      },
+      {
+        "title": "12. Changes to Terms",
+        "body": "We may update these Terms & Conditions at any time without prior notice. Continued use of our website after changes are published constitutes acceptance of the updated Terms."
+      },
+      {
+        "title": "13. Governing Law",
+        "body": "These Terms & Conditions shall be governed by and interpreted in accordance with the laws of the Republic of Indonesia."
+      },
+      {
+        "title": "14. Contact Us",
+        "body": "If you have any questions regarding these Terms & Conditions, please contact us through the Contact page or via our official business email."
       }
     ]
   }
