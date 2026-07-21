@@ -474,7 +474,7 @@ export default function ManufacturingClient() {
 
       {/* 10. STATISTICS */}
       <section className="section" style={{ padding: "100px 0", background: "var(--forest)", color: "var(--ivory)" }}>
-        <div className="wrap" style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: "40px" }}>
+        <div className="wrap" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "40px" }}>
           {stats.map((stat, i) => (
             <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
               <Counter target={stat.val} label={stat.label} />
