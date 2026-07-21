@@ -187,7 +187,7 @@ export default function SustainabilityClient() {
         <div className="wrap">
           <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", marginBottom: "160px", alignItems: "center" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
-              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
+              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
                 {t("farming.headline")}
               </h2>
               <p style={{ fontSize: "18px", color: "var(--charcoal-soft)", lineHeight: 1.7, whiteSpace: "pre-line" }}>
@@ -208,7 +208,7 @@ export default function SustainabilityClient() {
                </motion.div>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
-              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
+              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
                 {t("manufacturing.headline")}
               </h2>
               <p style={{ fontSize: "18px", color: "var(--charcoal-soft)", lineHeight: 1.7, whiteSpace: "pre-line", marginBottom: "40px" }}>
@@ -232,7 +232,7 @@ export default function SustainabilityClient() {
         <div className="wrap">
           <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 80px" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--ivory)" }}>
+              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", marginBottom: "24px", lineHeight: 1.1, color: "var(--ivory)" }}>
                 {t("environmental.headline")}
               </h2>
               <p style={{ fontSize: "18px", color: "var(--ivory)", opacity: 0.9, lineHeight: 1.7 }}>
@@ -299,7 +299,7 @@ export default function SustainabilityClient() {
         <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
           <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1 }}>
+              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", marginBottom: "24px", lineHeight: 1.1 }}>
                 {t("social.headline")}
               </h2>
               <p style={{ fontSize: "20px", color: "rgba(251,250,246,0.8)", lineHeight: 1.7 }}>
@@ -322,7 +322,7 @@ export default function SustainabilityClient() {
         <div className="wrap">
           <div className="responsive-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px", marginBottom: "120px" }}>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3.5rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
+              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3.5rem)", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
                 {t("ahead.headline")}
               </h2>
               <p style={{ fontSize: "18px", color: "var(--charcoal-soft)", lineHeight: 1.7, whiteSpace: "pre-line" }}>

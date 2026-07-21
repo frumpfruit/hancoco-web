@@ -30,7 +30,7 @@ function Counter({ target, label }: { target: string; label: string }) {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <div style={{ fontFamily: "var(--font-fraunces)", fontSize: "3rem", color: "var(--sand)", marginBottom: "8px" }}>
+      <div style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3rem)", color: "var(--sand)", marginBottom: "8px" }}>
         {count}{suffix}
       </div>
       <div style={{ fontSize: "16px", color: "rgba(251,250,246,0.8)", fontWeight: 500 }}>

@@ -119,7 +119,7 @@ export default function OurStoryClient() {
             <motion.div style={{ y: y1 }} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
               <div style={{ padding: "40px", background: "var(--ivory-dim)", borderLeft: "4px solid var(--forest)", borderRadius: "0 24px 24px 0" }}>
                 <span className="eyebrow">{t("whyCoconut.eyebrow")}</span>
-                <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3rem", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
+                <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3rem)", marginBottom: "24px", lineHeight: 1.1, color: "var(--forest-dark)" }}>
                   {t("whyCoconut.headline")}
                 </h2>
                 <p style={{ fontSize: "18px", color: "var(--charcoal-soft)", lineHeight: 1.7 }}>
@@ -140,7 +140,7 @@ export default function OurStoryClient() {
             <motion.div className="circular-card-wrap" style={{ y: y2 }} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
               <div className="circular-card" style={{ padding: "64px 40px", background: "var(--forest-dark)", color: "var(--ivory)", borderRadius: "24px", boxShadow: "0 30px 60px rgba(18,40,31,0.15)", transform: "translateX(-100px)", position: "relative", zIndex: 10 }}>
                 <span className="eyebrow on-dark">{t("circularEconomy.eyebrow")}</span>
-                <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3rem", marginBottom: "24px", lineHeight: 1.1 }}>
+                <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3rem)", marginBottom: "24px", lineHeight: 1.1 }}>
                   {t("circularEconomy.headline")}
                 </h2>
                 <p style={{ fontSize: "18px", color: "rgba(251,250,246,0.8)", lineHeight: 1.7 }}>
@@ -217,7 +217,7 @@ export default function OurStoryClient() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "80px" }} className="vision-grid responsive-grid">
             <div>
               <span className="eyebrow on-dark">{t("vision.eyebrow")}</span>
-              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3rem", marginBottom: "24px", lineHeight: 1.1 }}>
+              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3rem)", marginBottom: "24px", lineHeight: 1.1 }}>
                 {t("vision.headline")}
               </h2>
               <p style={{ fontSize: "18px", color: "rgba(251,250,246,0.7)", lineHeight: 1.7 }}>
@@ -226,7 +226,7 @@ export default function OurStoryClient() {
             </div>
             <div>
               <span className="eyebrow on-dark">{t("mission.eyebrow")}</span>
-              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "3rem", marginBottom: "32px", lineHeight: 1.1 }}>
+              <h2 style={{ fontFamily: "var(--font-fraunces)", fontSize: "clamp(2rem, 5vw, 3rem)", marginBottom: "32px", lineHeight: 1.1 }}>
                 {t("mission.headline")}
               </h2>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: "20px" }}>
