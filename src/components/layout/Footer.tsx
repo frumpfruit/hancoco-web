@@ -38,7 +38,15 @@ export default function Footer() {
       links: [
         { label: tn("contact"), href: `/${locale}/support/contact`, desktop: false },
         { label: tn("faq"), href: `/${locale}/support/faq`, desktop: false },
-        { label: tn("shipping"), href: `/${locale}/support/shipping`, desktop: true },
+      ],
+    },
+    {
+      heading: "Policies",
+      links: [
+        { label: "Privacy Policy", href: `/${locale}/legal/privacy`, desktop: false },
+        { label: "Terms & Conditions", href: `/${locale}/legal/terms`, desktop: false },
+        { label: tn("shipping"), href: `/${locale}/support/shipping`, desktop: false },
+        { label: "Return Policy", href: "", modal: true, desktop: false },
       ],
     },
   ];
@@ -47,7 +55,7 @@ export default function Footer() {
     <footer style={{ background: "var(--charcoal)", color: "var(--ivory)", paddingTop: "80px" }}>
       <div className="wrap">
         {/* Top section */}
-        <div style={{ display: "grid", gridTemplateColumns: "1.6fr 1fr 1fr 1fr", gap: "48px", paddingBottom: "60px", borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1.6fr 1fr 1fr 1fr 1fr", gap: "48px", paddingBottom: "60px", borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
 
           {/* Brand col */}
           <div>
@@ -132,40 +140,13 @@ export default function Footer() {
         </div>
 
         {/* Desktop bottom bar */}
-        <div className="footer-bottom hidden md:flex" style={{ justifyContent: "space-between", alignItems: "center", padding: "24px 0", flexWrap: "wrap", gap: "16px" }}>
+        <div className="footer-bottom hidden md:flex" style={{ justifyContent: "center", alignItems: "center", padding: "24px 0" }}>
           <p style={{ fontSize: "13px", color: "rgba(251,250,246,0.65)", fontFamily: "var(--font-mono)" }}>{t("copyright")}</p>
-          <div style={{ display: "flex", gap: "24px" }}>
-            {[
-              { label: "Terms & Conditions", href: `/${locale}/legal/terms` },
-              { label: "Privacy Policy", href: `/${locale}/legal/privacy` },
-            ].map((item) => (
-              <Link key={item.href} href={item.href} style={{ fontSize: "13px", color: "rgba(251,250,246,0.65)", fontFamily: "var(--font-mono)", transition: "color 0.2s" }}
-                onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--sand)")}
-                onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(251,250,246,0.65)")}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
         </div>
 
         {/* Mobile bottom bar */}
         <div className="footer-bottom-mobile md:hidden" style={{ textAlign: "center" }}>
-          <div style={{ display: "flex", justifyContent: "center", gap: "24px", flexWrap: "wrap", padding: "24px 0 8px" }}>
-            {[
-              { label: tn("shipping"), href: `/${locale}/support/shipping` },
-              { label: "Terms & Conditions", href: `/${locale}/legal/terms` },
-              { label: "Privacy Policy", href: `/${locale}/legal/privacy` },
-            ].map((item) => (
-              <Link key={item.href} href={item.href} style={{ fontSize: "13px", color: "rgba(251,250,246,0.65)", fontFamily: "var(--font-mono)", transition: "color 0.2s" }}
-                onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--sand)")}
-                onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(251,250,246,0.65)")}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-          <div style={{ padding: "0 0 24px" }}>
+          <div style={{ padding: "24px 0" }}>
             <p style={{ fontSize: "13px", color: "rgba(251,250,246,0.65)", fontFamily: "var(--font-mono)" }}>{t("copyright")}</p>
           </div>
         </div>
