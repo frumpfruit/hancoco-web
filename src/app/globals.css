@@ -402,6 +402,10 @@ h1, h2, h3, h4, h5 {
     height: auto !important;
     min-height: 0 !important;
   }
+  .hero-section .wrap {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
   .hero-img-container {
     width: 100% !important;
     opacity: 0.4 !important;

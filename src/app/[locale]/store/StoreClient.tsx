@@ -69,7 +69,7 @@ export default function StoreClient() {
       )}
 
       {/* 1. HERO */}
-      <section style={{ position: "relative", minHeight: "80vh", display: "flex", flexDirection: "column", justifyContent: "flex-end", background: "var(--forest-dark)", overflow: "hidden" }}>
+      <section className="hero-section" style={{ position: "relative", minHeight: "80vh", display: "flex", flexDirection: "column", justifyContent: "flex-end", background: "var(--forest-dark)", overflow: "hidden" }}>
         <Image src="/assets/images/pexels-picasjoe-11402585.webp" alt="B2B Coconut Store" fill priority sizes="100vw" style={{ objectFit: "cover", opacity: 0.28, zIndex: 0 }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(15,26,21,1) 0%, rgba(15,26,21,0.7) 50%, rgba(15,26,21,0.2) 100%)", zIndex: 1 }} />
 
